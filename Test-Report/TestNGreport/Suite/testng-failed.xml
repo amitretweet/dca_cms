@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test name="Test(failed)">
+    <classes>
+      <class name="dcaCmsTests.NPI_SearchByCountryPhotoSend">
+        <methods>
+          <include name="openBrowser"/>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- dcaCmsTests.NPI_SearchByCountryPhotoSend -->
+      <class name="dcaCmsTests.CountryAlias_PageSearch">
+        <methods>
+          <include name="openBrowser"/>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- dcaCmsTests.CountryAlias_PageSearch -->
+      <class name="dcaCmsTests.NPI_SearchById">
+        <methods>
+          <include name="openBrowser"/>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- dcaCmsTests.NPI_SearchById -->
+      <class name="dcaCmsTests.NPI_PreviousButton">
+        <methods>
+          <include name="openBrowser"/>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- dcaCmsTests.NPI_PreviousButton -->
+      <class name="dcaCmsTests.CountryAlias_EditRow">
+        <methods>
+          <include name="openBrowser"/>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- dcaCmsTests.CountryAlias_EditRow -->
+      <class name="dcaCmsTests.NPI_NextButton">
+        <methods>
+          <include name="openBrowser"/>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- dcaCmsTests.NPI_NextButton -->
+      <class name="dcaCmsTests.NPI_SearchBySendDate">
+        <methods>
+          <include name="openBrowser"/>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- dcaCmsTests.NPI_SearchBySendDate -->
+      <class name="dcaCmsTests.CountryAlias">
+        <methods>
+          <include name="openBrowser"/>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- dcaCmsTests.CountryAlias -->
+      <class name="dcaCmsTests.NPI_SearchByEmailPhotoSend">
+        <methods>
+          <include name="openBrowser"/>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- dcaCmsTests.NPI_SearchByEmailPhotoSend -->
+      <class name="dcaCmsTests.NPI_SearchByLongitude">
+        <methods>
+          <include name="openBrowser"/>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- dcaCmsTests.NPI_SearchByLongitude -->
+      <class name="dcaCmsTests.NPI_SortBySyncDate">
+        <methods>
+          <include name="openBrowser"/>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- dcaCmsTests.NPI_SortBySyncDate -->
+      <class name="dcaCmsTests.NPI_SortBySendDate">
+        <methods>
+          <include name="openBrowser"/>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- dcaCmsTests.NPI_SortBySendDate -->
+      <class name="dcaCmsTests.ExitFunctionality">
+        <methods>
+          <include name="openBrowser"/>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- dcaCmsTests.ExitFunctionality -->
+      <class name="dcaCmsTests.NPI_SearchByComment">
+        <methods>
+          <include name="openBrowser"/>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- dcaCmsTests.NPI_SearchByComment -->
+      <class name="dcaCmsTests.CountryAlias_AddRow">
+        <methods>
+          <include name="openBrowser"/>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- dcaCmsTests.CountryAlias_AddRow -->
+      <class name="dcaCmsTests.NPI_PageNumberButtonClick">
+        <methods>
+          <include name="openBrowser"/>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- dcaCmsTests.NPI_PageNumberButtonClick -->
+      <class name="dcaCmsTests.NPI_SearchByEmailPhotoTaken">
+        <methods>
+          <include name="openBrowser"/>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- dcaCmsTests.NPI_SearchByEmailPhotoTaken -->
+      <class name="dcaCmsTests.NPI_SortByLongitude">
+        <methods>
+          <include name="openBrowser"/>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- dcaCmsTests.NPI_SortByLongitude -->
+      <class name="dcaCmsTests.NPI_SearchByReceivedDate">
+        <methods>
+          <include name="openBrowser"/>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- dcaCmsTests.NPI_SearchByReceivedDate -->
+      <class name="dcaCmsTests.NPI_SearchBySyncDate">
+        <methods>
+          <include name="openBrowser"/>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- dcaCmsTests.NPI_SearchBySyncDate -->
+      <class name="dcaCmsTests.NPI_DataExportFunctionality">
+        <methods>
+          <include name="dataExportFunctionality"/>
+          <include name="openBrowser"/>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- dcaCmsTests.NPI_DataExportFunctionality -->
+      <class name="dcaCmsTests.NPI_SortBYBarcode">
+        <methods>
+          <include name="openBrowser"/>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- dcaCmsTests.NPI_SortBYBarcode -->
+      <class name="dcaCmsTests.NPI_SortByDateImageTaken">
+        <methods>
+          <include name="openBrowser"/>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- dcaCmsTests.NPI_SortByDateImageTaken -->
+      <class name="dcaCmsTests.NPI_SearchByBarcode">
+        <methods>
+          <include name="openBrowser"/>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- dcaCmsTests.NPI_SearchByBarcode -->
+      <class name="dcaCmsTests.NPI_SearchByIsSynchronized">
+        <methods>
+          <include name="openBrowser"/>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- dcaCmsTests.NPI_SearchByIsSynchronized -->
+      <class name="dcaCmsTests.NPI_SortByCountryPhotoTaken">
+        <methods>
+          <include name="openBrowser"/>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- dcaCmsTests.NPI_SortByCountryPhotoTaken -->
+      <class name="dcaCmsTests.NPI_SortBYLatitude">
+        <methods>
+          <include name="openBrowser"/>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- dcaCmsTests.NPI_SortBYLatitude -->
+      <class name="dcaCmsTests.NPI_SortByEmailPhotoSend">
+        <methods>
+          <include name="openBrowser"/>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- dcaCmsTests.NPI_SortByEmailPhotoSend -->
+      <class name="dcaCmsTests.NPI_SortByCountryPhotoSend">
+        <methods>
+          <include name="openBrowser"/>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- dcaCmsTests.NPI_SortByCountryPhotoSend -->
+      <class name="dcaCmsTests.NPI_SearchByLatitude">
+        <methods>
+          <include name="openBrowser"/>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- dcaCmsTests.NPI_SearchByLatitude -->
+      <class name="dcaCmsTests.NPI_SearchByCountryPhotoTaken">
+        <methods>
+          <include name="openBrowser"/>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- dcaCmsTests.NPI_SearchByCountryPhotoTaken -->
+      <class name="dcaCmsTests.NPI_SortByIsSynchronized">
+        <methods>
+          <include name="openBrowser"/>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- dcaCmsTests.NPI_SortByIsSynchronized -->
+      <class name="dcaCmsTests.LoginFunctionality">
+        <methods>
+          <include name="openBrowser"/>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- dcaCmsTests.LoginFunctionality -->
+      <class name="dcaCmsTests.NPI_Tab">
+        <methods>
+          <include name="openBrowser"/>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- dcaCmsTests.NPI_Tab -->
+      <class name="dcaCmsTests.NPI_SortById">
+        <methods>
+          <include name="openBrowser"/>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- dcaCmsTests.NPI_SortById -->
+      <class name="dcaCmsTests.CountryAlias_DeleteRow">
+        <methods>
+          <include name="openBrowser"/>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- dcaCmsTests.CountryAlias_DeleteRow -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

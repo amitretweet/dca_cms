@@ -1,0 +1,699 @@
+<html>
+<head>
+<title>TestNG:  Test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>0/0/37</td>
+</tr><tr>
+<td>Started on:</td><td>Tue Jan 24 22:49:36 IST 2017</td>
+</tr>
+<tr><td>Total time:</td><td>0 seconds (313 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED CONFIGURATIONS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='dcaCmsTests.NPI_SortByLongitude.openBrowser()'><b>openBrowser</b><br>Test class: dcaCmsTests.NPI_SortByLongitude</td>
+<td><div><pre>java.lang.IllegalStateException: The driver executable does not exist: C:\Users\hp\workspace\DCA_CMS\.\Drivers\chromedriver
+	at com.google.common.base.Preconditions.checkState(Preconditions.java:199)
+	at org.openqa.selenium.remote.service.DriverService.checkExecutable(DriverService.java:121)
+	at org.openqa.selenium.remote.service.DriverService.findExecutable(DriverService.java:116)
+	at org.openqa.selenium.chrome.ChromeDriverService.access$0(ChromeDriverService.java:1)
+	at org.openqa.selenium.chrome.ChromeDriverService$Builder.findDefaultExecutable(ChromeDriverService.java:137)
+	at org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:296)
+	at org.openqa.selenium.chrome.ChromeDriverService.createDefaultService(ChromeDriverService.java:88)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:116)
+	at dcaCmsBase.Base.setBrowser(Base.java:31)
+	at dcaCmsBase.Base.openBrowser(Base.java:21)
+... Removed 26 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace9597864", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace9597864'><pre>java.lang.IllegalStateException: The driver executable does not exist: C:\Users\hp\workspace\DCA_CMS\.\Drivers\chromedriver
+	at com.google.common.base.Preconditions.checkState(Preconditions.java:199)
+	at org.openqa.selenium.remote.service.DriverService.checkExecutable(DriverService.java:121)
+	at org.openqa.selenium.remote.service.DriverService.findExecutable(DriverService.java:116)
+	at org.openqa.selenium.chrome.ChromeDriverService.access$0(ChromeDriverService.java:1)
+	at org.openqa.selenium.chrome.ChromeDriverService$Builder.findDefaultExecutable(ChromeDriverService.java:137)
+	at org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:296)
+	at org.openqa.selenium.chrome.ChromeDriverService.createDefaultService(ChromeDriverService.java:88)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:116)
+	at dcaCmsBase.Base.setBrowser(Base.java:31)
+	at dcaCmsBase.Base.openBrowser(Base.java:21)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:510)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:211)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:585)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.run(TestNG.java:1048)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:236)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:81)
+</pre></div></td>
+<td>0</td>
+<td>dcaCmsTests.NPI_SortByLongitude@1057a39</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-skipped'>
+<tr><td colspan='4' align='center'><b>SKIPPED CONFIGURATIONS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='dcaCmsTests.CountryAlias.openBrowser()'><b>openBrowser</b><br>Test class: dcaCmsTests.CountryAlias</td>
+<td></td>
+<td>0</td>
+<td>dcaCmsTests.CountryAlias@be92ad</td></tr>
+<tr>
+<td title='dcaCmsTests.NPI_Tab.openBrowser()'><b>openBrowser</b><br>Test class: dcaCmsTests.NPI_Tab</td>
+<td></td>
+<td>0</td>
+<td>dcaCmsTests.NPI_Tab@70fda8</td></tr>
+<tr>
+<td title='dcaCmsTests.NPI_SortBySendDate.openBrowser()'><b>openBrowser</b><br>Test class: dcaCmsTests.NPI_SortBySendDate</td>
+<td></td>
+<td>0</td>
+<td>dcaCmsTests.NPI_SortBySendDate@4edc67</td></tr>
+<tr>
+<td title='dcaCmsTests.NPI_SearchByReceivedDate.openBrowser()'><b>openBrowser</b><br>Test class: dcaCmsTests.NPI_SearchByReceivedDate</td>
+<td></td>
+<td>0</td>
+<td>dcaCmsTests.NPI_SearchByReceivedDate@acaea5</td></tr>
+<tr>
+<td title='dcaCmsTests.NPI_SortById.openBrowser()'><b>openBrowser</b><br>Test class: dcaCmsTests.NPI_SortById</td>
+<td></td>
+<td>0</td>
+<td>dcaCmsTests.NPI_SortById@d56d67</td></tr>
+<tr>
+<td title='dcaCmsTests.NPI_SearchByEmailPhotoSend.openBrowser()'><b>openBrowser</b><br>Test class: dcaCmsTests.NPI_SearchByEmailPhotoSend</td>
+<td></td>
+<td>0</td>
+<td>dcaCmsTests.NPI_SearchByEmailPhotoSend@18355a8</td></tr>
+<tr>
+<td title='dcaCmsTests.NPI_SearchById.openBrowser()'><b>openBrowser</b><br>Test class: dcaCmsTests.NPI_SearchById</td>
+<td></td>
+<td>0</td>
+<td>dcaCmsTests.NPI_SearchById@1fa1d9b</td></tr>
+<tr>
+<td title='dcaCmsTests.CountryAlias_DeleteRow.openBrowser()'><b>openBrowser</b><br>Test class: dcaCmsTests.CountryAlias_DeleteRow</td>
+<td></td>
+<td>0</td>
+<td>dcaCmsTests.CountryAlias_DeleteRow@d25987</td></tr>
+<tr>
+<td title='dcaCmsTests.NPI_SearchBySyncDate.openBrowser()'><b>openBrowser</b><br>Test class: dcaCmsTests.NPI_SearchBySyncDate</td>
+<td></td>
+<td>0</td>
+<td>dcaCmsTests.NPI_SearchBySyncDate@101b7af</td></tr>
+<tr>
+<td title='dcaCmsTests.NPI_SearchByComment.openBrowser()'><b>openBrowser</b><br>Test class: dcaCmsTests.NPI_SearchByComment</td>
+<td></td>
+<td>0</td>
+<td>dcaCmsTests.NPI_SearchByComment@3884b2</td></tr>
+<tr>
+<td title='dcaCmsTests.NPI_SortByCountryPhotoSend.openBrowser()'><b>openBrowser</b><br>Test class: dcaCmsTests.NPI_SortByCountryPhotoSend</td>
+<td></td>
+<td>0</td>
+<td>dcaCmsTests.NPI_SortByCountryPhotoSend@1275dab</td></tr>
+<tr>
+<td title='dcaCmsTests.NPI_SortBYLatitude.openBrowser()'><b>openBrowser</b><br>Test class: dcaCmsTests.NPI_SortBYLatitude</td>
+<td></td>
+<td>0</td>
+<td>dcaCmsTests.NPI_SortBYLatitude@1832929</td></tr>
+<tr>
+<td title='dcaCmsTests.LoginFunctionality.openBrowser()'><b>openBrowser</b><br>Test class: dcaCmsTests.LoginFunctionality</td>
+<td></td>
+<td>0</td>
+<td>dcaCmsTests.LoginFunctionality@1774679</td></tr>
+<tr>
+<td title='dcaCmsTests.LoginFunctionality.openBrowser()'><b>openBrowser</b><br>Test class: dcaCmsTests.LoginFunctionality</td>
+<td></td>
+<td>0</td>
+<td>dcaCmsTests.LoginFunctionality@1774679</td></tr>
+<tr>
+<td title='dcaCmsTests.NPI_SearchByLatitude.openBrowser()'><b>openBrowser</b><br>Test class: dcaCmsTests.NPI_SearchByLatitude</td>
+<td></td>
+<td>0</td>
+<td>dcaCmsTests.NPI_SearchByLatitude@1fc5af1</td></tr>
+<tr>
+<td title='dcaCmsTests.NPI_SearchByCountryPhotoSend.openBrowser()'><b>openBrowser</b><br>Test class: dcaCmsTests.NPI_SearchByCountryPhotoSend</td>
+<td></td>
+<td>0</td>
+<td>dcaCmsTests.NPI_SearchByCountryPhotoSend@5792a0</td></tr>
+<tr>
+<td title='dcaCmsTests.NPI_SortByCountryPhotoTaken.openBrowser()'><b>openBrowser</b><br>Test class: dcaCmsTests.NPI_SortByCountryPhotoTaken</td>
+<td></td>
+<td>0</td>
+<td>dcaCmsTests.NPI_SortByCountryPhotoTaken@653222</td></tr>
+<tr>
+<td title='dcaCmsTests.NPI_SortByIsSynchronized.openBrowser()'><b>openBrowser</b><br>Test class: dcaCmsTests.NPI_SortByIsSynchronized</td>
+<td></td>
+<td>0</td>
+<td>dcaCmsTests.NPI_SortByIsSynchronized@132ec19</td></tr>
+<tr>
+<td title='dcaCmsTests.NPI_SearchByIsSynchronized.openBrowser()'><b>openBrowser</b><br>Test class: dcaCmsTests.NPI_SearchByIsSynchronized</td>
+<td></td>
+<td>0</td>
+<td>dcaCmsTests.NPI_SearchByIsSynchronized@c4039c</td></tr>
+<tr>
+<td title='dcaCmsTests.NPI_SearchByBarcode.openBrowser()'><b>openBrowser</b><br>Test class: dcaCmsTests.NPI_SearchByBarcode</td>
+<td></td>
+<td>0</td>
+<td>dcaCmsTests.NPI_SearchByBarcode@e45eb6</td></tr>
+<tr>
+<td title='dcaCmsTests.NPI_NextButton.openBrowser()'><b>openBrowser</b><br>Test class: dcaCmsTests.NPI_NextButton</td>
+<td></td>
+<td>0</td>
+<td>dcaCmsTests.NPI_NextButton@19f99ea</td></tr>
+<tr>
+<td title='dcaCmsTests.CountryAlias_EditRow.openBrowser()'><b>openBrowser</b><br>Test class: dcaCmsTests.CountryAlias_EditRow</td>
+<td></td>
+<td>0</td>
+<td>dcaCmsTests.CountryAlias_EditRow@1efef64</td></tr>
+<tr>
+<td title='dcaCmsTests.CountryAlias_AddRow.openBrowser()'><b>openBrowser</b><br>Test class: dcaCmsTests.CountryAlias_AddRow</td>
+<td></td>
+<td>0</td>
+<td>dcaCmsTests.CountryAlias_AddRow@17fd0e6</td></tr>
+<tr>
+<td title='dcaCmsTests.NPI_SortBYBarcode.openBrowser()'><b>openBrowser</b><br>Test class: dcaCmsTests.NPI_SortBYBarcode</td>
+<td></td>
+<td>0</td>
+<td>dcaCmsTests.NPI_SortBYBarcode@1c62251</td></tr>
+<tr>
+<td title='dcaCmsTests.NPI_SortBySyncDate.openBrowser()'><b>openBrowser</b><br>Test class: dcaCmsTests.NPI_SortBySyncDate</td>
+<td></td>
+<td>0</td>
+<td>dcaCmsTests.NPI_SortBySyncDate@6fa38a</td></tr>
+<tr>
+<td title='dcaCmsTests.ExitFunctionality.openBrowser()'><b>openBrowser</b><br>Test class: dcaCmsTests.ExitFunctionality</td>
+<td></td>
+<td>0</td>
+<td>dcaCmsTests.ExitFunctionality@a3ffec</td></tr>
+<tr>
+<td title='dcaCmsTests.NPI_SearchByEmailPhotoTaken.openBrowser()'><b>openBrowser</b><br>Test class: dcaCmsTests.NPI_SearchByEmailPhotoTaken</td>
+<td></td>
+<td>0</td>
+<td>dcaCmsTests.NPI_SearchByEmailPhotoTaken@1caeb3e</td></tr>
+<tr>
+<td title='dcaCmsTests.NPI_SearchBySendDate.openBrowser()'><b>openBrowser</b><br>Test class: dcaCmsTests.NPI_SearchBySendDate</td>
+<td></td>
+<td>0</td>
+<td>dcaCmsTests.NPI_SearchBySendDate@1e88b3c</td></tr>
+<tr>
+<td title='dcaCmsTests.NPI_PreviousButton.openBrowser()'><b>openBrowser</b><br>Test class: dcaCmsTests.NPI_PreviousButton</td>
+<td></td>
+<td>0</td>
+<td>dcaCmsTests.NPI_PreviousButton@d80b78</td></tr>
+<tr>
+<td title='dcaCmsTests.NPI_DataExportFunctionality.openBrowser()'><b>openBrowser</b><br>Test class: dcaCmsTests.NPI_DataExportFunctionality</td>
+<td></td>
+<td>0</td>
+<td>dcaCmsTests.NPI_DataExportFunctionality@1fdc050</td></tr>
+<tr>
+<td title='dcaCmsTests.NPI_SearchByLongitude.openBrowser()'><b>openBrowser</b><br>Test class: dcaCmsTests.NPI_SearchByLongitude</td>
+<td></td>
+<td>0</td>
+<td>dcaCmsTests.NPI_SearchByLongitude@1ce4f0a</td></tr>
+<tr>
+<td title='dcaCmsTests.NPI_PageNumberButtonClick.openBrowser()'><b>openBrowser</b><br>Test class: dcaCmsTests.NPI_PageNumberButtonClick</td>
+<td></td>
+<td>0</td>
+<td>dcaCmsTests.NPI_PageNumberButtonClick@3a8624</td></tr>
+<tr>
+<td title='dcaCmsTests.NPI_SearchByCountryPhotoTaken.openBrowser()'><b>openBrowser</b><br>Test class: dcaCmsTests.NPI_SearchByCountryPhotoTaken</td>
+<td></td>
+<td>0</td>
+<td>dcaCmsTests.NPI_SearchByCountryPhotoTaken@3bd550</td></tr>
+<tr>
+<td title='dcaCmsTests.CountryAlias_PageSearch.openBrowser()'><b>openBrowser</b><br>Test class: dcaCmsTests.CountryAlias_PageSearch</td>
+<td></td>
+<td>0</td>
+<td>dcaCmsTests.CountryAlias_PageSearch@11161c7</td></tr>
+<tr>
+<td title='dcaCmsTests.NPI_SortByEmailPhotoSend.openBrowser()'><b>openBrowser</b><br>Test class: dcaCmsTests.NPI_SortByEmailPhotoSend</td>
+<td></td>
+<td>0</td>
+<td>dcaCmsTests.NPI_SortByEmailPhotoSend@4ed9f0</td></tr>
+<tr>
+<td title='dcaCmsTests.NPI_SortByDateImageTaken.openBrowser()'><b>openBrowser</b><br>Test class: dcaCmsTests.NPI_SortByDateImageTaken</td>
+<td></td>
+<td>0</td>
+<td>dcaCmsTests.NPI_SortByDateImageTaken@4f787b</td></tr>
+<tr>
+<td title='dcaCmsTests.NPI_SortByLongitude.closeBrowser()'><b>closeBrowser</b><br>Test class: dcaCmsTests.NPI_SortByLongitude</td>
+<td></td>
+<td>0</td>
+<td>dcaCmsTests.NPI_SortByLongitude@1057a39</td></tr>
+<tr>
+<td title='dcaCmsTests.CountryAlias.closeBrowser()'><b>closeBrowser</b><br>Test class: dcaCmsTests.CountryAlias</td>
+<td></td>
+<td>0</td>
+<td>dcaCmsTests.CountryAlias@be92ad</td></tr>
+<tr>
+<td title='dcaCmsTests.NPI_Tab.closeBrowser()'><b>closeBrowser</b><br>Test class: dcaCmsTests.NPI_Tab</td>
+<td></td>
+<td>0</td>
+<td>dcaCmsTests.NPI_Tab@70fda8</td></tr>
+<tr>
+<td title='dcaCmsTests.NPI_SortBySendDate.closeBrowser()'><b>closeBrowser</b><br>Test class: dcaCmsTests.NPI_SortBySendDate</td>
+<td></td>
+<td>0</td>
+<td>dcaCmsTests.NPI_SortBySendDate@4edc67</td></tr>
+<tr>
+<td title='dcaCmsTests.NPI_SearchByReceivedDate.closeBrowser()'><b>closeBrowser</b><br>Test class: dcaCmsTests.NPI_SearchByReceivedDate</td>
+<td></td>
+<td>0</td>
+<td>dcaCmsTests.NPI_SearchByReceivedDate@acaea5</td></tr>
+<tr>
+<td title='dcaCmsTests.NPI_SortById.closeBrowser()'><b>closeBrowser</b><br>Test class: dcaCmsTests.NPI_SortById</td>
+<td></td>
+<td>0</td>
+<td>dcaCmsTests.NPI_SortById@d56d67</td></tr>
+<tr>
+<td title='dcaCmsTests.NPI_SearchByEmailPhotoSend.closeBrowser()'><b>closeBrowser</b><br>Test class: dcaCmsTests.NPI_SearchByEmailPhotoSend</td>
+<td></td>
+<td>0</td>
+<td>dcaCmsTests.NPI_SearchByEmailPhotoSend@18355a8</td></tr>
+<tr>
+<td title='dcaCmsTests.NPI_SearchById.closeBrowser()'><b>closeBrowser</b><br>Test class: dcaCmsTests.NPI_SearchById</td>
+<td></td>
+<td>0</td>
+<td>dcaCmsTests.NPI_SearchById@1fa1d9b</td></tr>
+<tr>
+<td title='dcaCmsTests.CountryAlias_DeleteRow.closeBrowser()'><b>closeBrowser</b><br>Test class: dcaCmsTests.CountryAlias_DeleteRow</td>
+<td></td>
+<td>0</td>
+<td>dcaCmsTests.CountryAlias_DeleteRow@d25987</td></tr>
+<tr>
+<td title='dcaCmsTests.NPI_SearchBySyncDate.closeBrowser()'><b>closeBrowser</b><br>Test class: dcaCmsTests.NPI_SearchBySyncDate</td>
+<td></td>
+<td>0</td>
+<td>dcaCmsTests.NPI_SearchBySyncDate@101b7af</td></tr>
+<tr>
+<td title='dcaCmsTests.NPI_SearchByComment.closeBrowser()'><b>closeBrowser</b><br>Test class: dcaCmsTests.NPI_SearchByComment</td>
+<td></td>
+<td>0</td>
+<td>dcaCmsTests.NPI_SearchByComment@3884b2</td></tr>
+<tr>
+<td title='dcaCmsTests.NPI_SortByCountryPhotoSend.closeBrowser()'><b>closeBrowser</b><br>Test class: dcaCmsTests.NPI_SortByCountryPhotoSend</td>
+<td></td>
+<td>0</td>
+<td>dcaCmsTests.NPI_SortByCountryPhotoSend@1275dab</td></tr>
+<tr>
+<td title='dcaCmsTests.NPI_SortBYLatitude.closeBrowser()'><b>closeBrowser</b><br>Test class: dcaCmsTests.NPI_SortBYLatitude</td>
+<td></td>
+<td>0</td>
+<td>dcaCmsTests.NPI_SortBYLatitude@1832929</td></tr>
+<tr>
+<td title='dcaCmsTests.LoginFunctionality.closeBrowser()'><b>closeBrowser</b><br>Test class: dcaCmsTests.LoginFunctionality</td>
+<td></td>
+<td>0</td>
+<td>dcaCmsTests.LoginFunctionality@1774679</td></tr>
+<tr>
+<td title='dcaCmsTests.LoginFunctionality.closeBrowser()'><b>closeBrowser</b><br>Test class: dcaCmsTests.LoginFunctionality</td>
+<td></td>
+<td>0</td>
+<td>dcaCmsTests.LoginFunctionality@1774679</td></tr>
+<tr>
+<td title='dcaCmsTests.NPI_SearchByLatitude.closeBrowser()'><b>closeBrowser</b><br>Test class: dcaCmsTests.NPI_SearchByLatitude</td>
+<td></td>
+<td>0</td>
+<td>dcaCmsTests.NPI_SearchByLatitude@1fc5af1</td></tr>
+<tr>
+<td title='dcaCmsTests.NPI_SearchByCountryPhotoSend.closeBrowser()'><b>closeBrowser</b><br>Test class: dcaCmsTests.NPI_SearchByCountryPhotoSend</td>
+<td></td>
+<td>0</td>
+<td>dcaCmsTests.NPI_SearchByCountryPhotoSend@5792a0</td></tr>
+<tr>
+<td title='dcaCmsTests.NPI_SortByCountryPhotoTaken.closeBrowser()'><b>closeBrowser</b><br>Test class: dcaCmsTests.NPI_SortByCountryPhotoTaken</td>
+<td></td>
+<td>0</td>
+<td>dcaCmsTests.NPI_SortByCountryPhotoTaken@653222</td></tr>
+<tr>
+<td title='dcaCmsTests.NPI_SortByIsSynchronized.closeBrowser()'><b>closeBrowser</b><br>Test class: dcaCmsTests.NPI_SortByIsSynchronized</td>
+<td></td>
+<td>0</td>
+<td>dcaCmsTests.NPI_SortByIsSynchronized@132ec19</td></tr>
+<tr>
+<td title='dcaCmsTests.NPI_SearchByIsSynchronized.closeBrowser()'><b>closeBrowser</b><br>Test class: dcaCmsTests.NPI_SearchByIsSynchronized</td>
+<td></td>
+<td>0</td>
+<td>dcaCmsTests.NPI_SearchByIsSynchronized@c4039c</td></tr>
+<tr>
+<td title='dcaCmsTests.NPI_SearchByBarcode.closeBrowser()'><b>closeBrowser</b><br>Test class: dcaCmsTests.NPI_SearchByBarcode</td>
+<td></td>
+<td>0</td>
+<td>dcaCmsTests.NPI_SearchByBarcode@e45eb6</td></tr>
+<tr>
+<td title='dcaCmsTests.NPI_NextButton.closeBrowser()'><b>closeBrowser</b><br>Test class: dcaCmsTests.NPI_NextButton</td>
+<td></td>
+<td>0</td>
+<td>dcaCmsTests.NPI_NextButton@19f99ea</td></tr>
+<tr>
+<td title='dcaCmsTests.CountryAlias_EditRow.closeBrowser()'><b>closeBrowser</b><br>Test class: dcaCmsTests.CountryAlias_EditRow</td>
+<td></td>
+<td>0</td>
+<td>dcaCmsTests.CountryAlias_EditRow@1efef64</td></tr>
+<tr>
+<td title='dcaCmsTests.CountryAlias_AddRow.closeBrowser()'><b>closeBrowser</b><br>Test class: dcaCmsTests.CountryAlias_AddRow</td>
+<td></td>
+<td>0</td>
+<td>dcaCmsTests.CountryAlias_AddRow@17fd0e6</td></tr>
+<tr>
+<td title='dcaCmsTests.NPI_SortBYBarcode.closeBrowser()'><b>closeBrowser</b><br>Test class: dcaCmsTests.NPI_SortBYBarcode</td>
+<td></td>
+<td>0</td>
+<td>dcaCmsTests.NPI_SortBYBarcode@1c62251</td></tr>
+<tr>
+<td title='dcaCmsTests.NPI_SortBySyncDate.closeBrowser()'><b>closeBrowser</b><br>Test class: dcaCmsTests.NPI_SortBySyncDate</td>
+<td></td>
+<td>0</td>
+<td>dcaCmsTests.NPI_SortBySyncDate@6fa38a</td></tr>
+<tr>
+<td title='dcaCmsTests.ExitFunctionality.closeBrowser()'><b>closeBrowser</b><br>Test class: dcaCmsTests.ExitFunctionality</td>
+<td></td>
+<td>0</td>
+<td>dcaCmsTests.ExitFunctionality@a3ffec</td></tr>
+<tr>
+<td title='dcaCmsTests.NPI_SearchByEmailPhotoTaken.closeBrowser()'><b>closeBrowser</b><br>Test class: dcaCmsTests.NPI_SearchByEmailPhotoTaken</td>
+<td></td>
+<td>0</td>
+<td>dcaCmsTests.NPI_SearchByEmailPhotoTaken@1caeb3e</td></tr>
+<tr>
+<td title='dcaCmsTests.NPI_SearchBySendDate.closeBrowser()'><b>closeBrowser</b><br>Test class: dcaCmsTests.NPI_SearchBySendDate</td>
+<td></td>
+<td>0</td>
+<td>dcaCmsTests.NPI_SearchBySendDate@1e88b3c</td></tr>
+<tr>
+<td title='dcaCmsTests.NPI_PreviousButton.closeBrowser()'><b>closeBrowser</b><br>Test class: dcaCmsTests.NPI_PreviousButton</td>
+<td></td>
+<td>0</td>
+<td>dcaCmsTests.NPI_PreviousButton@d80b78</td></tr>
+<tr>
+<td title='dcaCmsTests.NPI_DataExportFunctionality.closeBrowser()'><b>closeBrowser</b><br>Test class: dcaCmsTests.NPI_DataExportFunctionality</td>
+<td></td>
+<td>0</td>
+<td>dcaCmsTests.NPI_DataExportFunctionality@1fdc050</td></tr>
+<tr>
+<td title='dcaCmsTests.NPI_SearchByLongitude.closeBrowser()'><b>closeBrowser</b><br>Test class: dcaCmsTests.NPI_SearchByLongitude</td>
+<td></td>
+<td>0</td>
+<td>dcaCmsTests.NPI_SearchByLongitude@1ce4f0a</td></tr>
+<tr>
+<td title='dcaCmsTests.NPI_PageNumberButtonClick.closeBrowser()'><b>closeBrowser</b><br>Test class: dcaCmsTests.NPI_PageNumberButtonClick</td>
+<td></td>
+<td>0</td>
+<td>dcaCmsTests.NPI_PageNumberButtonClick@3a8624</td></tr>
+<tr>
+<td title='dcaCmsTests.NPI_SearchByCountryPhotoTaken.closeBrowser()'><b>closeBrowser</b><br>Test class: dcaCmsTests.NPI_SearchByCountryPhotoTaken</td>
+<td></td>
+<td>0</td>
+<td>dcaCmsTests.NPI_SearchByCountryPhotoTaken@3bd550</td></tr>
+<tr>
+<td title='dcaCmsTests.CountryAlias_PageSearch.closeBrowser()'><b>closeBrowser</b><br>Test class: dcaCmsTests.CountryAlias_PageSearch</td>
+<td></td>
+<td>0</td>
+<td>dcaCmsTests.CountryAlias_PageSearch@11161c7</td></tr>
+<tr>
+<td title='dcaCmsTests.NPI_SortByEmailPhotoSend.closeBrowser()'><b>closeBrowser</b><br>Test class: dcaCmsTests.NPI_SortByEmailPhotoSend</td>
+<td></td>
+<td>0</td>
+<td>dcaCmsTests.NPI_SortByEmailPhotoSend@4ed9f0</td></tr>
+<tr>
+<td title='dcaCmsTests.NPI_SortByDateImageTaken.closeBrowser()'><b>closeBrowser</b><br>Test class: dcaCmsTests.NPI_SortByDateImageTaken</td>
+<td></td>
+<td>0</td>
+<td>dcaCmsTests.NPI_SortByDateImageTaken@4f787b</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-skipped'>
+<tr><td colspan='4' align='center'><b>SKIPPED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='dcaCmsTests.NPI_Tab.NPI_TabClick()'><b>NPI_TabClick</b><br>Test class: dcaCmsTests.NPI_Tab</td>
+<td></td>
+<td>0</td>
+<td>dcaCmsTests.NPI_Tab@70fda8</td></tr>
+<tr>
+<td title='dcaCmsTests.NPI_SearchByComment.SearchByComment()'><b>SearchByComment</b><br>Test class: dcaCmsTests.NPI_SearchByComment</td>
+<td></td>
+<td>0</td>
+<td>dcaCmsTests.NPI_SearchByComment@3884b2</td></tr>
+<tr>
+<td title='dcaCmsTests.NPI_SearchBySyncDate.SearchBySyncDate()'><b>SearchBySyncDate</b><br>Test class: dcaCmsTests.NPI_SearchBySyncDate</td>
+<td></td>
+<td>0</td>
+<td>dcaCmsTests.NPI_SearchBySyncDate@101b7af</td></tr>
+<tr>
+<td title='dcaCmsTests.CountryAlias_AddRow.addRow()'><b>addRow</b><br>Test class: dcaCmsTests.CountryAlias_AddRow</td>
+<td></td>
+<td>0</td>
+<td>dcaCmsTests.CountryAlias_AddRow@17fd0e6</td></tr>
+<tr>
+<td title='dcaCmsTests.CountryAlias_EditRow.aditRowRow()'><b>aditRowRow</b><br>Test class: dcaCmsTests.CountryAlias_EditRow</td>
+<td></td>
+<td>0</td>
+<td>dcaCmsTests.CountryAlias_EditRow@1efef64</td></tr>
+<tr>
+<td title='dcaCmsTests.NPI_SortBYBarcode.barcode()'><b>barcode</b><br>Test class: dcaCmsTests.NPI_SortBYBarcode</td>
+<td></td>
+<td>0</td>
+<td>dcaCmsTests.NPI_SortBYBarcode@1c62251</td></tr>
+<tr>
+<td title='dcaCmsTests.CountryAlias.countryAlias()'><b>countryAlias</b><br>Test class: dcaCmsTests.CountryAlias</td>
+<td></td>
+<td>0</td>
+<td>dcaCmsTests.CountryAlias@be92ad</td></tr>
+<tr>
+<td title='dcaCmsTests.NPI_DataExportFunctionality.dataExportFunctionality()'><b>dataExportFunctionality</b><br>Test class: dcaCmsTests.NPI_DataExportFunctionality</td>
+<td></td>
+<td>0</td>
+<td>dcaCmsTests.NPI_DataExportFunctionality@1fdc050</td></tr>
+<tr>
+<td title='dcaCmsTests.CountryAlias_DeleteRow.deleteRow()'><b>deleteRow</b><br>Test class: dcaCmsTests.CountryAlias_DeleteRow</td>
+<td></td>
+<td>0</td>
+<td>dcaCmsTests.CountryAlias_DeleteRow@d25987</td></tr>
+<tr>
+<td title='dcaCmsTests.ExitFunctionality.exitFunctionality()'><b>exitFunctionality</b><br>Test class: dcaCmsTests.ExitFunctionality</td>
+<td></td>
+<td>0</td>
+<td>dcaCmsTests.ExitFunctionality@a3ffec</td></tr>
+<tr>
+<td title='dcaCmsTests.LoginFunctionality.loginTest()'><b>loginTest</b><br>Test class: dcaCmsTests.LoginFunctionality</td>
+<td></td>
+<td>0</td>
+<td>dcaCmsTests.LoginFunctionality@1774679</td></tr>
+<tr>
+<td title='dcaCmsTests.LoginFunctionality.loginTestInvalid()'><b>loginTestInvalid</b><br>Test class: dcaCmsTests.LoginFunctionality</td>
+<td></td>
+<td>0</td>
+<td>dcaCmsTests.LoginFunctionality@1774679</td></tr>
+<tr>
+<td title='dcaCmsTests.NPI_NextButton.nextButton()'><b>nextButton</b><br>Test class: dcaCmsTests.NPI_NextButton</td>
+<td></td>
+<td>0</td>
+<td>dcaCmsTests.NPI_NextButton@19f99ea</td></tr>
+<tr>
+<td title='dcaCmsTests.NPI_PageNumberButtonClick.pageNumberButtonClick()'><b>pageNumberButtonClick</b><br>Test class: dcaCmsTests.NPI_PageNumberButtonClick</td>
+<td></td>
+<td>0</td>
+<td>dcaCmsTests.NPI_PageNumberButtonClick@3a8624</td></tr>
+<tr>
+<td title='dcaCmsTests.CountryAlias_PageSearch.pageSearch()'><b>pageSearch</b><br>Test class: dcaCmsTests.CountryAlias_PageSearch</td>
+<td></td>
+<td>0</td>
+<td>dcaCmsTests.CountryAlias_PageSearch@11161c7</td></tr>
+<tr>
+<td title='dcaCmsTests.NPI_PreviousButton.previousButton()'><b>previousButton</b><br>Test class: dcaCmsTests.NPI_PreviousButton</td>
+<td></td>
+<td>0</td>
+<td>dcaCmsTests.NPI_PreviousButton@d80b78</td></tr>
+<tr>
+<td title='dcaCmsTests.NPI_SearchByBarcode.searchByBarcode()'><b>searchByBarcode</b><br>Test class: dcaCmsTests.NPI_SearchByBarcode</td>
+<td></td>
+<td>0</td>
+<td>dcaCmsTests.NPI_SearchByBarcode@e45eb6</td></tr>
+<tr>
+<td title='dcaCmsTests.NPI_SearchByCountryPhotoSend.searchByCountryPhotoSend()'><b>searchByCountryPhotoSend</b><br>Test class: dcaCmsTests.NPI_SearchByCountryPhotoSend</td>
+<td></td>
+<td>0</td>
+<td>dcaCmsTests.NPI_SearchByCountryPhotoSend@5792a0</td></tr>
+<tr>
+<td title='dcaCmsTests.NPI_SearchByCountryPhotoTaken.searchByCountryPhotoTaken()'><b>searchByCountryPhotoTaken</b><br>Test class: dcaCmsTests.NPI_SearchByCountryPhotoTaken</td>
+<td></td>
+<td>0</td>
+<td>dcaCmsTests.NPI_SearchByCountryPhotoTaken@3bd550</td></tr>
+<tr>
+<td title='dcaCmsTests.NPI_SearchByEmailPhotoSend.searchByEmailPhotoSend()'><b>searchByEmailPhotoSend</b><br>Test class: dcaCmsTests.NPI_SearchByEmailPhotoSend</td>
+<td></td>
+<td>0</td>
+<td>dcaCmsTests.NPI_SearchByEmailPhotoSend@18355a8</td></tr>
+<tr>
+<td title='dcaCmsTests.NPI_SearchByEmailPhotoTaken.searchByEmailPhotoTaken()'><b>searchByEmailPhotoTaken</b><br>Test class: dcaCmsTests.NPI_SearchByEmailPhotoTaken</td>
+<td></td>
+<td>0</td>
+<td>dcaCmsTests.NPI_SearchByEmailPhotoTaken@1caeb3e</td></tr>
+<tr>
+<td title='dcaCmsTests.NPI_SearchById.searchById()'><b>searchById</b><br>Test class: dcaCmsTests.NPI_SearchById</td>
+<td></td>
+<td>0</td>
+<td>dcaCmsTests.NPI_SearchById@1fa1d9b</td></tr>
+<tr>
+<td title='dcaCmsTests.NPI_SearchByIsSynchronized.searchByIsSynchronized()'><b>searchByIsSynchronized</b><br>Test class: dcaCmsTests.NPI_SearchByIsSynchronized</td>
+<td></td>
+<td>0</td>
+<td>dcaCmsTests.NPI_SearchByIsSynchronized@c4039c</td></tr>
+<tr>
+<td title='dcaCmsTests.NPI_SearchByLatitude.searchByLatitude()'><b>searchByLatitude</b><br>Test class: dcaCmsTests.NPI_SearchByLatitude</td>
+<td></td>
+<td>0</td>
+<td>dcaCmsTests.NPI_SearchByLatitude@1fc5af1</td></tr>
+<tr>
+<td title='dcaCmsTests.NPI_SearchByLongitude.searchByLongitude()'><b>searchByLongitude</b><br>Test class: dcaCmsTests.NPI_SearchByLongitude</td>
+<td></td>
+<td>0</td>
+<td>dcaCmsTests.NPI_SearchByLongitude@1ce4f0a</td></tr>
+<tr>
+<td title='dcaCmsTests.NPI_SearchByReceivedDate.searchByReceivedDate()'><b>searchByReceivedDate</b><br>Test class: dcaCmsTests.NPI_SearchByReceivedDate</td>
+<td></td>
+<td>0</td>
+<td>dcaCmsTests.NPI_SearchByReceivedDate@acaea5</td></tr>
+<tr>
+<td title='dcaCmsTests.NPI_SearchBySendDate.searchBySendDate()'><b>searchBySendDate</b><br>Test class: dcaCmsTests.NPI_SearchBySendDate</td>
+<td></td>
+<td>0</td>
+<td>dcaCmsTests.NPI_SearchBySendDate@1e88b3c</td></tr>
+<tr>
+<td title='dcaCmsTests.NPI_SortByCountryPhotoSend.sortByCountryPhotoSend()'><b>sortByCountryPhotoSend</b><br>Test class: dcaCmsTests.NPI_SortByCountryPhotoSend</td>
+<td></td>
+<td>0</td>
+<td>dcaCmsTests.NPI_SortByCountryPhotoSend@1275dab</td></tr>
+<tr>
+<td title='dcaCmsTests.NPI_SortByCountryPhotoTaken.sortByCountryPhotoTaken()'><b>sortByCountryPhotoTaken</b><br>Test class: dcaCmsTests.NPI_SortByCountryPhotoTaken</td>
+<td></td>
+<td>0</td>
+<td>dcaCmsTests.NPI_SortByCountryPhotoTaken@653222</td></tr>
+<tr>
+<td title='dcaCmsTests.NPI_SortByDateImageTaken.sortByDateImageTaken()'><b>sortByDateImageTaken</b><br>Test class: dcaCmsTests.NPI_SortByDateImageTaken</td>
+<td></td>
+<td>0</td>
+<td>dcaCmsTests.NPI_SortByDateImageTaken@4f787b</td></tr>
+<tr>
+<td title='dcaCmsTests.NPI_SortByEmailPhotoSend.sortByEmailPhotoSend()'><b>sortByEmailPhotoSend</b><br>Test class: dcaCmsTests.NPI_SortByEmailPhotoSend</td>
+<td></td>
+<td>0</td>
+<td>dcaCmsTests.NPI_SortByEmailPhotoSend@4ed9f0</td></tr>
+<tr>
+<td title='dcaCmsTests.NPI_SortById.sortById()'><b>sortById</b><br>Test class: dcaCmsTests.NPI_SortById</td>
+<td></td>
+<td>0</td>
+<td>dcaCmsTests.NPI_SortById@d56d67</td></tr>
+<tr>
+<td title='dcaCmsTests.NPI_SortByIsSynchronized.sortByIsSynchronized()'><b>sortByIsSynchronized</b><br>Test class: dcaCmsTests.NPI_SortByIsSynchronized</td>
+<td></td>
+<td>0</td>
+<td>dcaCmsTests.NPI_SortByIsSynchronized@132ec19</td></tr>
+<tr>
+<td title='dcaCmsTests.NPI_SortBYLatitude.sortByLatitude()'><b>sortByLatitude</b><br>Test class: dcaCmsTests.NPI_SortBYLatitude</td>
+<td></td>
+<td>0</td>
+<td>dcaCmsTests.NPI_SortBYLatitude@1832929</td></tr>
+<tr>
+<td title='dcaCmsTests.NPI_SortByLongitude.sortByLongitude()'><b>sortByLongitude</b><br>Test class: dcaCmsTests.NPI_SortByLongitude</td>
+<td></td>
+<td>0</td>
+<td>dcaCmsTests.NPI_SortByLongitude@1057a39</td></tr>
+<tr>
+<td title='dcaCmsTests.NPI_SortBySendDate.sortBySendDate()'><b>sortBySendDate</b><br>Test class: dcaCmsTests.NPI_SortBySendDate</td>
+<td></td>
+<td>0</td>
+<td>dcaCmsTests.NPI_SortBySendDate@4edc67</td></tr>
+<tr>
+<td title='dcaCmsTests.NPI_SortBySyncDate.sortBySyncDate()'><b>sortBySyncDate</b><br>Test class: dcaCmsTests.NPI_SortBySyncDate</td>
+<td></td>
+<td>0</td>
+<td>dcaCmsTests.NPI_SortBySyncDate@6fa38a</td></tr>
+</table><p>
+</body>
+</html>

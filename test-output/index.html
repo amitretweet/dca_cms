@@ -1,0 +1,1377 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />  
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-Suite">
+              <span class="suite-name border-skipped">Suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-Suite">
+                    <span>C:\Users\hp\workspace\DCA_CMS\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-Suite">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-Suite">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-Suite">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-Suite">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-Suite">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-Suite">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">37 methods,  37 skipped,  </span>
+                  </li>
+                  <li>
+                    <span class="method-list-title skipped">Skipped methods</span>
+                    <span class="show-or-hide-methods skipped">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods skipped suite-Suite"> (hide)</a> <!-- hide-methods skipped suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods skipped suite-Suite"> (show)</a> <!-- show-methods skipped suite-Suite -->
+                    </span>
+                    <div class="method-list-content skipped suite-Suite">
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="dcaCmsTests.NPI_Tab" hash-for-method="NPI_TabClick">NPI_TabClick</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="dcaCmsTests.NPI_SearchByComment" hash-for-method="SearchByComment">SearchByComment</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="dcaCmsTests.NPI_SearchBySyncDate" hash-for-method="SearchBySyncDate">SearchBySyncDate</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="dcaCmsTests.CountryAlias_AddRow" hash-for-method="addRow">addRow</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="dcaCmsTests.CountryAlias_EditRow" hash-for-method="aditRowRow">aditRowRow</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="dcaCmsTests.NPI_SortBYBarcode" hash-for-method="barcode">barcode</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="dcaCmsTests.CountryAlias" hash-for-method="countryAlias">countryAlias</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="dcaCmsTests.NPI_DataExportFunctionality" hash-for-method="dataExportFunctionality">dataExportFunctionality</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="dcaCmsTests.CountryAlias_DeleteRow" hash-for-method="deleteRow">deleteRow</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="dcaCmsTests.ExitFunctionality" hash-for-method="exitFunctionality">exitFunctionality</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="dcaCmsTests.LoginFunctionality" hash-for-method="loginTest">loginTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="dcaCmsTests.LoginFunctionality" hash-for-method="loginTestInvalid">loginTestInvalid</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="dcaCmsTests.NPI_NextButton" hash-for-method="nextButton">nextButton</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="dcaCmsTests.NPI_PageNumberButtonClick" hash-for-method="pageNumberButtonClick">pageNumberButtonClick</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="dcaCmsTests.CountryAlias_PageSearch" hash-for-method="pageSearch">pageSearch</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="dcaCmsTests.NPI_PreviousButton" hash-for-method="previousButton">previousButton</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="dcaCmsTests.NPI_SearchByBarcode" hash-for-method="searchByBarcode">searchByBarcode</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="dcaCmsTests.NPI_SearchByCountryPhotoSend" hash-for-method="searchByCountryPhotoSend">searchByCountryPhotoSend</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="dcaCmsTests.NPI_SearchByCountryPhotoTaken" hash-for-method="searchByCountryPhotoTaken">searchByCountryPhotoTaken</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="dcaCmsTests.NPI_SearchByEmailPhotoSend" hash-for-method="searchByEmailPhotoSend">searchByEmailPhotoSend</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="dcaCmsTests.NPI_SearchByEmailPhotoTaken" hash-for-method="searchByEmailPhotoTaken">searchByEmailPhotoTaken</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="dcaCmsTests.NPI_SearchById" hash-for-method="searchById">searchById</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="dcaCmsTests.NPI_SearchByIsSynchronized" hash-for-method="searchByIsSynchronized">searchByIsSynchronized</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="dcaCmsTests.NPI_SearchByLatitude" hash-for-method="searchByLatitude">searchByLatitude</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="dcaCmsTests.NPI_SearchByLongitude" hash-for-method="searchByLongitude">searchByLongitude</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="dcaCmsTests.NPI_SearchByReceivedDate" hash-for-method="searchByReceivedDate">searchByReceivedDate</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="dcaCmsTests.NPI_SearchBySendDate" hash-for-method="searchBySendDate">searchBySendDate</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="dcaCmsTests.NPI_SortByCountryPhotoSend" hash-for-method="sortByCountryPhotoSend">sortByCountryPhotoSend</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="dcaCmsTests.NPI_SortByCountryPhotoTaken" hash-for-method="sortByCountryPhotoTaken">sortByCountryPhotoTaken</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="dcaCmsTests.NPI_SortByDateImageTaken" hash-for-method="sortByDateImageTaken">sortByDateImageTaken</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="dcaCmsTests.NPI_SortByEmailPhotoSend" hash-for-method="sortByEmailPhotoSend">sortByEmailPhotoSend</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="dcaCmsTests.NPI_SortById" hash-for-method="sortById">sortById</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="dcaCmsTests.NPI_SortByIsSynchronized" hash-for-method="sortByIsSynchronized">sortByIsSynchronized</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="dcaCmsTests.NPI_SortBYLatitude" hash-for-method="sortByLatitude">sortByLatitude</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="dcaCmsTests.NPI_SortByLongitude" hash-for-method="sortByLongitude">sortByLongitude</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="dcaCmsTests.NPI_SortBySendDate" hash-for-method="sortBySendDate">sortBySendDate</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="dcaCmsTests.NPI_SortBySyncDate" hash-for-method="sortBySyncDate">sortBySyncDate</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content skipped suite-Suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Suite" class="panel Suite">
+          <div class="suite-Suite-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">dcaCmsTests.NPI_SearchByLatitude</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="searchByLatitude">
+                  </a> <!-- searchByLatitude -->
+                  <span class="method-name">searchByLatitude</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-skipped -->
+          <div class="suite-Suite-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">dcaCmsTests.CountryAlias_AddRow</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="addRow">
+                  </a> <!-- addRow -->
+                  <span class="method-name">addRow</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-skipped -->
+          <div class="suite-Suite-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">dcaCmsTests.NPI_SearchBySyncDate</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="SearchBySyncDate">
+                  </a> <!-- SearchBySyncDate -->
+                  <span class="method-name">SearchBySyncDate</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-skipped -->
+          <div class="suite-Suite-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">dcaCmsTests.NPI_SortById</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="sortById">
+                  </a> <!-- sortById -->
+                  <span class="method-name">sortById</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-skipped -->
+          <div class="suite-Suite-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">dcaCmsTests.CountryAlias_DeleteRow</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="deleteRow">
+                  </a> <!-- deleteRow -->
+                  <span class="method-name">deleteRow</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-skipped -->
+          <div class="suite-Suite-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">dcaCmsTests.NPI_SortBySendDate</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="sortBySendDate">
+                  </a> <!-- sortBySendDate -->
+                  <span class="method-name">sortBySendDate</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-skipped -->
+          <div class="suite-Suite-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">dcaCmsTests.NPI_SearchByEmailPhotoSend</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="searchByEmailPhotoSend">
+                  </a> <!-- searchByEmailPhotoSend -->
+                  <span class="method-name">searchByEmailPhotoSend</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-skipped -->
+          <div class="suite-Suite-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">dcaCmsTests.NPI_SortByDateImageTaken</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="sortByDateImageTaken">
+                  </a> <!-- sortByDateImageTaken -->
+                  <span class="method-name">sortByDateImageTaken</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-skipped -->
+          <div class="suite-Suite-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">dcaCmsTests.NPI_Tab</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="NPI_TabClick">
+                  </a> <!-- NPI_TabClick -->
+                  <span class="method-name">NPI_TabClick</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-skipped -->
+          <div class="suite-Suite-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">dcaCmsTests.NPI_SortByEmailPhotoSend</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="sortByEmailPhotoSend">
+                  </a> <!-- sortByEmailPhotoSend -->
+                  <span class="method-name">sortByEmailPhotoSend</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-skipped -->
+          <div class="suite-Suite-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">dcaCmsTests.ExitFunctionality</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="exitFunctionality">
+                  </a> <!-- exitFunctionality -->
+                  <span class="method-name">exitFunctionality</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-skipped -->
+          <div class="suite-Suite-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">dcaCmsTests.NPI_NextButton</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="nextButton">
+                  </a> <!-- nextButton -->
+                  <span class="method-name">nextButton</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-skipped -->
+          <div class="suite-Suite-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">dcaCmsTests.NPI_SortByCountryPhotoSend</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="sortByCountryPhotoSend">
+                  </a> <!-- sortByCountryPhotoSend -->
+                  <span class="method-name">sortByCountryPhotoSend</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-skipped -->
+          <div class="suite-Suite-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">dcaCmsTests.NPI_SortBySyncDate</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="sortBySyncDate">
+                  </a> <!-- sortBySyncDate -->
+                  <span class="method-name">sortBySyncDate</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-skipped -->
+          <div class="suite-Suite-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">dcaCmsTests.NPI_PageNumberButtonClick</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="pageNumberButtonClick">
+                  </a> <!-- pageNumberButtonClick -->
+                  <span class="method-name">pageNumberButtonClick</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-skipped -->
+          <div class="suite-Suite-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">dcaCmsTests.NPI_SearchById</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="searchById">
+                  </a> <!-- searchById -->
+                  <span class="method-name">searchById</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-skipped -->
+          <div class="suite-Suite-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">dcaCmsTests.NPI_SortBYLatitude</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="sortByLatitude">
+                  </a> <!-- sortByLatitude -->
+                  <span class="method-name">sortByLatitude</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-skipped -->
+          <div class="suite-Suite-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">dcaCmsTests.NPI_SortByLongitude</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="sortByLongitude">
+                  </a> <!-- sortByLongitude -->
+                  <span class="method-name">sortByLongitude</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-skipped -->
+          <div class="suite-Suite-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">dcaCmsTests.NPI_SearchByLongitude</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="searchByLongitude">
+                  </a> <!-- searchByLongitude -->
+                  <span class="method-name">searchByLongitude</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-skipped -->
+          <div class="suite-Suite-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">dcaCmsTests.NPI_SearchByComment</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="SearchByComment">
+                  </a> <!-- SearchByComment -->
+                  <span class="method-name">SearchByComment</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-skipped -->
+          <div class="suite-Suite-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">dcaCmsTests.NPI_SortByCountryPhotoTaken</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="sortByCountryPhotoTaken">
+                  </a> <!-- sortByCountryPhotoTaken -->
+                  <span class="method-name">sortByCountryPhotoTaken</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-skipped -->
+          <div class="suite-Suite-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">dcaCmsTests.NPI_SortBYBarcode</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="barcode">
+                  </a> <!-- barcode -->
+                  <span class="method-name">barcode</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-skipped -->
+          <div class="suite-Suite-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">dcaCmsTests.CountryAlias_PageSearch</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="pageSearch">
+                  </a> <!-- pageSearch -->
+                  <span class="method-name">pageSearch</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-skipped -->
+          <div class="suite-Suite-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">dcaCmsTests.NPI_PreviousButton</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="previousButton">
+                  </a> <!-- previousButton -->
+                  <span class="method-name">previousButton</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-skipped -->
+          <div class="suite-Suite-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">dcaCmsTests.NPI_SearchByIsSynchronized</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="searchByIsSynchronized">
+                  </a> <!-- searchByIsSynchronized -->
+                  <span class="method-name">searchByIsSynchronized</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-skipped -->
+          <div class="suite-Suite-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">dcaCmsTests.NPI_SearchByCountryPhotoSend</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="searchByCountryPhotoSend">
+                  </a> <!-- searchByCountryPhotoSend -->
+                  <span class="method-name">searchByCountryPhotoSend</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-skipped -->
+          <div class="suite-Suite-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">dcaCmsTests.NPI_SearchByBarcode</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="searchByBarcode">
+                  </a> <!-- searchByBarcode -->
+                  <span class="method-name">searchByBarcode</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-skipped -->
+          <div class="suite-Suite-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">dcaCmsTests.NPI_DataExportFunctionality</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="dataExportFunctionality">
+                  </a> <!-- dataExportFunctionality -->
+                  <span class="method-name">dataExportFunctionality</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-skipped -->
+          <div class="suite-Suite-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">dcaCmsTests.NPI_SearchByEmailPhotoTaken</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="searchByEmailPhotoTaken">
+                  </a> <!-- searchByEmailPhotoTaken -->
+                  <span class="method-name">searchByEmailPhotoTaken</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-skipped -->
+          <div class="suite-Suite-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">dcaCmsTests.CountryAlias</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="countryAlias">
+                  </a> <!-- countryAlias -->
+                  <span class="method-name">countryAlias</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-skipped -->
+          <div class="suite-Suite-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">dcaCmsTests.NPI_SortByIsSynchronized</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="sortByIsSynchronized">
+                  </a> <!-- sortByIsSynchronized -->
+                  <span class="method-name">sortByIsSynchronized</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-skipped -->
+          <div class="suite-Suite-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">dcaCmsTests.NPI_SearchByCountryPhotoTaken</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="searchByCountryPhotoTaken">
+                  </a> <!-- searchByCountryPhotoTaken -->
+                  <span class="method-name">searchByCountryPhotoTaken</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-skipped -->
+          <div class="suite-Suite-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">dcaCmsTests.LoginFunctionality</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginTest">
+                  </a> <!-- loginTest -->
+                  <span class="method-name">loginTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginTestInvalid">
+                  </a> <!-- loginTestInvalid -->
+                  <span class="method-name">loginTestInvalid</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-skipped -->
+          <div class="suite-Suite-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">dcaCmsTests.NPI_SearchBySendDate</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="searchBySendDate">
+                  </a> <!-- searchBySendDate -->
+                  <span class="method-name">searchBySendDate</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-skipped -->
+          <div class="suite-Suite-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">dcaCmsTests.NPI_SearchByReceivedDate</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="searchByReceivedDate">
+                  </a> <!-- searchByReceivedDate -->
+                  <span class="method-name">searchByReceivedDate</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-skipped -->
+          <div class="suite-Suite-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">dcaCmsTests.CountryAlias_EditRow</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="aditRowRow">
+                  </a> <!-- aditRowRow -->
+                  <span class="method-name">aditRowRow</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-skipped -->
+        </div> <!-- panel Suite -->
+        <div panel-name="test-xml-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\hp\workspace\DCA_CMS\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;Suite&quot;&gt;
+  &lt;test name=&quot;Test&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;dcaCmsTests.NPI_SortByLongitude&quot;/&gt;
+      &lt;class name=&quot;dcaCmsTests.CountryAlias&quot;/&gt;
+      &lt;class name=&quot;dcaCmsTests.NPI_Tab&quot;/&gt;
+      &lt;class name=&quot;dcaCmsTests.NPI_SortBySendDate&quot;/&gt;
+      &lt;class name=&quot;dcaCmsTests.NPI_SearchByReceivedDate&quot;/&gt;
+      &lt;class name=&quot;dcaCmsTests.NPI_SortById&quot;/&gt;
+      &lt;class name=&quot;dcaCmsTests.NPI_SearchByEmailPhotoSend&quot;/&gt;
+      &lt;class name=&quot;dcaCmsTests.NPI_SearchById&quot;/&gt;
+      &lt;class name=&quot;dcaCmsTests.CountryAlias_DeleteRow&quot;/&gt;
+      &lt;class name=&quot;dcaCmsTests.NPI_SearchBySyncDate&quot;/&gt;
+      &lt;class name=&quot;dcaCmsTests.NPI_SearchByComment&quot;/&gt;
+      &lt;class name=&quot;dcaCmsTests.NPI_SortByCountryPhotoSend&quot;/&gt;
+      &lt;class name=&quot;dcaCmsTests.NPI_SortBYLatitude&quot;/&gt;
+      &lt;class name=&quot;dcaCmsTests.LoginFunctionality&quot;/&gt;
+      &lt;class name=&quot;dcaCmsTests.NPI_SearchByLatitude&quot;/&gt;
+      &lt;class name=&quot;dcaCmsTests.NPI_SearchByCountryPhotoSend&quot;/&gt;
+      &lt;class name=&quot;dcaCmsTests.NPI_SortByCountryPhotoTaken&quot;/&gt;
+      &lt;class name=&quot;dcaCmsTests.NPI_SortByIsSynchronized&quot;/&gt;
+      &lt;class name=&quot;dcaCmsTests.NPI_SearchByIsSynchronized&quot;/&gt;
+      &lt;class name=&quot;dcaCmsTests.NPI_SearchByBarcode&quot;/&gt;
+      &lt;class name=&quot;dcaCmsTests.NPI_NextButton&quot;/&gt;
+      &lt;class name=&quot;dcaCmsTests.CountryAlias_EditRow&quot;/&gt;
+      &lt;class name=&quot;dcaCmsTests.CountryAlias_AddRow&quot;/&gt;
+      &lt;class name=&quot;dcaCmsTests.NPI_SortBYBarcode&quot;/&gt;
+      &lt;class name=&quot;dcaCmsTests.NPI_SortBySyncDate&quot;/&gt;
+      &lt;class name=&quot;dcaCmsTests.ExitFunctionality&quot;/&gt;
+      &lt;class name=&quot;dcaCmsTests.NPI_SearchByEmailPhotoTaken&quot;/&gt;
+      &lt;class name=&quot;dcaCmsTests.NPI_SearchBySendDate&quot;/&gt;
+      &lt;class name=&quot;dcaCmsTests.NPI_PreviousButton&quot;/&gt;
+      &lt;class name=&quot;dcaCmsTests.NPI_DataExportFunctionality&quot;/&gt;
+      &lt;class name=&quot;dcaCmsTests.NPI_SearchByLongitude&quot;/&gt;
+      &lt;class name=&quot;dcaCmsTests.NPI_PageNumberButtonClick&quot;/&gt;
+      &lt;class name=&quot;dcaCmsTests.NPI_SearchByCountryPhotoTaken&quot;/&gt;
+      &lt;class name=&quot;dcaCmsTests.CountryAlias_PageSearch&quot;/&gt;
+      &lt;class name=&quot;dcaCmsTests.NPI_SortByEmailPhotoSend&quot;/&gt;
+      &lt;class name=&quot;dcaCmsTests.NPI_SortByDateImageTaken&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Test --&gt;
+&lt;/suite&gt; &lt;!-- Suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Test (36 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Suite');
+function tableData_Suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(37);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'searchByCountryPhotoTaken')
+data.setCell(0, 2, 'dcaCmsTests.NPI_SearchByCountryPhotoTaken')
+data.setCell(0, 3, 17);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'loginTest')
+data.setCell(1, 2, 'dcaCmsTests.LoginFunctionality')
+data.setCell(1, 3, 16);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'nextButton')
+data.setCell(2, 2, 'dcaCmsTests.NPI_NextButton')
+data.setCell(2, 3, 4);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'exitFunctionality')
+data.setCell(3, 2, 'dcaCmsTests.ExitFunctionality')
+data.setCell(3, 3, 3);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'searchByBarcode')
+data.setCell(4, 2, 'dcaCmsTests.NPI_SearchByBarcode')
+data.setCell(4, 3, 2);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'countryAlias')
+data.setCell(5, 2, 'dcaCmsTests.CountryAlias')
+data.setCell(5, 3, 2);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'sortByCountryPhotoTaken')
+data.setCell(6, 2, 'dcaCmsTests.NPI_SortByCountryPhotoTaken')
+data.setCell(6, 3, 1);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'NPI_TabClick')
+data.setCell(7, 2, 'dcaCmsTests.NPI_Tab')
+data.setCell(7, 3, 1);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'pageSearch')
+data.setCell(8, 2, 'dcaCmsTests.CountryAlias_PageSearch')
+data.setCell(8, 3, 1);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'sortByDateImageTaken')
+data.setCell(9, 2, 'dcaCmsTests.NPI_SortByDateImageTaken')
+data.setCell(9, 3, 1);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'sortById')
+data.setCell(10, 2, 'dcaCmsTests.NPI_SortById')
+data.setCell(10, 3, 1);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'sortByEmailPhotoSend')
+data.setCell(11, 2, 'dcaCmsTests.NPI_SortByEmailPhotoSend')
+data.setCell(11, 3, 1);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'aditRowRow')
+data.setCell(12, 2, 'dcaCmsTests.CountryAlias_EditRow')
+data.setCell(12, 3, 1);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'sortByLatitude')
+data.setCell(13, 2, 'dcaCmsTests.NPI_SortBYLatitude')
+data.setCell(13, 3, 1);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'searchByEmailPhotoSend')
+data.setCell(14, 2, 'dcaCmsTests.NPI_SearchByEmailPhotoSend')
+data.setCell(14, 3, 1);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'loginTestInvalid')
+data.setCell(15, 2, 'dcaCmsTests.LoginFunctionality')
+data.setCell(15, 3, 1);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'sortBySendDate')
+data.setCell(16, 2, 'dcaCmsTests.NPI_SortBySendDate')
+data.setCell(16, 3, 1);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'searchByLatitude')
+data.setCell(17, 2, 'dcaCmsTests.NPI_SearchByLatitude')
+data.setCell(17, 3, 1);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'sortByIsSynchronized')
+data.setCell(18, 2, 'dcaCmsTests.NPI_SortByIsSynchronized')
+data.setCell(18, 3, 1);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'sortByLongitude')
+data.setCell(19, 2, 'dcaCmsTests.NPI_SortByLongitude')
+data.setCell(19, 3, 1);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'searchByCountryPhotoSend')
+data.setCell(20, 2, 'dcaCmsTests.NPI_SearchByCountryPhotoSend')
+data.setCell(20, 3, 1);
+data.setCell(21, 0, 21)
+data.setCell(21, 1, 'searchBySendDate')
+data.setCell(21, 2, 'dcaCmsTests.NPI_SearchBySendDate')
+data.setCell(21, 3, 1);
+data.setCell(22, 0, 22)
+data.setCell(22, 1, 'sortByCountryPhotoSend')
+data.setCell(22, 2, 'dcaCmsTests.NPI_SortByCountryPhotoSend')
+data.setCell(22, 3, 1);
+data.setCell(23, 0, 23)
+data.setCell(23, 1, 'addRow')
+data.setCell(23, 2, 'dcaCmsTests.CountryAlias_AddRow')
+data.setCell(23, 3, 1);
+data.setCell(24, 0, 24)
+data.setCell(24, 1, 'SearchBySyncDate')
+data.setCell(24, 2, 'dcaCmsTests.NPI_SearchBySyncDate')
+data.setCell(24, 3, 1);
+data.setCell(25, 0, 25)
+data.setCell(25, 1, 'searchByIsSynchronized')
+data.setCell(25, 2, 'dcaCmsTests.NPI_SearchByIsSynchronized')
+data.setCell(25, 3, 1);
+data.setCell(26, 0, 26)
+data.setCell(26, 1, 'searchByEmailPhotoTaken')
+data.setCell(26, 2, 'dcaCmsTests.NPI_SearchByEmailPhotoTaken')
+data.setCell(26, 3, 0);
+data.setCell(27, 0, 27)
+data.setCell(27, 1, 'pageNumberButtonClick')
+data.setCell(27, 2, 'dcaCmsTests.NPI_PageNumberButtonClick')
+data.setCell(27, 3, 0);
+data.setCell(28, 0, 28)
+data.setCell(28, 1, 'barcode')
+data.setCell(28, 2, 'dcaCmsTests.NPI_SortBYBarcode')
+data.setCell(28, 3, 0);
+data.setCell(29, 0, 29)
+data.setCell(29, 1, 'dataExportFunctionality')
+data.setCell(29, 2, 'dcaCmsTests.NPI_DataExportFunctionality')
+data.setCell(29, 3, 0);
+data.setCell(30, 0, 30)
+data.setCell(30, 1, 'searchByReceivedDate')
+data.setCell(30, 2, 'dcaCmsTests.NPI_SearchByReceivedDate')
+data.setCell(30, 3, 0);
+data.setCell(31, 0, 31)
+data.setCell(31, 1, 'searchByLongitude')
+data.setCell(31, 2, 'dcaCmsTests.NPI_SearchByLongitude')
+data.setCell(31, 3, 0);
+data.setCell(32, 0, 32)
+data.setCell(32, 1, 'sortBySyncDate')
+data.setCell(32, 2, 'dcaCmsTests.NPI_SortBySyncDate')
+data.setCell(32, 3, 0);
+data.setCell(33, 0, 33)
+data.setCell(33, 1, 'deleteRow')
+data.setCell(33, 2, 'dcaCmsTests.CountryAlias_DeleteRow')
+data.setCell(33, 3, 0);
+data.setCell(34, 0, 34)
+data.setCell(34, 1, 'previousButton')
+data.setCell(34, 2, 'dcaCmsTests.NPI_PreviousButton')
+data.setCell(34, 3, 0);
+data.setCell(35, 0, 35)
+data.setCell(35, 1, 'searchById')
+data.setCell(35, 2, 'dcaCmsTests.NPI_SearchById')
+data.setCell(35, 3, 0);
+data.setCell(36, 0, 36)
+data.setCell(36, 1, 'SearchByComment')
+data.setCell(36, 2, 'dcaCmsTests.NPI_SearchByComment')
+data.setCell(36, 3, 0);
+window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 64 ms</span>
+              <div id="times-div-Suite">
+              </div> <!-- times-div-Suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">dcaCmsTests.NPI_SortByLongitude</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">openBrowser</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">sortByLongitude</span>
+                <span class="method-start">88 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">dcaCmsTests.CountryAlias</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">countryAlias</span>
+                <span class="method-start">95 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">dcaCmsTests.NPI_Tab</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">NPI_TabClick</span>
+                <span class="method-start">102 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">dcaCmsTests.NPI_SortBySendDate</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">sortBySendDate</span>
+                <span class="method-start">106 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">dcaCmsTests.NPI_SearchByReceivedDate</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">searchByReceivedDate</span>
+                <span class="method-start">111 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">dcaCmsTests.NPI_SortById</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">sortById</span>
+                <span class="method-start">116 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">dcaCmsTests.NPI_SearchByEmailPhotoSend</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">searchByEmailPhotoSend</span>
+                <span class="method-start">120 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">dcaCmsTests.NPI_SearchById</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">searchById</span>
+                <span class="method-start">124 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">dcaCmsTests.CountryAlias_DeleteRow</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">deleteRow</span>
+                <span class="method-start">131 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">dcaCmsTests.NPI_SearchBySyncDate</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">SearchBySyncDate</span>
+                <span class="method-start">134 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">dcaCmsTests.NPI_SearchByComment</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">SearchByComment</span>
+                <span class="method-start">138 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">dcaCmsTests.NPI_SortByCountryPhotoSend</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">sortByCountryPhotoSend</span>
+                <span class="method-start">141 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">dcaCmsTests.NPI_SortBYLatitude</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">sortByLatitude</span>
+                <span class="method-start">144 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">dcaCmsTests.LoginFunctionality</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">loginTest</span>
+                <span class="method-start">153 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">loginTestInvalid</span>
+                <span class="method-start">171 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">dcaCmsTests.NPI_SearchByLatitude</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">searchByLatitude</span>
+                <span class="method-start">174 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">dcaCmsTests.NPI_SearchByCountryPhotoSend</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">searchByCountryPhotoSend</span>
+                <span class="method-start">177 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">dcaCmsTests.NPI_SortByCountryPhotoTaken</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">sortByCountryPhotoTaken</span>
+                <span class="method-start">180 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">dcaCmsTests.NPI_SortByIsSynchronized</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">sortByIsSynchronized</span>
+                <span class="method-start">183 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">dcaCmsTests.NPI_SearchByIsSynchronized</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">searchByIsSynchronized</span>
+                <span class="method-start">189 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">dcaCmsTests.NPI_SearchByBarcode</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">searchByBarcode</span>
+                <span class="method-start">194 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">dcaCmsTests.NPI_NextButton</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">nextButton</span>
+                <span class="method-start">204 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">dcaCmsTests.CountryAlias_EditRow</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">aditRowRow</span>
+                <span class="method-start">213 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">dcaCmsTests.CountryAlias_AddRow</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">addRow</span>
+                <span class="method-start">217 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">dcaCmsTests.NPI_SortBYBarcode</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">barcode</span>
+                <span class="method-start">220 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">dcaCmsTests.NPI_SortBySyncDate</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">sortBySyncDate</span>
+                <span class="method-start">222 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">dcaCmsTests.ExitFunctionality</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">exitFunctionality</span>
+                <span class="method-start">224 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">dcaCmsTests.NPI_SearchByEmailPhotoTaken</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">searchByEmailPhotoTaken</span>
+                <span class="method-start">229 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">dcaCmsTests.NPI_SearchBySendDate</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">searchBySendDate</span>
+                <span class="method-start">231 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">dcaCmsTests.NPI_PreviousButton</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">previousButton</span>
+                <span class="method-start">234 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">dcaCmsTests.NPI_DataExportFunctionality</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">dataExportFunctionality</span>
+                <span class="method-start">236 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">dcaCmsTests.NPI_SearchByLongitude</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">searchByLongitude</span>
+                <span class="method-start">238 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">dcaCmsTests.NPI_PageNumberButtonClick</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">pageNumberButtonClick</span>
+                <span class="method-start">240 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">dcaCmsTests.NPI_SearchByCountryPhotoTaken</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">searchByCountryPhotoTaken</span>
+                <span class="method-start">242 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">dcaCmsTests.CountryAlias_PageSearch</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">pageSearch</span>
+                <span class="method-start">261 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">dcaCmsTests.NPI_SortByEmailPhotoSend</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">sortByEmailPhotoSend</span>
+                <span class="method-start">263 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">dcaCmsTests.NPI_SortByDateImageTaken</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">sortByDateImageTaken</span>
+                <span class="method-start">292 ms</span>
+              </div> <!-- test-method -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

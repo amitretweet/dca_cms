@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test name="Test">
+    <classes>
+      <class name="dcaCmsTests.LoginFunctionality"/>
+      <class name="dcaCmsTests.CountryAlias"/>
+      <class name="dcaCmsTests.CountryAlias_PageSearch"/>
+      <class name="dcaCmsTests.CountryAlias_AddRow"/>
+      <class name="dcaCmsTests.CountryAlias_EditRow"/>
+      <class name="dcaCmsTests.CountryAlias_DeleteRow"/>
+      <class name="dcaCmsTests.NPI_Tab"/>
+      <class name="dcaCmsTests.NPI_PreviousButton"/>
+      <class name="dcaCmsTests.NPI_PageNumberButtonClick"/>
+      <class name="dcaCmsTests.NPI_NextButton"/>
+      <class name="dcaCmsTests.NPI_SortById"/>
+      <class name="dcaCmsTests.NPI_SortBYBarcode"/>
+      <class name="dcaCmsTests.NPI_SortByDateImageTaken"/>
+      <class name="dcaCmsTests.NPI_SortBYLatitude"/>
+      <class name="dcaCmsTests.NPI_SortByLongitude"/>
+      <class name="dcaCmsTests.NPI_SortByCountryPhotoTaken"/>
+      <class name="dcaCmsTests.NPI_SortBySendDate"/>
+      <class name="dcaCmsTests.NPI_SortByEmailPhotoSend"/>
+      <class name="dcaCmsTests.NPI_SortByCountryPhotoSend"/>
+      <class name="dcaCmsTests.NPI_SortByIsSynchronized"/>
+      <class name="dcaCmsTests.NPI_SortBySyncDate"/>
+      <class name="dcaCmsTests.NPI_SearchById"/>
+      <class name="dcaCmsTests.NPI_SearchByBarcode"/>
+      <class name="dcaCmsTests.NPI_SearchByLatitude"/>
+      <class name="dcaCmsTests.NPI_SearchByLongitude"/>
+      <class name="dcaCmsTests.NPI_SearchByEmailPhotoTaken"/>
+      <class name="dcaCmsTests.NPI_SearchByCountryPhotoTaken"/>
+      <class name="dcaCmsTests.NPI_SearchBySendDate"/>
+      <class name="dcaCmsTests.NPI_SearchByReceivedDate"/>
+      <class name="dcaCmsTests.NPI_SearchByEmailPhotoSend"/>
+      <class name="dcaCmsTests.NPI_SearchByCountryPhotoSend"/>
+      <class name="dcaCmsTests.NPI_SearchByComment"/>
+      <class name="dcaCmsTests.NPI_SearchByIsSynchronized"/>
+      <class name="dcaCmsTests.NPI_SearchBySyncDate"/>
+      <class name="dcaCmsTests.NPI_DataExportFunctionality"/>      
+      <class name="dcaCmsTests.ExitFunctionality"/>    
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

@@ -1,0 +1,572 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="37" failed="0" total="37" passed="0">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="313" started-at="2017-01-24T17:19:36Z" finished-at="2017-01-24T17:19:36Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="313" started-at="2017-01-24T17:19:36Z" finished-at="2017-01-24T17:19:36Z">
+      <class name="dcaCmsTests.NPI_SortBySyncDate">
+        <test-method status="SKIP" signature="openBrowser()[pri:0, instance:dcaCmsTests.NPI_SortBySyncDate@6fa38a]" name="openBrowser" is-config="true" duration-ms="0" started-at="2017-01-24T22:49:36Z" finished-at="2017-01-24T22:49:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="SKIP" signature="sortBySyncDate()[pri:0, instance:dcaCmsTests.NPI_SortBySyncDate@6fa38a]" name="sortBySyncDate" duration-ms="0" started-at="2017-01-24T22:49:36Z" finished-at="2017-01-24T22:49:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sortBySyncDate -->
+        <test-method status="SKIP" signature="closeBrowser()[pri:0, instance:dcaCmsTests.NPI_SortBySyncDate@6fa38a]" name="closeBrowser" is-config="true" duration-ms="0" started-at="2017-01-24T22:49:36Z" finished-at="2017-01-24T22:49:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- dcaCmsTests.NPI_SortBySyncDate -->
+      <class name="dcaCmsTests.CountryAlias_DeleteRow">
+        <test-method status="SKIP" signature="openBrowser()[pri:0, instance:dcaCmsTests.CountryAlias_DeleteRow@d25987]" name="openBrowser" is-config="true" duration-ms="0" started-at="2017-01-24T22:49:36Z" finished-at="2017-01-24T22:49:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="SKIP" signature="deleteRow()[pri:0, instance:dcaCmsTests.CountryAlias_DeleteRow@d25987]" name="deleteRow" duration-ms="0" started-at="2017-01-24T22:49:36Z" finished-at="2017-01-24T22:49:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteRow -->
+        <test-method status="SKIP" signature="closeBrowser()[pri:0, instance:dcaCmsTests.CountryAlias_DeleteRow@d25987]" name="closeBrowser" is-config="true" duration-ms="0" started-at="2017-01-24T22:49:36Z" finished-at="2017-01-24T22:49:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- dcaCmsTests.CountryAlias_DeleteRow -->
+      <class name="dcaCmsTests.NPI_SortByCountryPhotoSend">
+        <test-method status="SKIP" signature="openBrowser()[pri:0, instance:dcaCmsTests.NPI_SortByCountryPhotoSend@1275dab]" name="openBrowser" is-config="true" duration-ms="0" started-at="2017-01-24T22:49:36Z" finished-at="2017-01-24T22:49:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="SKIP" signature="sortByCountryPhotoSend()[pri:0, instance:dcaCmsTests.NPI_SortByCountryPhotoSend@1275dab]" name="sortByCountryPhotoSend" duration-ms="1" started-at="2017-01-24T22:49:36Z" finished-at="2017-01-24T22:49:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sortByCountryPhotoSend -->
+        <test-method status="SKIP" signature="closeBrowser()[pri:0, instance:dcaCmsTests.NPI_SortByCountryPhotoSend@1275dab]" name="closeBrowser" is-config="true" duration-ms="0" started-at="2017-01-24T22:49:36Z" finished-at="2017-01-24T22:49:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- dcaCmsTests.NPI_SortByCountryPhotoSend -->
+      <class name="dcaCmsTests.NPI_SearchByBarcode">
+        <test-method status="SKIP" signature="openBrowser()[pri:0, instance:dcaCmsTests.NPI_SearchByBarcode@e45eb6]" name="openBrowser" is-config="true" duration-ms="0" started-at="2017-01-24T22:49:36Z" finished-at="2017-01-24T22:49:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="SKIP" signature="searchByBarcode()[pri:0, instance:dcaCmsTests.NPI_SearchByBarcode@e45eb6]" name="searchByBarcode" duration-ms="2" started-at="2017-01-24T22:49:36Z" finished-at="2017-01-24T22:49:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchByBarcode -->
+        <test-method status="SKIP" signature="closeBrowser()[pri:0, instance:dcaCmsTests.NPI_SearchByBarcode@e45eb6]" name="closeBrowser" is-config="true" duration-ms="0" started-at="2017-01-24T22:49:36Z" finished-at="2017-01-24T22:49:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- dcaCmsTests.NPI_SearchByBarcode -->
+      <class name="dcaCmsTests.NPI_SortBYLatitude">
+        <test-method status="SKIP" signature="openBrowser()[pri:0, instance:dcaCmsTests.NPI_SortBYLatitude@1832929]" name="openBrowser" is-config="true" duration-ms="0" started-at="2017-01-24T22:49:36Z" finished-at="2017-01-24T22:49:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="SKIP" signature="sortByLatitude()[pri:0, instance:dcaCmsTests.NPI_SortBYLatitude@1832929]" name="sortByLatitude" duration-ms="1" started-at="2017-01-24T22:49:36Z" finished-at="2017-01-24T22:49:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sortByLatitude -->
+        <test-method status="SKIP" signature="closeBrowser()[pri:0, instance:dcaCmsTests.NPI_SortBYLatitude@1832929]" name="closeBrowser" is-config="true" duration-ms="0" started-at="2017-01-24T22:49:36Z" finished-at="2017-01-24T22:49:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- dcaCmsTests.NPI_SortBYLatitude -->
+      <class name="dcaCmsTests.CountryAlias">
+        <test-method status="SKIP" signature="openBrowser()[pri:0, instance:dcaCmsTests.CountryAlias@be92ad]" name="openBrowser" is-config="true" duration-ms="0" started-at="2017-01-24T22:49:36Z" finished-at="2017-01-24T22:49:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="SKIP" signature="countryAlias()[pri:0, instance:dcaCmsTests.CountryAlias@be92ad]" name="countryAlias" duration-ms="2" started-at="2017-01-24T22:49:36Z" finished-at="2017-01-24T22:49:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- countryAlias -->
+        <test-method status="SKIP" signature="closeBrowser()[pri:0, instance:dcaCmsTests.CountryAlias@be92ad]" name="closeBrowser" is-config="true" duration-ms="0" started-at="2017-01-24T22:49:36Z" finished-at="2017-01-24T22:49:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- dcaCmsTests.CountryAlias -->
+      <class name="dcaCmsTests.NPI_SearchByIsSynchronized">
+        <test-method status="SKIP" signature="openBrowser()[pri:0, instance:dcaCmsTests.NPI_SearchByIsSynchronized@c4039c]" name="openBrowser" is-config="true" duration-ms="0" started-at="2017-01-24T22:49:36Z" finished-at="2017-01-24T22:49:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="SKIP" signature="searchByIsSynchronized()[pri:0, instance:dcaCmsTests.NPI_SearchByIsSynchronized@c4039c]" name="searchByIsSynchronized" duration-ms="1" started-at="2017-01-24T22:49:36Z" finished-at="2017-01-24T22:49:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchByIsSynchronized -->
+        <test-method status="SKIP" signature="closeBrowser()[pri:0, instance:dcaCmsTests.NPI_SearchByIsSynchronized@c4039c]" name="closeBrowser" is-config="true" duration-ms="0" started-at="2017-01-24T22:49:36Z" finished-at="2017-01-24T22:49:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- dcaCmsTests.NPI_SearchByIsSynchronized -->
+      <class name="dcaCmsTests.NPI_SearchByComment">
+        <test-method status="SKIP" signature="openBrowser()[pri:0, instance:dcaCmsTests.NPI_SearchByComment@3884b2]" name="openBrowser" is-config="true" duration-ms="0" started-at="2017-01-24T22:49:36Z" finished-at="2017-01-24T22:49:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="SKIP" signature="SearchByComment()[pri:0, instance:dcaCmsTests.NPI_SearchByComment@3884b2]" name="SearchByComment" duration-ms="0" started-at="2017-01-24T22:49:36Z" finished-at="2017-01-24T22:49:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SearchByComment -->
+        <test-method status="SKIP" signature="closeBrowser()[pri:0, instance:dcaCmsTests.NPI_SearchByComment@3884b2]" name="closeBrowser" is-config="true" duration-ms="0" started-at="2017-01-24T22:49:36Z" finished-at="2017-01-24T22:49:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- dcaCmsTests.NPI_SearchByComment -->
+      <class name="dcaCmsTests.NPI_SearchBySyncDate">
+        <test-method status="SKIP" signature="openBrowser()[pri:0, instance:dcaCmsTests.NPI_SearchBySyncDate@101b7af]" name="openBrowser" is-config="true" duration-ms="0" started-at="2017-01-24T22:49:36Z" finished-at="2017-01-24T22:49:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="SKIP" signature="SearchBySyncDate()[pri:0, instance:dcaCmsTests.NPI_SearchBySyncDate@101b7af]" name="SearchBySyncDate" duration-ms="1" started-at="2017-01-24T22:49:36Z" finished-at="2017-01-24T22:49:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SearchBySyncDate -->
+        <test-method status="SKIP" signature="closeBrowser()[pri:0, instance:dcaCmsTests.NPI_SearchBySyncDate@101b7af]" name="closeBrowser" is-config="true" duration-ms="0" started-at="2017-01-24T22:49:36Z" finished-at="2017-01-24T22:49:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- dcaCmsTests.NPI_SearchBySyncDate -->
+      <class name="dcaCmsTests.CountryAlias_PageSearch">
+        <test-method status="SKIP" signature="pageSearch()[pri:0, instance:dcaCmsTests.CountryAlias_PageSearch@11161c7]" name="pageSearch" duration-ms="1" started-at="2017-01-24T22:49:36Z" finished-at="2017-01-24T22:49:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pageSearch -->
+        <test-method status="SKIP" signature="openBrowser()[pri:0, instance:dcaCmsTests.CountryAlias_PageSearch@11161c7]" name="openBrowser" is-config="true" duration-ms="0" started-at="2017-01-24T22:49:36Z" finished-at="2017-01-24T22:49:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="SKIP" signature="closeBrowser()[pri:0, instance:dcaCmsTests.CountryAlias_PageSearch@11161c7]" name="closeBrowser" is-config="true" duration-ms="0" started-at="2017-01-24T22:49:36Z" finished-at="2017-01-24T22:49:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- dcaCmsTests.CountryAlias_PageSearch -->
+      <class name="dcaCmsTests.NPI_SortByDateImageTaken">
+        <test-method status="SKIP" signature="openBrowser()[pri:0, instance:dcaCmsTests.NPI_SortByDateImageTaken@4f787b]" name="openBrowser" is-config="true" duration-ms="0" started-at="2017-01-24T22:49:36Z" finished-at="2017-01-24T22:49:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="SKIP" signature="sortByDateImageTaken()[pri:0, instance:dcaCmsTests.NPI_SortByDateImageTaken@4f787b]" name="sortByDateImageTaken" duration-ms="1" started-at="2017-01-24T22:49:36Z" finished-at="2017-01-24T22:49:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sortByDateImageTaken -->
+        <test-method status="SKIP" signature="closeBrowser()[pri:0, instance:dcaCmsTests.NPI_SortByDateImageTaken@4f787b]" name="closeBrowser" is-config="true" duration-ms="0" started-at="2017-01-24T22:49:36Z" finished-at="2017-01-24T22:49:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- dcaCmsTests.NPI_SortByDateImageTaken -->
+      <class name="dcaCmsTests.NPI_SearchBySendDate">
+        <test-method status="SKIP" signature="openBrowser()[pri:0, instance:dcaCmsTests.NPI_SearchBySendDate@1e88b3c]" name="openBrowser" is-config="true" duration-ms="0" started-at="2017-01-24T22:49:36Z" finished-at="2017-01-24T22:49:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="SKIP" signature="searchBySendDate()[pri:0, instance:dcaCmsTests.NPI_SearchBySendDate@1e88b3c]" name="searchBySendDate" duration-ms="1" started-at="2017-01-24T22:49:36Z" finished-at="2017-01-24T22:49:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchBySendDate -->
+        <test-method status="SKIP" signature="closeBrowser()[pri:0, instance:dcaCmsTests.NPI_SearchBySendDate@1e88b3c]" name="closeBrowser" is-config="true" duration-ms="0" started-at="2017-01-24T22:49:36Z" finished-at="2017-01-24T22:49:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- dcaCmsTests.NPI_SearchBySendDate -->
+      <class name="dcaCmsTests.NPI_SearchByEmailPhotoTaken">
+        <test-method status="SKIP" signature="openBrowser()[pri:0, instance:dcaCmsTests.NPI_SearchByEmailPhotoTaken@1caeb3e]" name="openBrowser" is-config="true" duration-ms="0" started-at="2017-01-24T22:49:36Z" finished-at="2017-01-24T22:49:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="SKIP" signature="searchByEmailPhotoTaken()[pri:0, instance:dcaCmsTests.NPI_SearchByEmailPhotoTaken@1caeb3e]" name="searchByEmailPhotoTaken" duration-ms="0" started-at="2017-01-24T22:49:36Z" finished-at="2017-01-24T22:49:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchByEmailPhotoTaken -->
+        <test-method status="SKIP" signature="closeBrowser()[pri:0, instance:dcaCmsTests.NPI_SearchByEmailPhotoTaken@1caeb3e]" name="closeBrowser" is-config="true" duration-ms="0" started-at="2017-01-24T22:49:36Z" finished-at="2017-01-24T22:49:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- dcaCmsTests.NPI_SearchByEmailPhotoTaken -->
+      <class name="dcaCmsTests.NPI_PageNumberButtonClick">
+        <test-method status="SKIP" signature="openBrowser()[pri:0, instance:dcaCmsTests.NPI_PageNumberButtonClick@3a8624]" name="openBrowser" is-config="true" duration-ms="0" started-at="2017-01-24T22:49:36Z" finished-at="2017-01-24T22:49:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="SKIP" signature="pageNumberButtonClick()[pri:0, instance:dcaCmsTests.NPI_PageNumberButtonClick@3a8624]" name="pageNumberButtonClick" duration-ms="0" started-at="2017-01-24T22:49:36Z" finished-at="2017-01-24T22:49:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pageNumberButtonClick -->
+        <test-method status="SKIP" signature="closeBrowser()[pri:0, instance:dcaCmsTests.NPI_PageNumberButtonClick@3a8624]" name="closeBrowser" is-config="true" duration-ms="0" started-at="2017-01-24T22:49:36Z" finished-at="2017-01-24T22:49:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- dcaCmsTests.NPI_PageNumberButtonClick -->
+      <class name="dcaCmsTests.NPI_SortByEmailPhotoSend">
+        <test-method status="SKIP" signature="openBrowser()[pri:0, instance:dcaCmsTests.NPI_SortByEmailPhotoSend@4ed9f0]" name="openBrowser" is-config="true" duration-ms="0" started-at="2017-01-24T22:49:36Z" finished-at="2017-01-24T22:49:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="SKIP" signature="sortByEmailPhotoSend()[pri:0, instance:dcaCmsTests.NPI_SortByEmailPhotoSend@4ed9f0]" name="sortByEmailPhotoSend" duration-ms="1" started-at="2017-01-24T22:49:36Z" finished-at="2017-01-24T22:49:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sortByEmailPhotoSend -->
+        <test-method status="SKIP" signature="closeBrowser()[pri:0, instance:dcaCmsTests.NPI_SortByEmailPhotoSend@4ed9f0]" name="closeBrowser" is-config="true" duration-ms="0" started-at="2017-01-24T22:49:36Z" finished-at="2017-01-24T22:49:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- dcaCmsTests.NPI_SortByEmailPhotoSend -->
+      <class name="dcaCmsTests.NPI_SearchByLongitude">
+        <test-method status="SKIP" signature="openBrowser()[pri:0, instance:dcaCmsTests.NPI_SearchByLongitude@1ce4f0a]" name="openBrowser" is-config="true" duration-ms="0" started-at="2017-01-24T22:49:36Z" finished-at="2017-01-24T22:49:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="SKIP" signature="searchByLongitude()[pri:0, instance:dcaCmsTests.NPI_SearchByLongitude@1ce4f0a]" name="searchByLongitude" duration-ms="0" started-at="2017-01-24T22:49:36Z" finished-at="2017-01-24T22:49:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchByLongitude -->
+        <test-method status="SKIP" signature="closeBrowser()[pri:0, instance:dcaCmsTests.NPI_SearchByLongitude@1ce4f0a]" name="closeBrowser" is-config="true" duration-ms="0" started-at="2017-01-24T22:49:36Z" finished-at="2017-01-24T22:49:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- dcaCmsTests.NPI_SearchByLongitude -->
+      <class name="dcaCmsTests.CountryAlias_AddRow">
+        <test-method status="SKIP" signature="openBrowser()[pri:0, instance:dcaCmsTests.CountryAlias_AddRow@17fd0e6]" name="openBrowser" is-config="true" duration-ms="0" started-at="2017-01-24T22:49:36Z" finished-at="2017-01-24T22:49:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="SKIP" signature="addRow()[pri:0, instance:dcaCmsTests.CountryAlias_AddRow@17fd0e6]" name="addRow" duration-ms="1" started-at="2017-01-24T22:49:36Z" finished-at="2017-01-24T22:49:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addRow -->
+        <test-method status="SKIP" signature="closeBrowser()[pri:0, instance:dcaCmsTests.CountryAlias_AddRow@17fd0e6]" name="closeBrowser" is-config="true" duration-ms="0" started-at="2017-01-24T22:49:36Z" finished-at="2017-01-24T22:49:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- dcaCmsTests.CountryAlias_AddRow -->
+      <class name="dcaCmsTests.NPI_SortById">
+        <test-method status="SKIP" signature="openBrowser()[pri:0, instance:dcaCmsTests.NPI_SortById@d56d67]" name="openBrowser" is-config="true" duration-ms="0" started-at="2017-01-24T22:49:36Z" finished-at="2017-01-24T22:49:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="SKIP" signature="sortById()[pri:0, instance:dcaCmsTests.NPI_SortById@d56d67]" name="sortById" duration-ms="1" started-at="2017-01-24T22:49:36Z" finished-at="2017-01-24T22:49:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sortById -->
+        <test-method status="SKIP" signature="closeBrowser()[pri:0, instance:dcaCmsTests.NPI_SortById@d56d67]" name="closeBrowser" is-config="true" duration-ms="0" started-at="2017-01-24T22:49:36Z" finished-at="2017-01-24T22:49:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- dcaCmsTests.NPI_SortById -->
+      <class name="dcaCmsTests.NPI_DataExportFunctionality">
+        <test-method status="SKIP" signature="openBrowser()[pri:0, instance:dcaCmsTests.NPI_DataExportFunctionality@1fdc050]" name="openBrowser" is-config="true" duration-ms="0" started-at="2017-01-24T22:49:36Z" finished-at="2017-01-24T22:49:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="SKIP" signature="dataExportFunctionality()[pri:0, instance:dcaCmsTests.NPI_DataExportFunctionality@1fdc050]" name="dataExportFunctionality" duration-ms="0" started-at="2017-01-24T22:49:36Z" finished-at="2017-01-24T22:49:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dataExportFunctionality -->
+        <test-method status="SKIP" signature="closeBrowser()[pri:0, instance:dcaCmsTests.NPI_DataExportFunctionality@1fdc050]" name="closeBrowser" is-config="true" duration-ms="0" started-at="2017-01-24T22:49:36Z" finished-at="2017-01-24T22:49:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- dcaCmsTests.NPI_DataExportFunctionality -->
+      <class name="dcaCmsTests.NPI_SearchByCountryPhotoTaken">
+        <test-method status="SKIP" signature="searchByCountryPhotoTaken()[pri:0, instance:dcaCmsTests.NPI_SearchByCountryPhotoTaken@3bd550]" name="searchByCountryPhotoTaken" duration-ms="17" started-at="2017-01-24T22:49:36Z" finished-at="2017-01-24T22:49:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchByCountryPhotoTaken -->
+        <test-method status="SKIP" signature="openBrowser()[pri:0, instance:dcaCmsTests.NPI_SearchByCountryPhotoTaken@3bd550]" name="openBrowser" is-config="true" duration-ms="0" started-at="2017-01-24T22:49:36Z" finished-at="2017-01-24T22:49:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="SKIP" signature="closeBrowser()[pri:0, instance:dcaCmsTests.NPI_SearchByCountryPhotoTaken@3bd550]" name="closeBrowser" is-config="true" duration-ms="0" started-at="2017-01-24T22:49:36Z" finished-at="2017-01-24T22:49:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- dcaCmsTests.NPI_SearchByCountryPhotoTaken -->
+      <class name="dcaCmsTests.LoginFunctionality">
+        <test-method status="SKIP" signature="openBrowser()[pri:0, instance:dcaCmsTests.LoginFunctionality@1774679]" name="openBrowser" is-config="true" duration-ms="0" started-at="2017-01-24T22:49:36Z" finished-at="2017-01-24T22:49:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="SKIP" signature="loginTest()[pri:1, instance:dcaCmsTests.LoginFunctionality@1774679]" name="loginTest" duration-ms="16" started-at="2017-01-24T22:49:36Z" finished-at="2017-01-24T22:49:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method status="SKIP" signature="closeBrowser()[pri:0, instance:dcaCmsTests.LoginFunctionality@1774679]" name="closeBrowser" is-config="true" duration-ms="0" started-at="2017-01-24T22:49:36Z" finished-at="2017-01-24T22:49:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="SKIP" signature="loginTestInvalid()[pri:2, instance:dcaCmsTests.LoginFunctionality@1774679]" name="loginTestInvalid" duration-ms="1" started-at="2017-01-24T22:49:36Z" finished-at="2017-01-24T22:49:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTestInvalid -->
+        <test-method status="SKIP" signature="openBrowser()[pri:0, instance:dcaCmsTests.LoginFunctionality@1774679]" name="openBrowser" is-config="true" duration-ms="0" started-at="2017-01-24T22:49:36Z" finished-at="2017-01-24T22:49:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="SKIP" signature="closeBrowser()[pri:0, instance:dcaCmsTests.LoginFunctionality@1774679]" name="closeBrowser" is-config="true" duration-ms="0" started-at="2017-01-24T22:49:36Z" finished-at="2017-01-24T22:49:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- dcaCmsTests.LoginFunctionality -->
+      <class name="dcaCmsTests.NPI_SearchByReceivedDate">
+        <test-method status="SKIP" signature="openBrowser()[pri:0, instance:dcaCmsTests.NPI_SearchByReceivedDate@acaea5]" name="openBrowser" is-config="true" duration-ms="0" started-at="2017-01-24T22:49:36Z" finished-at="2017-01-24T22:49:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="SKIP" signature="searchByReceivedDate()[pri:0, instance:dcaCmsTests.NPI_SearchByReceivedDate@acaea5]" name="searchByReceivedDate" duration-ms="0" started-at="2017-01-24T22:49:36Z" finished-at="2017-01-24T22:49:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchByReceivedDate -->
+        <test-method status="SKIP" signature="closeBrowser()[pri:0, instance:dcaCmsTests.NPI_SearchByReceivedDate@acaea5]" name="closeBrowser" is-config="true" duration-ms="0" started-at="2017-01-24T22:49:36Z" finished-at="2017-01-24T22:49:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- dcaCmsTests.NPI_SearchByReceivedDate -->
+      <class name="dcaCmsTests.NPI_SearchByEmailPhotoSend">
+        <test-method status="SKIP" signature="openBrowser()[pri:0, instance:dcaCmsTests.NPI_SearchByEmailPhotoSend@18355a8]" name="openBrowser" is-config="true" duration-ms="0" started-at="2017-01-24T22:49:36Z" finished-at="2017-01-24T22:49:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="SKIP" signature="searchByEmailPhotoSend()[pri:0, instance:dcaCmsTests.NPI_SearchByEmailPhotoSend@18355a8]" name="searchByEmailPhotoSend" duration-ms="1" started-at="2017-01-24T22:49:36Z" finished-at="2017-01-24T22:49:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchByEmailPhotoSend -->
+        <test-method status="SKIP" signature="closeBrowser()[pri:0, instance:dcaCmsTests.NPI_SearchByEmailPhotoSend@18355a8]" name="closeBrowser" is-config="true" duration-ms="0" started-at="2017-01-24T22:49:36Z" finished-at="2017-01-24T22:49:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- dcaCmsTests.NPI_SearchByEmailPhotoSend -->
+      <class name="dcaCmsTests.NPI_SearchByLatitude">
+        <test-method status="SKIP" signature="openBrowser()[pri:0, instance:dcaCmsTests.NPI_SearchByLatitude@1fc5af1]" name="openBrowser" is-config="true" duration-ms="0" started-at="2017-01-24T22:49:36Z" finished-at="2017-01-24T22:49:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="SKIP" signature="searchByLatitude()[pri:0, instance:dcaCmsTests.NPI_SearchByLatitude@1fc5af1]" name="searchByLatitude" duration-ms="1" started-at="2017-01-24T22:49:36Z" finished-at="2017-01-24T22:49:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchByLatitude -->
+        <test-method status="SKIP" signature="closeBrowser()[pri:0, instance:dcaCmsTests.NPI_SearchByLatitude@1fc5af1]" name="closeBrowser" is-config="true" duration-ms="0" started-at="2017-01-24T22:49:36Z" finished-at="2017-01-24T22:49:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- dcaCmsTests.NPI_SearchByLatitude -->
+      <class name="dcaCmsTests.NPI_SortBYBarcode">
+        <test-method status="SKIP" signature="openBrowser()[pri:0, instance:dcaCmsTests.NPI_SortBYBarcode@1c62251]" name="openBrowser" is-config="true" duration-ms="0" started-at="2017-01-24T22:49:36Z" finished-at="2017-01-24T22:49:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="SKIP" signature="barcode()[pri:0, instance:dcaCmsTests.NPI_SortBYBarcode@1c62251]" name="barcode" duration-ms="0" started-at="2017-01-24T22:49:36Z" finished-at="2017-01-24T22:49:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- barcode -->
+        <test-method status="SKIP" signature="closeBrowser()[pri:0, instance:dcaCmsTests.NPI_SortBYBarcode@1c62251]" name="closeBrowser" is-config="true" duration-ms="0" started-at="2017-01-24T22:49:36Z" finished-at="2017-01-24T22:49:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- dcaCmsTests.NPI_SortBYBarcode -->
+      <class name="dcaCmsTests.CountryAlias_EditRow">
+        <test-method status="SKIP" signature="openBrowser()[pri:0, instance:dcaCmsTests.CountryAlias_EditRow@1efef64]" name="openBrowser" is-config="true" duration-ms="0" started-at="2017-01-24T22:49:36Z" finished-at="2017-01-24T22:49:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="SKIP" signature="aditRowRow()[pri:0, instance:dcaCmsTests.CountryAlias_EditRow@1efef64]" name="aditRowRow" duration-ms="1" started-at="2017-01-24T22:49:36Z" finished-at="2017-01-24T22:49:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aditRowRow -->
+        <test-method status="SKIP" signature="closeBrowser()[pri:0, instance:dcaCmsTests.CountryAlias_EditRow@1efef64]" name="closeBrowser" is-config="true" duration-ms="0" started-at="2017-01-24T22:49:36Z" finished-at="2017-01-24T22:49:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- dcaCmsTests.CountryAlias_EditRow -->
+      <class name="dcaCmsTests.NPI_SortBySendDate">
+        <test-method status="SKIP" signature="openBrowser()[pri:0, instance:dcaCmsTests.NPI_SortBySendDate@4edc67]" name="openBrowser" is-config="true" duration-ms="0" started-at="2017-01-24T22:49:36Z" finished-at="2017-01-24T22:49:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="SKIP" signature="sortBySendDate()[pri:0, instance:dcaCmsTests.NPI_SortBySendDate@4edc67]" name="sortBySendDate" duration-ms="1" started-at="2017-01-24T22:49:36Z" finished-at="2017-01-24T22:49:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sortBySendDate -->
+        <test-method status="SKIP" signature="closeBrowser()[pri:0, instance:dcaCmsTests.NPI_SortBySendDate@4edc67]" name="closeBrowser" is-config="true" duration-ms="0" started-at="2017-01-24T22:49:36Z" finished-at="2017-01-24T22:49:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- dcaCmsTests.NPI_SortBySendDate -->
+      <class name="dcaCmsTests.NPI_SortByIsSynchronized">
+        <test-method status="SKIP" signature="openBrowser()[pri:0, instance:dcaCmsTests.NPI_SortByIsSynchronized@132ec19]" name="openBrowser" is-config="true" duration-ms="0" started-at="2017-01-24T22:49:36Z" finished-at="2017-01-24T22:49:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="SKIP" signature="sortByIsSynchronized()[pri:0, instance:dcaCmsTests.NPI_SortByIsSynchronized@132ec19]" name="sortByIsSynchronized" duration-ms="1" started-at="2017-01-24T22:49:36Z" finished-at="2017-01-24T22:49:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sortByIsSynchronized -->
+        <test-method status="SKIP" signature="closeBrowser()[pri:0, instance:dcaCmsTests.NPI_SortByIsSynchronized@132ec19]" name="closeBrowser" is-config="true" duration-ms="0" started-at="2017-01-24T22:49:36Z" finished-at="2017-01-24T22:49:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- dcaCmsTests.NPI_SortByIsSynchronized -->
+      <class name="dcaCmsTests.NPI_PreviousButton">
+        <test-method status="SKIP" signature="openBrowser()[pri:0, instance:dcaCmsTests.NPI_PreviousButton@d80b78]" name="openBrowser" is-config="true" duration-ms="0" started-at="2017-01-24T22:49:36Z" finished-at="2017-01-24T22:49:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="SKIP" signature="previousButton()[pri:0, instance:dcaCmsTests.NPI_PreviousButton@d80b78]" name="previousButton" duration-ms="0" started-at="2017-01-24T22:49:36Z" finished-at="2017-01-24T22:49:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- previousButton -->
+        <test-method status="SKIP" signature="closeBrowser()[pri:0, instance:dcaCmsTests.NPI_PreviousButton@d80b78]" name="closeBrowser" is-config="true" duration-ms="0" started-at="2017-01-24T22:49:36Z" finished-at="2017-01-24T22:49:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- dcaCmsTests.NPI_PreviousButton -->
+      <class name="dcaCmsTests.NPI_SortByCountryPhotoTaken">
+        <test-method status="SKIP" signature="openBrowser()[pri:0, instance:dcaCmsTests.NPI_SortByCountryPhotoTaken@653222]" name="openBrowser" is-config="true" duration-ms="0" started-at="2017-01-24T22:49:36Z" finished-at="2017-01-24T22:49:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="SKIP" signature="sortByCountryPhotoTaken()[pri:0, instance:dcaCmsTests.NPI_SortByCountryPhotoTaken@653222]" name="sortByCountryPhotoTaken" duration-ms="1" started-at="2017-01-24T22:49:36Z" finished-at="2017-01-24T22:49:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sortByCountryPhotoTaken -->
+        <test-method status="SKIP" signature="closeBrowser()[pri:0, instance:dcaCmsTests.NPI_SortByCountryPhotoTaken@653222]" name="closeBrowser" is-config="true" duration-ms="0" started-at="2017-01-24T22:49:36Z" finished-at="2017-01-24T22:49:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- dcaCmsTests.NPI_SortByCountryPhotoTaken -->
+      <class name="dcaCmsTests.NPI_SortByLongitude">
+        <test-method status="FAIL" signature="openBrowser()[pri:0, instance:dcaCmsTests.NPI_SortByLongitude@1057a39]" name="openBrowser" is-config="true" duration-ms="0" started-at="2017-01-24T22:49:36Z" finished-at="2017-01-24T22:49:36Z">
+          <exception class="java.lang.IllegalStateException">
+            <message>
+              <![CDATA[The driver executable does not exist: C:\Users\hp\workspace\DCA_CMS\.\Drivers\chromedriver]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.IllegalStateException: The driver executable does not exist: C:\Users\hp\workspace\DCA_CMS\.\Drivers\chromedriver
+	at com.google.common.base.Preconditions.checkState(Preconditions.java:199)
+	at org.openqa.selenium.remote.service.DriverService.checkExecutable(DriverService.java:121)
+	at org.openqa.selenium.remote.service.DriverService.findExecutable(DriverService.java:116)
+	at org.openqa.selenium.chrome.ChromeDriverService.access$0(ChromeDriverService.java:1)
+	at org.openqa.selenium.chrome.ChromeDriverService$Builder.findDefaultExecutable(ChromeDriverService.java:137)
+	at org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:296)
+	at org.openqa.selenium.chrome.ChromeDriverService.createDefaultService(ChromeDriverService.java:88)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:116)
+	at dcaCmsBase.Base.setBrowser(Base.java:31)
+	at dcaCmsBase.Base.openBrowser(Base.java:21)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:510)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:211)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:585)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.run(TestNG.java:1048)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:236)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:81)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.IllegalStateException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="SKIP" signature="sortByLongitude()[pri:0, instance:dcaCmsTests.NPI_SortByLongitude@1057a39]" name="sortByLongitude" duration-ms="1" started-at="2017-01-24T22:49:36Z" finished-at="2017-01-24T22:49:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sortByLongitude -->
+        <test-method status="SKIP" signature="closeBrowser()[pri:0, instance:dcaCmsTests.NPI_SortByLongitude@1057a39]" name="closeBrowser" is-config="true" duration-ms="0" started-at="2017-01-24T22:49:36Z" finished-at="2017-01-24T22:49:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- dcaCmsTests.NPI_SortByLongitude -->
+      <class name="dcaCmsTests.NPI_SearchByCountryPhotoSend">
+        <test-method status="SKIP" signature="searchByCountryPhotoSend()[pri:0, instance:dcaCmsTests.NPI_SearchByCountryPhotoSend@5792a0]" name="searchByCountryPhotoSend" duration-ms="1" started-at="2017-01-24T22:49:36Z" finished-at="2017-01-24T22:49:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchByCountryPhotoSend -->
+        <test-method status="SKIP" signature="openBrowser()[pri:0, instance:dcaCmsTests.NPI_SearchByCountryPhotoSend@5792a0]" name="openBrowser" is-config="true" duration-ms="0" started-at="2017-01-24T22:49:36Z" finished-at="2017-01-24T22:49:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="SKIP" signature="closeBrowser()[pri:0, instance:dcaCmsTests.NPI_SearchByCountryPhotoSend@5792a0]" name="closeBrowser" is-config="true" duration-ms="0" started-at="2017-01-24T22:49:36Z" finished-at="2017-01-24T22:49:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- dcaCmsTests.NPI_SearchByCountryPhotoSend -->
+      <class name="dcaCmsTests.NPI_SearchById">
+        <test-method status="SKIP" signature="openBrowser()[pri:0, instance:dcaCmsTests.NPI_SearchById@1fa1d9b]" name="openBrowser" is-config="true" duration-ms="0" started-at="2017-01-24T22:49:36Z" finished-at="2017-01-24T22:49:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="SKIP" signature="searchById()[pri:0, instance:dcaCmsTests.NPI_SearchById@1fa1d9b]" name="searchById" duration-ms="0" started-at="2017-01-24T22:49:36Z" finished-at="2017-01-24T22:49:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchById -->
+        <test-method status="SKIP" signature="closeBrowser()[pri:0, instance:dcaCmsTests.NPI_SearchById@1fa1d9b]" name="closeBrowser" is-config="true" duration-ms="0" started-at="2017-01-24T22:49:36Z" finished-at="2017-01-24T22:49:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- dcaCmsTests.NPI_SearchById -->
+      <class name="dcaCmsTests.NPI_NextButton">
+        <test-method status="SKIP" signature="openBrowser()[pri:0, instance:dcaCmsTests.NPI_NextButton@19f99ea]" name="openBrowser" is-config="true" duration-ms="0" started-at="2017-01-24T22:49:36Z" finished-at="2017-01-24T22:49:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="SKIP" signature="nextButton()[pri:0, instance:dcaCmsTests.NPI_NextButton@19f99ea]" name="nextButton" duration-ms="4" started-at="2017-01-24T22:49:36Z" finished-at="2017-01-24T22:49:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- nextButton -->
+        <test-method status="SKIP" signature="closeBrowser()[pri:0, instance:dcaCmsTests.NPI_NextButton@19f99ea]" name="closeBrowser" is-config="true" duration-ms="0" started-at="2017-01-24T22:49:36Z" finished-at="2017-01-24T22:49:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- dcaCmsTests.NPI_NextButton -->
+      <class name="dcaCmsTests.ExitFunctionality">
+        <test-method status="SKIP" signature="openBrowser()[pri:0, instance:dcaCmsTests.ExitFunctionality@a3ffec]" name="openBrowser" is-config="true" duration-ms="0" started-at="2017-01-24T22:49:36Z" finished-at="2017-01-24T22:49:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="SKIP" signature="exitFunctionality()[pri:0, instance:dcaCmsTests.ExitFunctionality@a3ffec]" name="exitFunctionality" duration-ms="3" started-at="2017-01-24T22:49:36Z" finished-at="2017-01-24T22:49:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- exitFunctionality -->
+        <test-method status="SKIP" signature="closeBrowser()[pri:0, instance:dcaCmsTests.ExitFunctionality@a3ffec]" name="closeBrowser" is-config="true" duration-ms="0" started-at="2017-01-24T22:49:36Z" finished-at="2017-01-24T22:49:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- dcaCmsTests.ExitFunctionality -->
+      <class name="dcaCmsTests.NPI_Tab">
+        <test-method status="SKIP" signature="openBrowser()[pri:0, instance:dcaCmsTests.NPI_Tab@70fda8]" name="openBrowser" is-config="true" duration-ms="0" started-at="2017-01-24T22:49:36Z" finished-at="2017-01-24T22:49:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="SKIP" signature="NPI_TabClick()[pri:0, instance:dcaCmsTests.NPI_Tab@70fda8]" name="NPI_TabClick" duration-ms="1" started-at="2017-01-24T22:49:36Z" finished-at="2017-01-24T22:49:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- NPI_TabClick -->
+        <test-method status="SKIP" signature="closeBrowser()[pri:0, instance:dcaCmsTests.NPI_Tab@70fda8]" name="closeBrowser" is-config="true" duration-ms="0" started-at="2017-01-24T22:49:36Z" finished-at="2017-01-24T22:49:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- dcaCmsTests.NPI_Tab -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

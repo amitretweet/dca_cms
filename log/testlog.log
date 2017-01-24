@@ -1,0 +1,763 @@
+2017-01-24 22:42:33,183 - LoginFunctionality -INFO - open login page
+2017-01-24 22:42:33,537 - LoginFunctionality -INFO - Enter User Name
+2017-01-24 22:42:33,682 - LoginFunctionality -INFO - Enter Password
+2017-01-24 22:42:38,731 - LoginFunctionality -INFO - Click login Button
+2017-01-24 22:52:15,394 - dcaCmsTests.NPI_SortByLongitude -INFO - **This Test is verifying NPI_SortByLongitude functionality**
+2017-01-24 22:52:16,434 - dcaCmsPages.LoginPage -INFO - Opening Login Page
+2017-01-24 22:52:16,757 - dcaCmsPages.LoginPage -INFO - Entering UserName
+2017-01-24 22:52:18,861 - dcaCmsPages.LoginPage -INFO - Entering PassWord
+2017-01-24 22:52:23,130 - dcaCmsPages.LoginPage -INFO - Clicking Enter Button
+2017-01-24 22:52:26,341 - dcaCmsPages.NPI_Page -INFO - Moving to New Product Image Tab
+2017-01-24 22:52:31,724 - dcaCmsPages.NPI_Page -INFO - Clicking On SortByLongitude and Sorting By SortByLongitude
+2017-01-24 22:52:34,731 - dcaCmsBase.Utility -INFO - Capturing Screenshot
+2017-01-24 22:54:03,388 - dcaCmsTests.LoginFunctionality -INFO - **This Test is verifying LOGIN functionality**
+2017-01-24 22:54:04,373 - dcaCmsPages.LoginPage -INFO - Opening Login Page
+2017-01-24 22:54:04,618 - dcaCmsPages.LoginPage -INFO - Entering UserName
+2017-01-24 22:54:06,728 - dcaCmsPages.LoginPage -INFO - Entering PassWord
+2017-01-24 22:54:10,625 - dcaCmsPages.LoginPage -INFO - Clicking Enter Button
+2017-01-24 22:54:14,916 - dcaCmsBase.Utility -INFO - Capturing Screenshot
+2017-01-24 22:54:18,244 - dcaCmsBase.Utility -INFO - Screenshot Captured
+2017-01-24 22:54:18,255 - dcaCmsBase.Base -INFO - ****This Test is completed****Moving to next Test****
+2017-01-24 22:54:32,275 - dcaCmsTests.LoginFunctionality -INFO - **This Test is verifying LOGIN functionality with invalid credentials**
+2017-01-24 22:54:32,474 - dcaCmsPages.LoginPage -INFO - Entering Invalid UserName
+2017-01-24 22:54:35,567 - dcaCmsPages.LoginPage -INFO - Entering Invalid PassWord
+2017-01-24 22:54:40,481 - dcaCmsPages.LoginPage -INFO - Clicking Enter Button
+2017-01-24 22:54:44,571 - dcaCmsBase.Utility -INFO - Capturing Screenshot
+2017-01-24 22:54:47,730 - dcaCmsBase.Utility -INFO - Screenshot Captured
+2017-01-24 22:54:47,734 - dcaCmsBase.Base -INFO - ****This Test is completed****Moving to next Test****
+2017-01-24 22:54:59,645 - dcaCmsTests.CountryAlias -INFO - **This Test is verifying CountryAlias_Tab_Click functionality**
+2017-01-24 22:54:59,647 - dcaCmsPages.LoginPage -INFO - Opening Login Page
+2017-01-24 22:54:59,872 - dcaCmsPages.LoginPage -INFO - Entering UserName
+2017-01-24 22:55:01,975 - dcaCmsPages.LoginPage -INFO - Entering PassWord
+2017-01-24 22:55:05,869 - dcaCmsPages.LoginPage -INFO - Clicking Enter Button
+2017-01-24 22:55:07,886 - dcaCmsPages.CountryAliasPage -INFO - Moving to Countryalias Tab
+2017-01-24 22:55:19,805 - dcaCmsBase.Utility -INFO - Capturing Screenshot
+2017-01-24 22:55:23,071 - dcaCmsBase.Utility -INFO - Screenshot Captured
+2017-01-24 22:55:23,075 - dcaCmsBase.Base -INFO - ****This Test is completed****Moving to next Test****
+2017-01-24 22:55:34,269 - dcaCmsTests.CountryAlias_PageSearch -INFO - **This Test is verifying CountryAlias_PageSearch functionality**
+2017-01-24 22:55:34,287 - dcaCmsPages.LoginPage -INFO - Opening Login Page
+2017-01-24 22:55:34,421 - dcaCmsPages.LoginPage -INFO - Entering UserName
+2017-01-24 22:55:36,518 - dcaCmsPages.LoginPage -INFO - Entering PassWord
+2017-01-24 22:55:40,410 - dcaCmsPages.LoginPage -INFO - Clicking Enter Button
+2017-01-24 22:55:43,423 - dcaCmsPages.CountryAliasPage -INFO - Moving to Countryalias Tab
+2017-01-24 22:55:48,965 - dcaCmsPages.CountryAliasPage -INFO - Reading Page number from excel file
+2017-01-24 22:55:48,994 - dcaCmsPages.CountryAliasPage -INFO - Locating pagesearch box
+2017-01-24 22:55:49,162 - dcaCmsPages.CountryAliasPage -INFO - Entering Page number coming from excel file into searchbox
+2017-01-24 22:55:51,468 - dcaCmsPages.CountryAliasPage -INFO - Clickin Enter
+2017-01-24 22:55:54,472 - dcaCmsBase.Utility -INFO - Capturing Screenshot
+2017-01-24 22:55:57,701 - dcaCmsBase.Utility -INFO - Screenshot Captured
+2017-01-24 22:55:57,705 - dcaCmsBase.Base -INFO - ****This Test is completed****Moving to next Test****
+2017-01-24 22:56:11,773 - dcaCmsTests.CountryAlias_AddRow -INFO - **This Test is verifying CountryAlias_AddRow functionality**
+2017-01-24 22:56:11,783 - dcaCmsPages.LoginPage -INFO - Opening Login Page
+2017-01-24 22:56:11,917 - dcaCmsPages.LoginPage -INFO - Entering UserName
+2017-01-24 22:56:14,022 - dcaCmsPages.LoginPage -INFO - Entering PassWord
+2017-01-24 22:56:17,937 - dcaCmsPages.LoginPage -INFO - Clicking Enter Button
+2017-01-24 22:56:20,941 - dcaCmsPages.CountryAliasPage -INFO - Moving to Countryalias Tab
+2017-01-24 22:56:28,409 - dcaCmsPages.CountryAliasPage -INFO - Clicking on Add Icon
+2017-01-24 22:56:32,813 - dcaCmsPages.CountryAliasPage -INFO - Selecting Alias Value
+2017-01-24 22:56:34,916 - dcaCmsPages.CountryAliasPage -INFO - Entering value in Name textbox
+2017-01-24 22:56:35,085 - dcaCmsPages.CountryAliasPage -INFO - Selecting Code
+2017-01-24 22:56:39,492 - dcaCmsPages.CountryAliasPage -INFO - Clickong Add button
+2017-01-24 22:56:39,494 - dcaCmsBase.Utility -INFO - Capturing Screenshot
+2017-01-24 22:56:42,719 - dcaCmsBase.Utility -INFO - Screenshot Captured
+2017-01-24 22:56:42,723 - dcaCmsBase.Base -INFO - ****This Test is completed****Moving to next Test****
+2017-01-24 22:56:54,318 - dcaCmsTests.CountryAlias_EditRow -INFO - **This Test is verifying CountryAlias_EditRow functionality**
+2017-01-24 22:56:54,321 - dcaCmsPages.LoginPage -INFO - Opening Login Page
+2017-01-24 22:56:54,458 - dcaCmsPages.LoginPage -INFO - Entering UserName
+2017-01-24 22:56:56,556 - dcaCmsPages.LoginPage -INFO - Entering PassWord
+2017-01-24 22:57:00,484 - dcaCmsPages.LoginPage -INFO - Clicking Enter Button
+2017-01-24 22:57:03,488 - dcaCmsPages.CountryAliasPage -INFO - Moving to Countryalias Tab
+2017-01-24 22:57:12,867 - dcaCmsPages.CountryAliasPage -INFO - Ready to edit row
+2017-01-24 22:57:16,009 - dcaCmsPages.CountryAliasPage -INFO - Selecting Row to Edit
+2017-01-24 22:57:19,250 - dcaCmsPages.CountryAliasPage -INFO - Clicking on Edit Icon
+2017-01-24 22:57:22,253 - dcaCmsBase.Utility -INFO - Capturing Screenshot
+2017-01-24 22:57:25,535 - dcaCmsBase.Utility -INFO - Screenshot Captured
+2017-01-24 22:57:25,590 - dcaCmsPages.CountryAliasPage -INFO - Selecting Alias Value
+2017-01-24 22:57:31,949 - dcaCmsPages.CountryAliasPage -INFO - Entering Name in textbox
+2017-01-24 22:57:32,021 - dcaCmsPages.CountryAliasPage -INFO - Selecting Code
+2017-01-24 22:57:36,193 - dcaCmsPages.CountryAliasPage -INFO - Submitting Edit
+2017-01-24 22:57:36,195 - dcaCmsBase.Utility -INFO - Capturing Screenshot
+2017-01-24 22:57:39,486 - dcaCmsBase.Utility -INFO - Screenshot Captured
+2017-01-24 22:57:39,489 - dcaCmsBase.Base -INFO - ****This Test is completed****Moving to next Test****
+2017-01-24 22:57:51,046 - dcaCmsTests.CountryAlias_DeleteRow -INFO - **This Test is verifying CountryAlias_DeleteRow functionality**
+2017-01-24 22:57:51,048 - dcaCmsPages.LoginPage -INFO - Opening Login Page
+2017-01-24 22:57:51,214 - dcaCmsPages.LoginPage -INFO - Entering UserName
+2017-01-24 22:57:53,321 - dcaCmsPages.LoginPage -INFO - Entering PassWord
+2017-01-24 22:57:57,205 - dcaCmsPages.LoginPage -INFO - Clicking Enter Button
+2017-01-24 22:58:01,210 - dcaCmsPages.CountryAliasPage -INFO - Moving to Countryalias Tab
+2017-01-24 22:58:14,015 - dcaCmsPages.CountryAliasPage -INFO - Selecting Row to Delete
+2017-01-24 22:58:18,176 - dcaCmsPages.CountryAliasPage -INFO - Row Selected
+2017-01-24 22:58:22,544 - dcaCmsPages.CountryAliasPage -INFO - Submitting Delete
+2017-01-24 22:58:22,657 - dcaCmsPages.CountryAliasPage -INFO - Accepting popup and finalizing Delete Task
+2017-01-24 22:58:26,661 - dcaCmsBase.Utility -INFO - Capturing Screenshot
+2017-01-24 22:58:31,952 - dcaCmsBase.Base -INFO - ****This Test is completed****Moving to next Test****
+2017-01-24 22:58:43,935 - dcaCmsTests.NPI_Tab -INFO - This Test is verifying NPI_TabClick functionality
+2017-01-24 22:58:43,937 - dcaCmsPages.LoginPage -INFO - Opening Login Page
+2017-01-24 22:58:44,081 - dcaCmsPages.LoginPage -INFO - Entering UserName
+2017-01-24 22:58:46,180 - dcaCmsPages.LoginPage -INFO - Entering PassWord
+2017-01-24 22:58:50,070 - dcaCmsPages.LoginPage -INFO - Clicking Enter Button
+2017-01-24 22:59:02,006 - dcaCmsPages.NPI_Page -INFO - Moving to New Product Image Tab
+2017-01-24 22:59:05,009 - dcaCmsBase.Utility -INFO - Capturing Screenshot
+2017-01-24 22:59:08,595 - dcaCmsBase.Utility -INFO - Screenshot Captured
+2017-01-24 22:59:08,599 - dcaCmsBase.Base -INFO - ****This Test is completed****Moving to next Test****
+2017-01-24 22:59:24,501 - dcaCmsTests.NPI_PreviousButton -INFO - **This Test is verifying NPI_PreviousButton functionality**
+2017-01-24 22:59:24,520 - dcaCmsPages.LoginPage -INFO - Opening Login Page
+2017-01-24 22:59:24,661 - dcaCmsPages.LoginPage -INFO - Entering UserName
+2017-01-24 23:02:28,200 - dcaCmsTests.LoginFunctionality -INFO - **This Test is verifying LOGIN functionality**
+2017-01-24 23:02:30,827 - dcaCmsPages.LoginPage -INFO - Opening Login Page
+2017-01-24 23:02:30,993 - dcaCmsPages.LoginPage -INFO - Entering UserName
+2017-01-24 23:02:33,090 - dcaCmsPages.LoginPage -INFO - Entering PassWord
+2017-01-24 23:02:36,993 - dcaCmsPages.LoginPage -INFO - Clicking Enter Button
+2017-01-24 23:02:41,061 - dcaCmsBase.Utility -INFO - Capturing Screenshot
+2017-01-24 23:02:44,314 - dcaCmsBase.Utility -INFO - Screenshot Captured
+2017-01-24 23:02:44,318 - dcaCmsBase.Base -INFO - ****This Test is completed****Moving to next Test****
+2017-01-24 23:02:55,848 - dcaCmsTests.LoginFunctionality -INFO - **This Test is verifying LOGIN functionality with invalid credentials**
+2017-01-24 23:02:55,983 - dcaCmsPages.LoginPage -INFO - Entering Invalid UserName
+2017-01-24 23:02:59,086 - dcaCmsPages.LoginPage -INFO - Entering Invalid PassWord
+2017-01-24 23:03:03,999 - dcaCmsPages.LoginPage -INFO - Clicking Enter Button
+2017-01-24 23:03:08,107 - dcaCmsBase.Utility -INFO - Capturing Screenshot
+2017-01-24 23:03:11,272 - dcaCmsBase.Utility -INFO - Screenshot Captured
+2017-01-24 23:03:11,304 - dcaCmsBase.Base -INFO - ****This Test is completed****Moving to next Test****
+2017-01-24 23:03:21,944 - dcaCmsTests.CountryAlias -INFO - **This Test is verifying CountryAlias_Tab_Click functionality**
+2017-01-24 23:03:21,948 - dcaCmsPages.LoginPage -INFO - Opening Login Page
+2017-01-24 23:03:22,106 - dcaCmsPages.LoginPage -INFO - Entering UserName
+2017-01-24 23:03:24,215 - dcaCmsPages.LoginPage -INFO - Entering PassWord
+2017-01-24 23:03:28,107 - dcaCmsPages.LoginPage -INFO - Clicking Enter Button
+2017-01-24 23:03:30,204 - dcaCmsPages.CountryAliasPage -INFO - Moving to Countryalias Tab
+2017-01-24 23:03:40,632 - dcaCmsBase.Utility -INFO - Capturing Screenshot
+2017-01-24 23:03:43,884 - dcaCmsBase.Utility -INFO - Screenshot Captured
+2017-01-24 23:03:43,888 - dcaCmsBase.Base -INFO - ****This Test is completed****Moving to next Test****
+2017-01-24 23:03:55,540 - dcaCmsTests.CountryAlias_PageSearch -INFO - **This Test is verifying CountryAlias_PageSearch functionality**
+2017-01-24 23:03:55,562 - dcaCmsPages.LoginPage -INFO - Opening Login Page
+2017-01-24 23:03:55,749 - dcaCmsPages.LoginPage -INFO - Entering UserName
+2017-01-24 23:03:57,847 - dcaCmsPages.LoginPage -INFO - Entering PassWord
+2017-01-24 23:04:01,735 - dcaCmsPages.LoginPage -INFO - Clicking Enter Button
+2017-01-24 23:04:04,750 - dcaCmsPages.CountryAliasPage -INFO - Moving to Countryalias Tab
+2017-01-24 23:04:11,150 - dcaCmsPages.CountryAliasPage -INFO - Reading Page number from excel file
+2017-01-24 23:04:11,174 - dcaCmsPages.CountryAliasPage -INFO - Locating pagesearch box
+2017-01-24 23:04:11,252 - dcaCmsPages.CountryAliasPage -INFO - Entering Page number coming from excel file into searchbox
+2017-01-24 23:04:13,377 - dcaCmsPages.CountryAliasPage -INFO - Clickin Enter
+2017-01-24 23:04:16,384 - dcaCmsBase.Utility -INFO - Capturing Screenshot
+2017-01-24 23:04:19,632 - dcaCmsBase.Utility -INFO - Screenshot Captured
+2017-01-24 23:04:19,635 - dcaCmsBase.Base -INFO - ****This Test is completed****Moving to next Test****
+2017-01-24 23:04:31,836 - dcaCmsTests.CountryAlias_AddRow -INFO - **This Test is verifying CountryAlias_AddRow functionality**
+2017-01-24 23:04:31,842 - dcaCmsPages.LoginPage -INFO - Opening Login Page
+2017-01-24 23:04:31,984 - dcaCmsPages.LoginPage -INFO - Entering UserName
+2017-01-24 23:04:34,092 - dcaCmsPages.LoginPage -INFO - Entering PassWord
+2017-01-24 23:04:38,038 - dcaCmsPages.LoginPage -INFO - Clicking Enter Button
+2017-01-24 23:04:41,044 - dcaCmsPages.CountryAliasPage -INFO - Moving to Countryalias Tab
+2017-01-24 23:04:47,096 - dcaCmsPages.CountryAliasPage -INFO - Clicking on Add Icon
+2017-01-24 23:04:51,388 - dcaCmsPages.CountryAliasPage -INFO - Selecting Alias Value
+2017-01-24 23:04:53,489 - dcaCmsPages.CountryAliasPage -INFO - Entering value in Name textbox
+2017-01-24 23:04:53,654 - dcaCmsPages.CountryAliasPage -INFO - Selecting Code
+2017-01-24 23:04:57,854 - dcaCmsPages.CountryAliasPage -INFO - Clickong Add button
+2017-01-24 23:04:57,856 - dcaCmsBase.Utility -INFO - Capturing Screenshot
+2017-01-24 23:05:01,089 - dcaCmsBase.Utility -INFO - Screenshot Captured
+2017-01-24 23:05:01,091 - dcaCmsBase.Base -INFO - ****This Test is completed****Moving to next Test****
+2017-01-24 23:05:12,404 - dcaCmsTests.CountryAlias_EditRow -INFO - **This Test is verifying CountryAlias_EditRow functionality**
+2017-01-24 23:05:12,407 - dcaCmsPages.LoginPage -INFO - Opening Login Page
+2017-01-24 23:05:12,554 - dcaCmsPages.LoginPage -INFO - Entering UserName
+2017-01-24 23:05:14,658 - dcaCmsPages.LoginPage -INFO - Entering PassWord
+2017-01-24 23:05:18,552 - dcaCmsPages.LoginPage -INFO - Clicking Enter Button
+2017-01-24 23:05:21,556 - dcaCmsPages.CountryAliasPage -INFO - Moving to Countryalias Tab
+2017-01-24 23:05:33,917 - dcaCmsPages.CountryAliasPage -INFO - Ready to edit row
+2017-01-24 23:05:37,061 - dcaCmsPages.CountryAliasPage -INFO - Selecting Row to Edit
+2017-01-24 23:05:40,306 - dcaCmsPages.CountryAliasPage -INFO - Clicking on Edit Icon
+2017-01-24 23:05:43,310 - dcaCmsBase.Utility -INFO - Capturing Screenshot
+2017-01-24 23:05:46,548 - dcaCmsBase.Utility -INFO - Screenshot Captured
+2017-01-24 23:05:46,593 - dcaCmsPages.CountryAliasPage -INFO - Selecting Alias Value
+2017-01-24 23:05:53,079 - dcaCmsPages.CountryAliasPage -INFO - Entering Name in textbox
+2017-01-24 23:05:53,157 - dcaCmsPages.CountryAliasPage -INFO - Selecting Code
+2017-01-24 23:05:57,338 - dcaCmsPages.CountryAliasPage -INFO - Submitting Edit
+2017-01-24 23:05:57,341 - dcaCmsBase.Utility -INFO - Capturing Screenshot
+2017-01-24 23:06:00,641 - dcaCmsBase.Utility -INFO - Screenshot Captured
+2017-01-24 23:06:00,646 - dcaCmsBase.Base -INFO - ****This Test is completed****Moving to next Test****
+2017-01-24 23:06:11,391 - dcaCmsTests.CountryAlias_DeleteRow -INFO - **This Test is verifying CountryAlias_DeleteRow functionality**
+2017-01-24 23:06:11,393 - dcaCmsPages.LoginPage -INFO - Opening Login Page
+2017-01-24 23:06:11,531 - dcaCmsPages.LoginPage -INFO - Entering UserName
+2017-01-24 23:06:13,632 - dcaCmsPages.LoginPage -INFO - Entering PassWord
+2017-01-24 23:06:17,512 - dcaCmsPages.LoginPage -INFO - Clicking Enter Button
+2017-01-24 23:06:21,516 - dcaCmsPages.CountryAliasPage -INFO - Moving to Countryalias Tab
+2017-01-24 23:06:33,430 - dcaCmsPages.CountryAliasPage -INFO - Selecting Row to Delete
+2017-01-24 23:06:37,600 - dcaCmsPages.CountryAliasPage -INFO - Row Selected
+2017-01-24 23:06:41,797 - dcaCmsPages.CountryAliasPage -INFO - Submitting Delete
+2017-01-24 23:06:41,876 - dcaCmsPages.CountryAliasPage -INFO - Accepting popup and finalizing Delete Task
+2017-01-24 23:06:45,882 - dcaCmsBase.Utility -INFO - Capturing Screenshot
+2017-01-24 23:06:49,173 - dcaCmsBase.Utility -INFO - Screenshot Captured
+2017-01-24 23:06:49,175 - dcaCmsBase.Base -INFO - ****This Test is completed****Moving to next Test****
+2017-01-24 23:07:00,628 - dcaCmsTests.NPI_Tab -INFO - This Test is verifying NPI_TabClick functionality
+2017-01-24 23:07:00,630 - dcaCmsPages.LoginPage -INFO - Opening Login Page
+2017-01-24 23:07:00,775 - dcaCmsPages.LoginPage -INFO - Entering UserName
+2017-01-24 23:07:02,879 - dcaCmsPages.LoginPage -INFO - Entering PassWord
+2017-01-24 23:07:06,829 - dcaCmsPages.LoginPage -INFO - Clicking Enter Button
+2017-01-24 23:07:18,327 - dcaCmsPages.NPI_Page -INFO - Moving to New Product Image Tab
+2017-01-24 23:07:21,331 - dcaCmsBase.Utility -INFO - Capturing Screenshot
+2017-01-24 23:07:24,862 - dcaCmsBase.Utility -INFO - Screenshot Captured
+2017-01-24 23:07:24,864 - dcaCmsBase.Base -INFO - ****This Test is completed****Moving to next Test****
+2017-01-24 23:07:36,899 - dcaCmsTests.NPI_PreviousButton -INFO - **This Test is verifying NPI_PreviousButton functionality**
+2017-01-24 23:07:36,905 - dcaCmsPages.LoginPage -INFO - Opening Login Page
+2017-01-24 23:07:37,107 - dcaCmsPages.LoginPage -INFO - Entering UserName
+2017-01-24 23:07:39,202 - dcaCmsPages.LoginPage -INFO - Entering PassWord
+2017-01-24 23:07:43,097 - dcaCmsPages.LoginPage -INFO - Clicking Enter Button
+2017-01-24 23:07:52,066 - dcaCmsPages.NPI_Page -INFO - Moving to New Product Image Tab
+2017-01-24 23:07:52,196 - dcaCmsPages.Buttons -INFO - Clicking a specific page button to perform prev_button operation
+2017-01-24 23:07:57,603 - dcaCmsPages.Buttons -INFO - Click on Previous Button
+2017-01-24 23:08:03,470 - dcaCmsPages.Buttons -INFO - 2nd time click on previous Button
+2017-01-24 23:08:09,110 - dcaCmsPages.Buttons -INFO - 3rd time click on previous Button
+2017-01-24 23:08:12,114 - dcaCmsBase.Utility -INFO - Capturing Screenshot
+2017-01-24 23:08:15,669 - dcaCmsBase.Utility -INFO - Screenshot Captured
+2017-01-24 23:08:15,670 - dcaCmsBase.Base -INFO - ****This Test is completed****Moving to next Test****
+2017-01-24 23:08:26,370 - dcaCmsTests.NPI_PageNumberButtonClick -INFO - **This Test is verifying NPI_PageNumberButtonClick functionality**
+2017-01-24 23:08:26,372 - dcaCmsPages.LoginPage -INFO - Opening Login Page
+2017-01-24 23:08:26,514 - dcaCmsPages.LoginPage -INFO - Entering UserName
+2017-01-24 23:08:28,632 - dcaCmsPages.LoginPage -INFO - Entering PassWord
+2017-01-24 23:08:32,580 - dcaCmsPages.LoginPage -INFO - Clicking Enter Button
+2017-01-24 23:08:41,119 - dcaCmsPages.NPI_Page -INFO - Moving to New Product Image Tab
+2017-01-24 23:08:44,329 - dcaCmsPages.Buttons -INFO - Click on any pageButton
+2017-01-24 23:08:52,942 - dcaCmsPages.Buttons -INFO - Again click on any pageButton
+2017-01-24 23:09:00,920 - dcaCmsPages.Buttons -INFO - Again click on another pageButton
+2017-01-24 23:09:07,928 - dcaCmsBase.Utility -INFO - Capturing Screenshot
+2017-01-24 23:09:11,461 - dcaCmsBase.Utility -INFO - Screenshot Captured
+2017-01-24 23:09:11,464 - dcaCmsBase.Base -INFO - ****This Test is completed****Moving to next Test****
+2017-01-24 23:09:23,908 - dcaCmsTests.NPI_NextButton -INFO - **This Test is verifying NPI_NextButton functionality**
+2017-01-24 23:09:23,909 - dcaCmsPages.LoginPage -INFO - Opening Login Page
+2017-01-24 23:09:24,061 - dcaCmsPages.LoginPage -INFO - Entering UserName
+2017-01-24 23:09:26,145 - dcaCmsPages.LoginPage -INFO - Entering PassWord
+2017-01-24 23:09:30,038 - dcaCmsPages.LoginPage -INFO - Clicking Enter Button
+2017-01-24 23:09:34,226 - dcaCmsPages.NPI_Page -INFO - Moving to New Product Image Tab
+2017-01-24 23:09:42,965 - dcaCmsPages.Buttons -INFO - Click on NextButton
+2017-01-24 23:09:48,099 - dcaCmsPages.Buttons -INFO - 2nd time click on NextButton
+2017-01-24 23:09:53,131 - dcaCmsPages.Buttons -INFO - 3rd time click on NextButton
+2017-01-24 23:09:56,136 - dcaCmsBase.Utility -INFO - Capturing Screenshot
+2017-01-24 23:09:59,737 - dcaCmsBase.Utility -INFO - Screenshot Captured
+2017-01-24 23:09:59,742 - dcaCmsBase.Base -INFO - ****This Test is completed****Moving to next Test****
+2017-01-24 23:10:11,148 - dcaCmsTests.NPI_SortById -INFO - **This Test is verifying NPI_SortById functionality**
+2017-01-24 23:10:11,153 - dcaCmsPages.LoginPage -INFO - Opening Login Page
+2017-01-24 23:10:11,329 - dcaCmsPages.LoginPage -INFO - Entering UserName
+2017-01-24 23:10:13,433 - dcaCmsPages.LoginPage -INFO - Entering PassWord
+2017-01-24 23:10:17,364 - dcaCmsPages.LoginPage -INFO - Clicking Enter Button
+2017-01-24 23:10:27,201 - dcaCmsPages.NPI_Page -INFO - Moving to New Product Image Tab
+2017-01-24 23:10:30,365 - dcaCmsPages.NPI_Page -INFO - Clicking on ID Tab for Sorting
+2017-01-24 23:10:33,493 - dcaCmsPages.NPI_Page -INFO - Everything is now sorted By ID
+2017-01-24 23:10:36,498 - dcaCmsBase.Utility -INFO - Capturing Screenshot
+2017-01-24 23:10:43,321 - dcaCmsBase.Utility -INFO - Screenshot Captured
+2017-01-24 23:10:43,323 - dcaCmsBase.Base -INFO - ****This Test is completed****Moving to next Test****
+2017-01-24 23:10:54,251 - dcaCmsTests.NPI_SortBYBarcode -INFO - **This Test is verifying NPI_SortBYBarcode functionality**
+2017-01-24 23:10:54,253 - dcaCmsPages.LoginPage -INFO - Opening Login Page
+2017-01-24 23:10:54,383 - dcaCmsPages.LoginPage -INFO - Entering UserName
+2017-01-24 23:10:56,489 - dcaCmsPages.LoginPage -INFO - Entering PassWord
+2017-01-24 23:11:00,399 - dcaCmsPages.LoginPage -INFO - Clicking Enter Button
+2017-01-24 23:11:08,685 - dcaCmsPages.NPI_Page -INFO - Moving to New Product Image Tab
+2017-01-24 23:11:11,748 - dcaCmsPages.NPI_Page -INFO - Clicking on Barcode Tab and Sorting By Barcode
+2017-01-24 23:11:19,902 - dcaCmsBase.Utility -INFO - Capturing Screenshot
+2017-01-24 23:11:26,180 - dcaCmsBase.Utility -INFO - Screenshot Captured
+2017-01-24 23:11:26,182 - dcaCmsBase.Base -INFO - ****This Test is completed****Moving to next Test****
+2017-01-24 23:11:37,873 - dcaCmsTests.NPI_SortByDateImageTaken -INFO - **This Test is verifying NPI_SortByDateImageTaken functionality**
+2017-01-24 23:11:37,897 - dcaCmsPages.LoginPage -INFO - Opening Login Page
+2017-01-24 23:11:38,107 - dcaCmsPages.LoginPage -INFO - Entering UserName
+2017-01-24 23:11:40,211 - dcaCmsPages.LoginPage -INFO - Entering PassWord
+2017-01-24 23:11:44,123 - dcaCmsPages.LoginPage -INFO - Clicking Enter Button
+2017-01-24 23:11:52,890 - dcaCmsPages.NPI_Page -INFO - Moving to New Product Image Tab
+2017-01-24 23:11:56,059 - dcaCmsPages.NPI_Page -INFO - Clicking on DateImageTaken and Sorting By DateImageTaken
+2017-01-24 23:11:59,067 - dcaCmsBase.Utility -INFO - Capturing Screenshot
+2017-01-24 23:12:08,216 - dcaCmsBase.Utility -INFO - Screenshot Captured
+2017-01-24 23:12:08,218 - dcaCmsBase.Base -INFO - ****This Test is completed****Moving to next Test****
+2017-01-24 23:12:22,064 - dcaCmsTests.NPI_SortBYLatitude -INFO - **This Test is verifying NPI_SortBYLatitude functionality**
+2017-01-24 23:12:22,066 - dcaCmsPages.LoginPage -INFO - Opening Login Page
+2017-01-24 23:12:22,205 - dcaCmsPages.LoginPage -INFO - Entering UserName
+2017-01-24 23:12:24,294 - dcaCmsPages.LoginPage -INFO - Entering PassWord
+2017-01-24 23:12:28,228 - dcaCmsPages.LoginPage -INFO - Clicking Enter Button
+2017-01-24 23:12:31,361 - dcaCmsPages.NPI_Page -INFO - Moving to New Product Image Tab
+2017-01-24 23:12:37,055 - dcaCmsPages.NPI_Page -INFO - Clicking On SortByLatitude and Sorting By SortByLatitude
+2017-01-24 23:12:40,057 - dcaCmsBase.Utility -INFO - Capturing Screenshot
+2017-01-24 23:12:44,384 - dcaCmsBase.Utility -INFO - Screenshot Captured
+2017-01-24 23:12:44,385 - dcaCmsBase.Base -INFO - ****This Test is completed****Moving to next Test****
+2017-01-24 23:12:55,018 - dcaCmsTests.NPI_SortByLongitude -INFO - **This Test is verifying NPI_SortByLongitude functionality**
+2017-01-24 23:12:55,020 - dcaCmsPages.LoginPage -INFO - Opening Login Page
+2017-01-24 23:12:55,152 - dcaCmsPages.LoginPage -INFO - Entering UserName
+2017-01-24 23:12:57,258 - dcaCmsPages.LoginPage -INFO - Entering PassWord
+2017-01-24 23:13:01,142 - dcaCmsPages.LoginPage -INFO - Clicking Enter Button
+2017-01-24 23:13:16,271 - dcaCmsPages.NPI_Page -INFO - Moving to New Product Image Tab
+2017-01-24 23:13:19,438 - dcaCmsPages.NPI_Page -INFO - Clicking On SortByLongitude and Sorting By SortByLongitude
+2017-01-24 23:13:22,440 - dcaCmsBase.Utility -INFO - Capturing Screenshot
+2017-01-24 23:13:29,711 - dcaCmsBase.Utility -INFO - Screenshot Captured
+2017-01-24 23:13:29,713 - dcaCmsBase.Base -INFO - ****This Test is completed****Moving to next Test****
+2017-01-24 23:13:41,784 - dcaCmsTests.NPI_SortByCountryPhotoTaken -INFO - **This Test is verifying NPI_SortByCountryPhotoTaken functionality**
+2017-01-24 23:13:41,786 - dcaCmsPages.LoginPage -INFO - Opening Login Page
+2017-01-24 23:13:41,920 - dcaCmsPages.LoginPage -INFO - Entering UserName
+2017-01-24 23:13:44,023 - dcaCmsPages.LoginPage -INFO - Entering PassWord
+2017-01-24 23:13:47,959 - dcaCmsPages.LoginPage -INFO - Clicking Enter Button
+2017-01-24 23:13:56,650 - dcaCmsPages.NPI_Page -INFO - Moving to New Product Image Tab
+2017-01-24 23:13:59,763 - dcaCmsPages.NPI_Page -INFO - Scrolling To CountryPhotoTaken tab_link
+2017-01-24 23:14:02,934 - dcaCmsPages.NPI_Page -INFO - Clicking On CountryPhotoTaken and Sorting By CountryPhotoTaken
+2017-01-24 23:14:05,936 - dcaCmsBase.Utility -INFO - Capturing Screenshot
+2017-01-24 23:14:09,393 - dcaCmsBase.Utility -INFO - Screenshot Captured
+2017-01-24 23:14:09,395 - dcaCmsBase.Base -INFO - ****This Test is completed****Moving to next Test****
+2017-01-24 23:14:20,727 - dcaCmsTests.NPI_SortBySendDate -INFO - **This Test is verifying NPI_SortBySendDate functionality**
+2017-01-24 23:14:20,729 - dcaCmsPages.LoginPage -INFO - Opening Login Page
+2017-01-24 23:14:20,865 - dcaCmsPages.LoginPage -INFO - Entering UserName
+2017-01-24 23:14:22,967 - dcaCmsPages.LoginPage -INFO - Entering PassWord
+2017-01-24 23:14:26,899 - dcaCmsPages.LoginPage -INFO - Clicking Enter Button
+2017-01-24 23:14:32,375 - dcaCmsPages.NPI_Page -INFO - Moving to New Product Image Tab
+2017-01-24 23:14:35,475 - dcaCmsPages.NPI_Page -INFO - Scrolling To SendDate tab_link
+2017-01-24 23:14:38,630 - dcaCmsPages.NPI_Page -INFO - Clicking On SendDate and Sorting By SendDate
+2017-01-24 23:14:41,633 - dcaCmsBase.Utility -INFO - Capturing Screenshot
+2017-01-24 23:14:45,611 - dcaCmsBase.Utility -INFO - Screenshot Captured
+2017-01-24 23:14:45,613 - dcaCmsBase.Base -INFO - ****This Test is completed****Moving to next Test****
+2017-01-24 23:14:56,297 - dcaCmsTests.NPI_SortByEmailPhotoSend -INFO - **This Test is verifying NPI_SortByEmailPhotoSend functionality**
+2017-01-24 23:14:56,299 - dcaCmsPages.LoginPage -INFO - Opening Login Page
+2017-01-24 23:14:56,436 - dcaCmsPages.LoginPage -INFO - Entering UserName
+2017-01-24 23:14:58,533 - dcaCmsPages.LoginPage -INFO - Entering PassWord
+2017-01-24 23:15:02,412 - dcaCmsPages.LoginPage -INFO - Clicking Enter Button
+2017-01-24 23:15:13,910 - dcaCmsPages.NPI_Page -INFO - Moving to New Product Image Tab
+2017-01-24 23:15:17,013 - dcaCmsPages.NPI_Page -INFO - Scrolling To EmailPhotoSend tab_link
+2017-01-24 23:15:20,158 - dcaCmsPages.NPI_Page -INFO - Clicking On EmailPhotoSend and Sorting By EmailPhotoSend
+2017-01-24 23:15:23,160 - dcaCmsBase.Utility -INFO - Capturing Screenshot
+2017-01-24 23:15:26,643 - dcaCmsBase.Utility -INFO - Screenshot Captured
+2017-01-24 23:15:26,645 - dcaCmsBase.Base -INFO - ****This Test is completed****Moving to next Test****
+2017-01-24 23:15:37,727 - dcaCmsTests.NPI_SortByCountryPhotoSend -INFO - **This Test is verifying NPI_SortByCountryPhotoSend functionality**
+2017-01-24 23:15:37,731 - dcaCmsPages.LoginPage -INFO - Opening Login Page
+2017-01-24 23:15:37,864 - dcaCmsPages.LoginPage -INFO - Entering UserName
+2017-01-24 23:15:39,971 - dcaCmsPages.LoginPage -INFO - Entering PassWord
+2017-01-24 23:15:43,869 - dcaCmsPages.LoginPage -INFO - Clicking Enter Button
+2017-01-24 23:15:55,741 - dcaCmsPages.NPI_Page -INFO - Moving to New Product Image Tab
+2017-01-24 23:15:58,843 - dcaCmsPages.NPI_Page -INFO - Scrolling To CountryPhotoSend tab_link
+2017-01-24 23:16:01,988 - dcaCmsPages.NPI_Page -INFO - Clicking On CountryPhotoSend and Sorting By CountryPhotoSend
+2017-01-24 23:16:04,994 - dcaCmsBase.Utility -INFO - Capturing Screenshot
+2017-01-24 23:16:13,882 - dcaCmsBase.Utility -INFO - Screenshot Captured
+2017-01-24 23:16:13,887 - dcaCmsBase.Base -INFO - ****This Test is completed****Moving to next Test****
+2017-01-24 23:16:26,133 - dcaCmsTests.NPI_SortByIsSynchronized -INFO - **This Test is verifying NPI_SortByIsSynchronized functionality**
+2017-01-24 23:16:26,135 - dcaCmsPages.LoginPage -INFO - Opening Login Page
+2017-01-24 23:16:26,267 - dcaCmsPages.LoginPage -INFO - Entering UserName
+2017-01-24 23:16:28,389 - dcaCmsPages.LoginPage -INFO - Entering PassWord
+2017-01-24 23:16:32,304 - dcaCmsPages.LoginPage -INFO - Clicking Enter Button
+2017-01-24 23:16:40,872 - dcaCmsPages.NPI_Page -INFO - Moving to New Product Image Tab
+2017-01-24 23:16:44,095 - dcaCmsPages.NPI_Page -INFO - Scrolling To IsSynchronized tab_link
+2017-01-24 23:16:47,238 - dcaCmsPages.NPI_Page -INFO - Clicking On IsSynchronized and Sorting By IsSynchronized
+2017-01-24 23:16:50,240 - dcaCmsBase.Utility -INFO - Capturing Screenshot
+2017-01-24 23:16:56,700 - dcaCmsBase.Utility -INFO - Screenshot Captured
+2017-01-24 23:16:56,702 - dcaCmsBase.Base -INFO - ****This Test is completed****Moving to next Test****
+2017-01-24 23:17:07,425 - dcaCmsTests.NPI_SortBySyncDate -INFO - **This Test is verifying NPI_SortBySyncDate functionality**
+2017-01-24 23:17:07,427 - dcaCmsPages.LoginPage -INFO - Opening Login Page
+2017-01-24 23:17:07,557 - dcaCmsPages.LoginPage -INFO - Entering UserName
+2017-01-24 23:17:09,668 - dcaCmsPages.LoginPage -INFO - Entering PassWord
+2017-01-24 23:17:13,610 - dcaCmsPages.LoginPage -INFO - Clicking Enter Button
+2017-01-24 23:17:25,685 - dcaCmsPages.NPI_Page -INFO - Moving to New Product Image Tab
+2017-01-24 23:17:29,698 - dcaCmsBase.Base -INFO - ****This Test is completed****Moving to next Test****
+2017-01-24 23:33:19,528 - dcaCmsTests.LoginFunctionality -INFO - **This Test is verifying LOGIN functionality**
+2017-01-24 23:33:21,655 - dcaCmsPages.LoginPage -INFO - Opening Login Page
+2017-01-24 23:33:21,860 - dcaCmsPages.LoginPage -INFO - Entering UserName
+2017-01-24 23:33:24,075 - dcaCmsPages.LoginPage -INFO - Entering PassWord
+2017-01-24 23:33:28,184 - dcaCmsPages.LoginPage -INFO - Clicking Enter Button
+2017-01-24 23:33:32,194 - dcaCmsBase.Utility -INFO - Capturing Screenshot
+2017-01-24 23:33:35,462 - dcaCmsBase.Utility -INFO - Screenshot Captured
+2017-01-24 23:33:35,465 - dcaCmsBase.Base -INFO - ****This Test is completed****Moving to next Test****
+2017-01-24 23:33:47,859 - dcaCmsTests.LoginFunctionality -INFO - **This Test is verifying LOGIN functionality with invalid credentials**
+2017-01-24 23:33:48,050 - dcaCmsPages.LoginPage -INFO - Entering Invalid UserName
+2017-01-24 23:33:51,151 - dcaCmsPages.LoginPage -INFO - Entering Invalid PassWord
+2017-01-24 23:33:56,122 - dcaCmsPages.LoginPage -INFO - Clicking Enter Button
+2017-01-24 23:34:00,128 - dcaCmsBase.Utility -INFO - Capturing Screenshot
+2017-01-24 23:34:03,267 - dcaCmsBase.Utility -INFO - Screenshot Captured
+2017-01-24 23:34:03,270 - dcaCmsBase.Base -INFO - ****This Test is completed****Moving to next Test****
+2017-01-24 23:34:21,397 - dcaCmsTests.CountryAlias -INFO - **This Test is verifying CountryAlias_Tab_Click functionality**
+2017-01-24 23:34:21,399 - dcaCmsPages.LoginPage -INFO - Opening Login Page
+2017-01-24 23:34:21,561 - dcaCmsPages.LoginPage -INFO - Entering UserName
+2017-01-24 23:34:23,672 - dcaCmsPages.LoginPage -INFO - Entering PassWord
+2017-01-24 23:34:27,775 - dcaCmsPages.LoginPage -INFO - Clicking Enter Button
+2017-01-24 23:34:29,785 - dcaCmsPages.CountryAliasPage -INFO - Moving to Countryalias Tab
+2017-01-24 23:34:33,978 - dcaCmsBase.Utility -INFO - Capturing Screenshot
+2017-01-24 23:34:37,215 - dcaCmsBase.Utility -INFO - Screenshot Captured
+2017-01-24 23:34:37,223 - dcaCmsBase.Base -INFO - ****This Test is completed****Moving to next Test****
+2017-01-24 23:34:48,437 - dcaCmsTests.CountryAlias_PageSearch -INFO - **This Test is verifying CountryAlias_PageSearch functionality**
+2017-01-24 23:34:48,461 - dcaCmsPages.LoginPage -INFO - Opening Login Page
+2017-01-24 23:34:48,700 - dcaCmsPages.LoginPage -INFO - Entering UserName
+2017-01-24 23:34:50,801 - dcaCmsPages.LoginPage -INFO - Entering PassWord
+2017-01-24 23:34:54,712 - dcaCmsPages.LoginPage -INFO - Clicking Enter Button
+2017-01-24 23:34:57,922 - dcaCmsPages.CountryAliasPage -INFO - Moving to Countryalias Tab
+2017-01-24 23:35:03,298 - dcaCmsPages.CountryAliasPage -INFO - Reading Page number from excel file
+2017-01-24 23:35:03,322 - dcaCmsPages.CountryAliasPage -INFO - Locating pagesearch box
+2017-01-24 23:35:03,414 - dcaCmsPages.CountryAliasPage -INFO - Entering Page number coming from excel file into searchbox
+2017-01-24 23:35:05,561 - dcaCmsPages.CountryAliasPage -INFO - Clickin Enter
+2017-01-24 23:35:08,566 - dcaCmsBase.Utility -INFO - Capturing Screenshot
+2017-01-24 23:35:11,816 - dcaCmsBase.Utility -INFO - Screenshot Captured
+2017-01-24 23:35:11,818 - dcaCmsBase.Base -INFO - ****This Test is completed****Moving to next Test****
+2017-01-24 23:35:23,971 - dcaCmsTests.CountryAlias_AddRow -INFO - **This Test is verifying CountryAlias_AddRow functionality**
+2017-01-24 23:35:23,973 - dcaCmsPages.LoginPage -INFO - Opening Login Page
+2017-01-24 23:35:24,117 - dcaCmsPages.LoginPage -INFO - Entering UserName
+2017-01-24 23:35:26,236 - dcaCmsPages.LoginPage -INFO - Entering PassWord
+2017-01-24 23:35:30,162 - dcaCmsPages.LoginPage -INFO - Clicking Enter Button
+2017-01-24 23:35:33,167 - dcaCmsPages.CountryAliasPage -INFO - Moving to Countryalias Tab
+2017-01-24 23:35:38,664 - dcaCmsPages.CountryAliasPage -INFO - Clicking on Add Icon
+2017-01-24 23:35:42,999 - dcaCmsPages.CountryAliasPage -INFO - Selecting Alias Value
+2017-01-24 23:35:45,101 - dcaCmsPages.CountryAliasPage -INFO - Entering value in Name textbox
+2017-01-24 23:35:45,285 - dcaCmsPages.CountryAliasPage -INFO - Selecting Code
+2017-01-24 23:35:49,591 - dcaCmsPages.CountryAliasPage -INFO - Clickong Add button
+2017-01-24 23:35:49,593 - dcaCmsBase.Utility -INFO - Capturing Screenshot
+2017-01-24 23:35:52,828 - dcaCmsBase.Utility -INFO - Screenshot Captured
+2017-01-24 23:35:52,830 - dcaCmsBase.Base -INFO - ****This Test is completed****Moving to next Test****
+2017-01-24 23:36:04,336 - dcaCmsTests.CountryAlias_EditRow -INFO - **This Test is verifying CountryAlias_EditRow functionality**
+2017-01-24 23:36:04,337 - dcaCmsPages.LoginPage -INFO - Opening Login Page
+2017-01-24 23:36:04,480 - dcaCmsPages.LoginPage -INFO - Entering UserName
+2017-01-24 23:36:06,588 - dcaCmsPages.LoginPage -INFO - Entering PassWord
+2017-01-24 23:36:10,500 - dcaCmsPages.LoginPage -INFO - Clicking Enter Button
+2017-01-24 23:36:13,504 - dcaCmsPages.CountryAliasPage -INFO - Moving to Countryalias Tab
+2017-01-24 23:36:22,275 - dcaCmsPages.CountryAliasPage -INFO - Ready to edit row
+2017-01-24 23:36:25,435 - dcaCmsPages.CountryAliasPage -INFO - Selecting Row to Edit
+2017-01-24 23:36:28,663 - dcaCmsPages.CountryAliasPage -INFO - Clicking on Edit Icon
+2017-01-24 23:36:31,760 - dcaCmsBase.Utility -INFO - Capturing Screenshot
+2017-01-24 23:36:34,995 - dcaCmsBase.Utility -INFO - Screenshot Captured
+2017-01-24 23:36:35,044 - dcaCmsPages.CountryAliasPage -INFO - Selecting Alias Value
+2017-01-24 23:36:41,400 - dcaCmsPages.CountryAliasPage -INFO - Entering Name in textbox
+2017-01-24 23:36:41,472 - dcaCmsPages.CountryAliasPage -INFO - Selecting Code
+2017-01-24 23:36:45,641 - dcaCmsPages.CountryAliasPage -INFO - Submitting Edit
+2017-01-24 23:36:45,643 - dcaCmsBase.Utility -INFO - Capturing Screenshot
+2017-01-24 23:36:48,965 - dcaCmsBase.Utility -INFO - Screenshot Captured
+2017-01-24 23:36:48,967 - dcaCmsBase.Base -INFO - ****This Test is completed****Moving to next Test****
+2017-01-24 23:37:00,328 - dcaCmsTests.CountryAlias_DeleteRow -INFO - **This Test is verifying CountryAlias_DeleteRow functionality**
+2017-01-24 23:37:00,331 - dcaCmsPages.LoginPage -INFO - Opening Login Page
+2017-01-24 23:37:00,480 - dcaCmsPages.LoginPage -INFO - Entering UserName
+2017-01-24 23:37:02,571 - dcaCmsPages.LoginPage -INFO - Entering PassWord
+2017-01-24 23:37:06,464 - dcaCmsPages.LoginPage -INFO - Clicking Enter Button
+2017-01-24 23:37:10,466 - dcaCmsPages.CountryAliasPage -INFO - Moving to Countryalias Tab
+2017-01-24 23:37:22,593 - dcaCmsPages.CountryAliasPage -INFO - Selecting Row to Delete
+2017-01-24 23:37:26,753 - dcaCmsPages.CountryAliasPage -INFO - Row Selected
+2017-01-24 23:37:31,167 - dcaCmsPages.CountryAliasPage -INFO - Submitting Delete
+2017-01-24 23:37:31,285 - dcaCmsPages.CountryAliasPage -INFO - Accepting popup and finalizing Delete Task
+2017-01-24 23:37:35,290 - dcaCmsBase.Utility -INFO - Capturing Screenshot
+2017-01-24 23:37:38,521 - dcaCmsBase.Utility -INFO - Screenshot Captured
+2017-01-24 23:37:38,524 - dcaCmsBase.Base -INFO - ****This Test is completed****Moving to next Test****
+2017-01-24 23:37:50,078 - dcaCmsTests.NPI_Tab -INFO - This Test is verifying NPI_TabClick functionality
+2017-01-24 23:37:50,081 - dcaCmsPages.LoginPage -INFO - Opening Login Page
+2017-01-24 23:37:50,223 - dcaCmsPages.LoginPage -INFO - Entering UserName
+2017-01-24 23:37:52,326 - dcaCmsPages.LoginPage -INFO - Entering PassWord
+2017-01-24 23:37:56,285 - dcaCmsPages.LoginPage -INFO - Clicking Enter Button
+2017-01-24 23:38:04,581 - dcaCmsPages.NPI_Page -INFO - Moving to New Product Image Tab
+2017-01-24 23:38:07,585 - dcaCmsBase.Utility -INFO - Capturing Screenshot
+2017-01-24 23:38:11,232 - dcaCmsBase.Utility -INFO - Screenshot Captured
+2017-01-24 23:38:11,234 - dcaCmsBase.Base -INFO - ****This Test is completed****Moving to next Test****
+2017-01-24 23:38:23,008 - dcaCmsTests.NPI_PreviousButton -INFO - **This Test is verifying NPI_PreviousButton functionality**
+2017-01-24 23:38:23,010 - dcaCmsPages.LoginPage -INFO - Opening Login Page
+2017-01-24 23:38:23,204 - dcaCmsPages.LoginPage -INFO - Entering UserName
+2017-01-24 23:38:25,310 - dcaCmsPages.LoginPage -INFO - Entering PassWord
+2017-01-24 23:38:29,199 - dcaCmsPages.LoginPage -INFO - Clicking Enter Button
+2017-01-24 23:38:43,699 - dcaCmsPages.NPI_Page -INFO - Moving to New Product Image Tab
+2017-01-24 23:38:43,864 - dcaCmsPages.Buttons -INFO - Clicking a specific page button to perform prev_button operation
+2017-01-24 23:38:48,937 - dcaCmsPages.Buttons -INFO - Click on Previous Button
+2017-01-24 23:38:54,058 - dcaCmsPages.Buttons -INFO - 2nd time click on previous Button
+2017-01-24 23:38:59,911 - dcaCmsPages.Buttons -INFO - 3rd time click on previous Button
+2017-01-24 23:39:02,914 - dcaCmsBase.Utility -INFO - Capturing Screenshot
+2017-01-24 23:39:11,431 - dcaCmsBase.Utility -INFO - Screenshot Captured
+2017-01-24 23:39:11,434 - dcaCmsBase.Base -INFO - ****This Test is completed****Moving to next Test****
+2017-01-24 23:39:22,488 - dcaCmsTests.NPI_PageNumberButtonClick -INFO - **This Test is verifying NPI_PageNumberButtonClick functionality**
+2017-01-24 23:39:22,607 - dcaCmsPages.LoginPage -INFO - Opening Login Page
+2017-01-24 23:39:22,767 - dcaCmsPages.LoginPage -INFO - Entering UserName
+2017-01-24 23:39:24,874 - dcaCmsPages.LoginPage -INFO - Entering PassWord
+2017-01-24 23:39:28,751 - dcaCmsPages.LoginPage -INFO - Clicking Enter Button
+2017-01-24 23:39:31,893 - dcaCmsPages.NPI_Page -INFO - Moving to New Product Image Tab
+2017-01-24 23:39:40,316 - dcaCmsPages.Buttons -INFO - Click on any pageButton
+2017-01-24 23:39:48,831 - dcaCmsPages.Buttons -INFO - Again click on any pageButton
+2017-01-24 23:39:56,911 - dcaCmsPages.Buttons -INFO - Again click on another pageButton
+2017-01-24 23:40:03,943 - dcaCmsBase.Utility -INFO - Capturing Screenshot
+2017-01-24 23:40:07,503 - dcaCmsBase.Utility -INFO - Screenshot Captured
+2017-01-24 23:40:07,505 - dcaCmsBase.Base -INFO - ****This Test is completed****Moving to next Test****
+2017-01-24 23:40:19,320 - dcaCmsTests.NPI_NextButton -INFO - **This Test is verifying NPI_NextButton functionality**
+2017-01-24 23:40:19,322 - dcaCmsPages.LoginPage -INFO - Opening Login Page
+2017-01-24 23:40:19,468 - dcaCmsPages.LoginPage -INFO - Entering UserName
+2017-01-24 23:40:21,581 - dcaCmsPages.LoginPage -INFO - Entering PassWord
+2017-01-24 23:40:25,503 - dcaCmsPages.LoginPage -INFO - Clicking Enter Button
+2017-01-24 23:40:29,635 - dcaCmsPages.NPI_Page -INFO - Moving to New Product Image Tab
+2017-01-24 23:40:35,708 - dcaCmsPages.Buttons -INFO - Click on NextButton
+2017-01-24 23:40:47,026 - dcaCmsPages.Buttons -INFO - 2nd time click on NextButton
+2017-01-24 23:40:54,788 - dcaCmsPages.Buttons -INFO - 3rd time click on NextButton
+2017-01-24 23:40:57,790 - dcaCmsBase.Utility -INFO - Capturing Screenshot
+2017-01-24 23:41:01,401 - dcaCmsBase.Utility -INFO - Screenshot Captured
+2017-01-24 23:41:01,405 - dcaCmsBase.Base -INFO - ****This Test is completed****Moving to next Test****
+2017-01-24 23:41:12,915 - dcaCmsTests.NPI_SortById -INFO - **This Test is verifying NPI_SortById functionality**
+2017-01-24 23:41:12,916 - dcaCmsPages.LoginPage -INFO - Opening Login Page
+2017-01-24 23:41:13,059 - dcaCmsPages.LoginPage -INFO - Entering UserName
+2017-01-24 23:41:15,166 - dcaCmsPages.LoginPage -INFO - Entering PassWord
+2017-01-24 23:41:19,056 - dcaCmsPages.LoginPage -INFO - Clicking Enter Button
+2017-01-24 23:41:30,348 - dcaCmsPages.NPI_Page -INFO - Moving to New Product Image Tab
+2017-01-24 23:41:33,524 - dcaCmsPages.NPI_Page -INFO - Clicking on ID Tab for Sorting
+2017-01-24 23:41:36,686 - dcaCmsPages.NPI_Page -INFO - Everything is now sorted By ID
+2017-01-24 23:41:39,690 - dcaCmsBase.Utility -INFO - Capturing Screenshot
+2017-01-24 23:41:44,307 - dcaCmsBase.Utility -INFO - Screenshot Captured
+2017-01-24 23:41:44,309 - dcaCmsBase.Base -INFO - ****This Test is completed****Moving to next Test****
+2017-01-24 23:41:56,295 - dcaCmsTests.NPI_SortBYBarcode -INFO - **This Test is verifying NPI_SortBYBarcode functionality**
+2017-01-24 23:41:56,297 - dcaCmsPages.LoginPage -INFO - Opening Login Page
+2017-01-24 23:41:56,445 - dcaCmsPages.LoginPage -INFO - Entering UserName
+2017-01-24 23:41:58,543 - dcaCmsPages.LoginPage -INFO - Entering PassWord
+2017-01-24 23:42:04,398 - dcaCmsPages.LoginPage -INFO - Clicking Enter Button
+2017-01-24 23:42:08,888 - dcaCmsPages.NPI_Page -INFO - Moving to New Product Image Tab
+2017-01-24 23:42:17,735 - dcaCmsPages.NPI_Page -INFO - Clicking on Barcode Tab and Sorting By Barcode
+2017-01-24 23:42:25,890 - dcaCmsBase.Utility -INFO - Capturing Screenshot
+2017-01-24 23:42:29,446 - dcaCmsBase.Utility -INFO - Screenshot Captured
+2017-01-24 23:42:29,448 - dcaCmsBase.Base -INFO - ****This Test is completed****Moving to next Test****
+2017-01-24 23:42:41,281 - dcaCmsTests.NPI_SortByDateImageTaken -INFO - **This Test is verifying NPI_SortByDateImageTaken functionality**
+2017-01-24 23:42:41,299 - dcaCmsPages.LoginPage -INFO - Opening Login Page
+2017-01-24 23:42:41,432 - dcaCmsPages.LoginPage -INFO - Entering UserName
+2017-01-24 23:42:43,527 - dcaCmsPages.LoginPage -INFO - Entering PassWord
+2017-01-24 23:42:47,399 - dcaCmsPages.LoginPage -INFO - Clicking Enter Button
+2017-01-24 23:42:55,660 - dcaCmsPages.NPI_Page -INFO - Moving to New Product Image Tab
+2017-01-24 23:42:58,856 - dcaCmsPages.NPI_Page -INFO - Clicking on DateImageTaken and Sorting By DateImageTaken
+2017-01-24 23:43:01,861 - dcaCmsBase.Utility -INFO - Capturing Screenshot
+2017-01-24 23:43:07,780 - dcaCmsBase.Utility -INFO - Screenshot Captured
+2017-01-24 23:43:07,782 - dcaCmsBase.Base -INFO - ****This Test is completed****Moving to next Test****
+2017-01-24 23:43:19,621 - dcaCmsTests.NPI_SortBYLatitude -INFO - **This Test is verifying NPI_SortBYLatitude functionality**
+2017-01-24 23:43:19,623 - dcaCmsPages.LoginPage -INFO - Opening Login Page
+2017-01-24 23:43:19,769 - dcaCmsPages.LoginPage -INFO - Entering UserName
+2017-01-24 23:43:21,882 - dcaCmsPages.LoginPage -INFO - Entering PassWord
+2017-01-24 23:43:25,817 - dcaCmsPages.LoginPage -INFO - Clicking Enter Button
+2017-01-24 23:43:34,236 - dcaCmsPages.NPI_Page -INFO - Moving to New Product Image Tab
+2017-01-24 23:43:37,486 - dcaCmsPages.NPI_Page -INFO - Clicking On SortByLatitude and Sorting By SortByLatitude
+2017-01-24 23:43:40,492 - dcaCmsBase.Utility -INFO - Capturing Screenshot
+2017-01-24 23:43:46,946 - dcaCmsBase.Utility -INFO - Screenshot Captured
+2017-01-24 23:43:46,948 - dcaCmsBase.Base -INFO - ****This Test is completed****Moving to next Test****
+2017-01-24 23:43:57,877 - dcaCmsTests.NPI_SortByLongitude -INFO - **This Test is verifying NPI_SortByLongitude functionality**
+2017-01-24 23:43:57,881 - dcaCmsPages.LoginPage -INFO - Opening Login Page
+2017-01-24 23:43:58,017 - dcaCmsPages.LoginPage -INFO - Entering UserName
+2017-01-24 23:44:00,132 - dcaCmsPages.LoginPage -INFO - Entering PassWord
+2017-01-24 23:44:04,090 - dcaCmsPages.LoginPage -INFO - Clicking Enter Button
+2017-01-24 23:44:15,870 - dcaCmsPages.NPI_Page -INFO - Moving to New Product Image Tab
+2017-01-24 23:44:19,044 - dcaCmsPages.NPI_Page -INFO - Clicking On SortByLongitude and Sorting By SortByLongitude
+2017-01-24 23:44:22,048 - dcaCmsBase.Utility -INFO - Capturing Screenshot
+2017-01-24 23:44:25,599 - dcaCmsBase.Utility -INFO - Screenshot Captured
+2017-01-24 23:44:25,602 - dcaCmsBase.Base -INFO - ****This Test is completed****Moving to next Test****
+2017-01-24 23:44:36,683 - dcaCmsTests.NPI_SortByCountryPhotoTaken -INFO - **This Test is verifying NPI_SortByCountryPhotoTaken functionality**
+2017-01-24 23:44:36,685 - dcaCmsPages.LoginPage -INFO - Opening Login Page
+2017-01-24 23:44:36,824 - dcaCmsPages.LoginPage -INFO - Entering UserName
+2017-01-24 23:44:38,933 - dcaCmsPages.LoginPage -INFO - Entering PassWord
+2017-01-24 23:44:42,837 - dcaCmsPages.LoginPage -INFO - Clicking Enter Button
+2017-01-24 23:44:48,426 - dcaCmsPages.NPI_Page -INFO - Moving to New Product Image Tab
+2017-01-24 23:44:51,529 - dcaCmsPages.NPI_Page -INFO - Scrolling To CountryPhotoTaken tab_link
+2017-01-24 23:44:54,705 - dcaCmsPages.NPI_Page -INFO - Clicking On CountryPhotoTaken and Sorting By CountryPhotoTaken
+2017-01-24 23:44:57,708 - dcaCmsBase.Utility -INFO - Capturing Screenshot
+2017-01-24 23:45:04,094 - dcaCmsBase.Utility -INFO - Screenshot Captured
+2017-01-24 23:45:04,096 - dcaCmsBase.Base -INFO - ****This Test is completed****Moving to next Test****
+2017-01-24 23:45:16,049 - dcaCmsTests.NPI_SortBySendDate -INFO - **This Test is verifying NPI_SortBySendDate functionality**
+2017-01-24 23:45:16,053 - dcaCmsPages.LoginPage -INFO - Opening Login Page
+2017-01-24 23:45:16,200 - dcaCmsPages.LoginPage -INFO - Entering UserName
+2017-01-24 23:45:18,295 - dcaCmsPages.LoginPage -INFO - Entering PassWord
+2017-01-24 23:45:22,340 - dcaCmsPages.LoginPage -INFO - Clicking Enter Button
+2017-01-24 23:45:27,798 - dcaCmsPages.NPI_Page -INFO - Moving to New Product Image Tab
+2017-01-24 23:45:30,910 - dcaCmsPages.NPI_Page -INFO - Scrolling To SendDate tab_link
+2017-01-24 23:45:34,129 - dcaCmsPages.NPI_Page -INFO - Clicking On SendDate and Sorting By SendDate
+2017-01-24 23:45:37,134 - dcaCmsBase.Utility -INFO - Capturing Screenshot
+2017-01-24 23:45:42,803 - dcaCmsBase.Utility -INFO - Screenshot Captured
+2017-01-24 23:45:42,805 - dcaCmsBase.Base -INFO - ****This Test is completed****Moving to next Test****
+2017-01-24 23:45:54,433 - dcaCmsTests.NPI_SortByEmailPhotoSend -INFO - **This Test is verifying NPI_SortByEmailPhotoSend functionality**
+2017-01-24 23:45:54,435 - dcaCmsPages.LoginPage -INFO - Opening Login Page
+2017-01-24 23:45:54,571 - dcaCmsPages.LoginPage -INFO - Entering UserName
+2017-01-24 23:45:56,680 - dcaCmsPages.LoginPage -INFO - Entering PassWord
+2017-01-24 23:46:00,605 - dcaCmsPages.LoginPage -INFO - Clicking Enter Button
+2017-01-24 23:46:09,552 - dcaCmsPages.NPI_Page -INFO - Moving to New Product Image Tab
+2017-01-24 23:46:12,669 - dcaCmsPages.NPI_Page -INFO - Scrolling To EmailPhotoSend tab_link
+2017-01-24 23:46:15,822 - dcaCmsPages.NPI_Page -INFO - Clicking On EmailPhotoSend and Sorting By EmailPhotoSend
+2017-01-24 23:46:18,903 - dcaCmsBase.Utility -INFO - Capturing Screenshot
+2017-01-24 23:46:22,410 - dcaCmsBase.Utility -INFO - Screenshot Captured
+2017-01-24 23:46:22,412 - dcaCmsBase.Base -INFO - ****This Test is completed****Moving to next Test****
+2017-01-24 23:46:33,530 - dcaCmsTests.NPI_SortByCountryPhotoSend -INFO - **This Test is verifying NPI_SortByCountryPhotoSend functionality**
+2017-01-24 23:46:33,532 - dcaCmsPages.LoginPage -INFO - Opening Login Page
+2017-01-24 23:46:33,669 - dcaCmsPages.LoginPage -INFO - Entering UserName
+2017-01-24 23:46:35,776 - dcaCmsPages.LoginPage -INFO - Entering PassWord
+2017-01-24 23:46:39,675 - dcaCmsPages.LoginPage -INFO - Clicking Enter Button
+2017-01-24 23:46:47,896 - dcaCmsPages.NPI_Page -INFO - Moving to New Product Image Tab
+2017-01-24 23:46:51,005 - dcaCmsPages.NPI_Page -INFO - Scrolling To CountryPhotoSend tab_link
+2017-01-24 23:46:54,171 - dcaCmsPages.NPI_Page -INFO - Clicking On CountryPhotoSend and Sorting By CountryPhotoSend
+2017-01-24 23:46:57,173 - dcaCmsBase.Utility -INFO - Capturing Screenshot
+2017-01-24 23:47:01,627 - dcaCmsBase.Utility -INFO - Screenshot Captured
+2017-01-24 23:47:01,629 - dcaCmsBase.Base -INFO - ****This Test is completed****Moving to next Test****
+2017-01-24 23:47:12,750 - dcaCmsTests.NPI_SortByIsSynchronized -INFO - **This Test is verifying NPI_SortByIsSynchronized functionality**
+2017-01-24 23:47:12,751 - dcaCmsPages.LoginPage -INFO - Opening Login Page
+2017-01-24 23:47:12,894 - dcaCmsPages.LoginPage -INFO - Entering UserName
+2017-01-24 23:47:15,009 - dcaCmsPages.LoginPage -INFO - Entering PassWord
+2017-01-24 23:47:18,930 - dcaCmsPages.LoginPage -INFO - Clicking Enter Button
+2017-01-24 23:47:27,522 - dcaCmsPages.NPI_Page -INFO - Moving to New Product Image Tab
+2017-01-24 23:47:30,610 - dcaCmsPages.NPI_Page -INFO - Scrolling To IsSynchronized tab_link
+2017-01-24 23:47:33,778 - dcaCmsPages.NPI_Page -INFO - Clicking On IsSynchronized and Sorting By IsSynchronized
+2017-01-24 23:47:36,780 - dcaCmsBase.Utility -INFO - Capturing Screenshot
+2017-01-24 23:47:40,310 - dcaCmsBase.Utility -INFO - Screenshot Captured
+2017-01-24 23:47:40,383 - dcaCmsBase.Base -INFO - ****This Test is completed****Moving to next Test****
+2017-01-24 23:47:51,837 - dcaCmsTests.NPI_SortBySyncDate -INFO - **This Test is verifying NPI_SortBySyncDate functionality**
+2017-01-24 23:47:51,839 - dcaCmsPages.LoginPage -INFO - Opening Login Page
+2017-01-24 23:47:51,981 - dcaCmsPages.LoginPage -INFO - Entering UserName
+2017-01-24 23:47:54,095 - dcaCmsPages.LoginPage -INFO - Entering PassWord
+2017-01-24 23:47:58,019 - dcaCmsPages.LoginPage -INFO - Clicking Enter Button
+2017-01-24 23:48:06,512 - dcaCmsPages.NPI_Page -INFO - Moving to New Product Image Tab
+2017-01-24 23:48:09,633 - dcaCmsPages.NPI_Page -INFO - Scrolling To SyncDate tab_link
+2017-01-24 23:48:12,791 - dcaCmsPages.NPI_Page -INFO - Clicking On SyncDate and Sorting By SyncDate
+2017-01-24 23:48:15,793 - dcaCmsBase.Utility -INFO - Capturing Screenshot
+2017-01-24 23:48:21,160 - dcaCmsBase.Utility -INFO - Screenshot Captured
+2017-01-24 23:48:21,162 - dcaCmsBase.Base -INFO - ****This Test is completed****Moving to next Test****
+2017-01-24 23:48:32,248 - dcaCmsTests.NPI_SearchById -INFO - **This Test is verifying NPI_SearchById functionality**
+2017-01-24 23:48:32,265 - dcaCmsPages.LoginPage -INFO - Opening Login Page
+2017-01-24 23:48:32,399 - dcaCmsPages.LoginPage -INFO - Entering UserName
+2017-01-24 23:48:34,512 - dcaCmsPages.LoginPage -INFO - Entering PassWord
+2017-01-24 23:48:38,388 - dcaCmsPages.LoginPage -INFO - Clicking Enter Button
+2017-01-24 23:48:47,677 - dcaCmsPages.NPI_Page -INFO - Moving to New Product Image Tab
+2017-01-24 23:48:50,733 - dcaCmsPages.NPI_Page -INFO - Reading ID from EXCEL File
+2017-01-24 23:48:54,917 - dcaCmsPages.NPI_Page -INFO - Entering ID into ID_FILTERBOX...
+2017-01-24 23:48:54,974 - dcaCmsPages.NPI_Page -INFO - Pressing Enter and Getting Data
+2017-01-24 23:48:57,979 - dcaCmsBase.Utility -INFO - Capturing Screenshot
+2017-01-24 23:49:01,535 - dcaCmsBase.Utility -INFO - Screenshot Captured
+2017-01-24 23:49:01,537 - dcaCmsBase.Base -INFO - ****This Test is completed****Moving to next Test****
+2017-01-24 23:49:11,871 - dcaCmsTests.NPI_SearchByBarcode -INFO - **This Test is verifying NPI_SearchByBarcode functionality**
+2017-01-24 23:49:11,890 - dcaCmsPages.LoginPage -INFO - Opening Login Page
+2017-01-24 23:49:12,023 - dcaCmsPages.LoginPage -INFO - Entering UserName
+2017-01-24 23:49:14,129 - dcaCmsPages.LoginPage -INFO - Entering PassWord
+2017-01-24 23:49:18,067 - dcaCmsPages.LoginPage -INFO - Clicking Enter Button
+2017-01-24 23:49:29,748 - dcaCmsPages.NPI_Page -INFO - Moving to New Product Image Tab
+2017-01-24 23:49:32,808 - dcaCmsPages.NPI_Page -INFO - Reading BARCODE from EXCEL File
+2017-01-24 23:49:33,047 - dcaCmsPages.NPI_Page -INFO - Entering BARCODE into BARCODE_FILTERBOX...
+2017-01-24 23:49:37,113 - dcaCmsPages.NPI_Page -INFO - Pressing Enter and Getting Data
+2017-01-24 23:49:40,115 - dcaCmsBase.Utility -INFO - Capturing Screenshot
+2017-01-24 23:49:44,671 - dcaCmsBase.Utility -INFO - Screenshot Captured
+2017-01-24 23:49:44,680 - dcaCmsBase.Base -INFO - ****This Test is completed****Moving to next Test****
+2017-01-24 23:49:55,852 - dcaCmsTests.NPI_SearchByLatitude -INFO - **This Test is verifying NPI_SearchByLatitude functionality**
+2017-01-24 23:49:55,872 - dcaCmsPages.LoginPage -INFO - Opening Login Page
+2017-01-24 23:49:56,008 - dcaCmsPages.LoginPage -INFO - Entering UserName
+2017-01-24 23:49:58,120 - dcaCmsPages.LoginPage -INFO - Entering PassWord
+2017-01-24 23:50:02,009 - dcaCmsPages.LoginPage -INFO - Clicking Enter Button
+2017-01-24 23:50:10,496 - dcaCmsPages.NPI_Page -INFO - Moving to New Product Image Tab
+2017-01-24 23:50:13,549 - dcaCmsPages.NPI_Page -INFO - Reading LATITUDE from EXCEL File
+2017-01-24 23:50:16,797 - dcaCmsPages.NPI_Page -INFO - Entering LATITUDE into LATITUDE_FILTERBOX...
+2017-01-24 23:50:16,847 - dcaCmsPages.NPI_Page -INFO - Pressing Enter and Getting Data
+2017-01-24 23:50:19,851 - dcaCmsBase.Utility -INFO - Capturing Screenshot
+2017-01-24 23:50:23,112 - dcaCmsBase.Utility -INFO - Screenshot Captured
+2017-01-24 23:50:23,115 - dcaCmsBase.Base -INFO - ****This Test is completed****Moving to next Test****
+2017-01-24 23:50:33,741 - dcaCmsTests.NPI_SearchByLongitude -INFO - **This Test is verifying NPI_SearchByLongitude functionality**
+2017-01-24 23:50:33,760 - dcaCmsPages.LoginPage -INFO - Opening Login Page
+2017-01-24 23:50:33,899 - dcaCmsPages.LoginPage -INFO - Entering UserName
+2017-01-24 23:50:36,019 - dcaCmsPages.LoginPage -INFO - Entering PassWord
+2017-01-24 23:50:39,957 - dcaCmsPages.LoginPage -INFO - Clicking Enter Button
+2017-01-24 23:50:48,482 - dcaCmsPages.NPI_Page -INFO - Moving to New Product Image Tab
+2017-01-24 23:50:51,527 - dcaCmsPages.NPI_Page -INFO - Reading LONGITUDE from EXCEL File
+2017-01-24 23:50:51,779 - dcaCmsPages.NPI_Page -INFO - Entering LATITUDE into LATITUDE_FILTERBOX...
+2017-01-24 23:50:51,977 - dcaCmsPages.NPI_Page -INFO - Pressing ENTER and Getting Data
+2017-01-24 23:50:54,982 - dcaCmsBase.Utility -INFO - Capturing Screenshot
+2017-01-24 23:50:58,253 - dcaCmsBase.Utility -INFO - Screenshot Captured
+2017-01-24 23:50:58,257 - dcaCmsBase.Base -INFO - ****This Test is completed****Moving to next Test****
+2017-01-24 23:51:09,188 - dcaCmsTests.NPI_SearchByEmailPhotoTaken -INFO - **This Test is verifying NPI_SearchByEmailPhotoTaken functionality**
+2017-01-24 23:51:09,207 - dcaCmsPages.LoginPage -INFO - Opening Login Page
+2017-01-24 23:51:09,343 - dcaCmsPages.LoginPage -INFO - Entering UserName
+2017-01-24 23:51:11,458 - dcaCmsPages.LoginPage -INFO - Entering PassWord
+2017-01-24 23:51:15,392 - dcaCmsPages.LoginPage -INFO - Clicking Enter Button
+2017-01-24 23:51:24,169 - dcaCmsPages.NPI_Page -INFO - Moving to New Product Image Tab
+2017-01-24 23:51:27,215 - dcaCmsPages.NPI_Page -INFO - Reading EmailPhotoTaken from EXCEL File
+2017-01-24 23:51:27,465 - dcaCmsPages.NPI_Page -INFO - Entering EmailPhotoTaken into EmailPhotoTaken_FILTERBOX...
+2017-01-24 23:51:30,537 - dcaCmsPages.NPI_Page -INFO - Pressing ENTER and Getting Data
+2017-01-24 23:51:33,542 - dcaCmsBase.Utility -INFO - Capturing Screenshot
+2017-01-24 23:51:37,033 - dcaCmsBase.Utility -INFO - Screenshot Captured
+2017-01-24 23:51:37,036 - dcaCmsBase.Base -INFO - ****This Test is completed****Moving to next Test****
+2017-01-24 23:51:47,896 - dcaCmsTests.NPI_SearchByCountryPhotoTaken -INFO - **This Test is verifying NPI_SearchByCountryPhotoTaken functionality**
+2017-01-24 23:51:47,914 - dcaCmsPages.LoginPage -INFO - Opening Login Page
+2017-01-24 23:51:48,048 - dcaCmsPages.LoginPage -INFO - Entering UserName
+2017-01-24 23:51:50,149 - dcaCmsPages.LoginPage -INFO - Entering PassWord
+2017-01-24 23:51:54,084 - dcaCmsPages.LoginPage -INFO - Clicking Enter Button
+2017-01-24 23:52:05,445 - dcaCmsPages.NPI_Page -INFO - Moving to New Product Image Tab
+2017-01-24 23:52:08,502 - dcaCmsPages.NPI_Page -INFO - Reading CountryPhotoTaken from EXCEL File
+2017-01-24 23:52:08,762 - dcaCmsPages.NPI_Page -INFO - Entering CountryPhotoTaken into CountryPhotoTaken_FILTERBOX...
+2017-01-24 23:52:11,828 - dcaCmsPages.NPI_Page -INFO - Pressing ENTER and Getting Data
+2017-01-24 23:52:14,834 - dcaCmsBase.Utility -INFO - Capturing Screenshot
+2017-01-24 23:52:18,431 - dcaCmsBase.Utility -INFO - Screenshot Captured
+2017-01-24 23:52:18,437 - dcaCmsBase.Base -INFO - ****This Test is completed****Moving to next Test****
+2017-01-24 23:52:29,875 - dcaCmsTests.NPI_SearchBySendDate -INFO - **This Test is verifying NPI_SearchBySendDate functionality**
+2017-01-24 23:52:29,893 - dcaCmsPages.LoginPage -INFO - Opening Login Page
+2017-01-24 23:52:30,042 - dcaCmsPages.LoginPage -INFO - Entering UserName
+2017-01-24 23:52:32,147 - dcaCmsPages.LoginPage -INFO - Entering PassWord
+2017-01-24 23:52:36,039 - dcaCmsPages.LoginPage -INFO - Clicking Enter Button
+2017-01-24 23:52:44,920 - dcaCmsPages.NPI_Page -INFO - Moving to New Product Image Tab
+2017-01-24 23:52:49,036 - dcaCmsPages.NPI_Page -INFO - Selecting Date for Send Date Filter
+2017-01-24 23:52:52,123 - dcaCmsPages.NPI_Page -INFO - Pressing ENTER and Getting Data
+2017-01-24 23:52:55,159 - dcaCmsBase.Utility -INFO - Capturing Screenshot
+2017-01-24 23:52:58,315 - dcaCmsBase.Utility -INFO - Screenshot Captured
+2017-01-24 23:52:58,318 - dcaCmsBase.Base -INFO - ****This Test is completed****Moving to next Test****
+2017-01-24 23:53:09,243 - dcaCmsTests.NPI_SearchByReceivedDate -INFO - **This Test is verifying NPI_SearchByReceivedDate functionality**
+2017-01-24 23:53:09,260 - dcaCmsPages.LoginPage -INFO - Opening Login Page
+2017-01-24 23:53:09,399 - dcaCmsPages.LoginPage -INFO - Entering UserName
+2017-01-24 23:53:11,509 - dcaCmsPages.LoginPage -INFO - Entering PassWord
+2017-01-24 23:53:15,435 - dcaCmsPages.LoginPage -INFO - Clicking Enter Button
+2017-01-24 23:53:27,005 - dcaCmsPages.NPI_Page -INFO - Moving to New Product Image Tab
+2017-01-24 23:53:31,093 - dcaCmsPages.NPI_Page -INFO - Selecting Date for Received Date Filter
+2017-01-24 23:53:34,161 - dcaCmsPages.NPI_Page -INFO - Pressing ENTER and Getting Data
+2017-01-24 23:53:37,167 - dcaCmsBase.Utility -INFO - Capturing Screenshot
+2017-01-24 23:53:40,333 - dcaCmsBase.Utility -INFO - Screenshot Captured
+2017-01-24 23:53:40,336 - dcaCmsBase.Base -INFO - ****This Test is completed****Moving to next Test****
+2017-01-24 23:53:52,122 - dcaCmsTests.NPI_SearchByEmailPhotoSend -INFO - **This Test is verifying NPI_SearchByEmailPhotoSend functionality**
+2017-01-24 23:53:52,143 - dcaCmsPages.LoginPage -INFO - Opening Login Page
+2017-01-24 23:53:52,279 - dcaCmsPages.LoginPage -INFO - Entering UserName
+2017-01-24 23:53:54,394 - dcaCmsPages.LoginPage -INFO - Entering PassWord
+2017-01-24 23:53:58,329 - dcaCmsPages.LoginPage -INFO - Clicking Enter Button
+2017-01-24 23:54:07,273 - dcaCmsPages.NPI_Page -INFO - Moving to New Product Image Tab
+2017-01-24 23:54:10,306 - dcaCmsPages.NPI_Page -INFO - Reading EmailPhotoSend from EXCEL File
+2017-01-24 23:54:10,603 - dcaCmsPages.NPI_Page -INFO - Entering EmailPhotoSend into EmailPhotoSend_FILTERBOX...
+2017-01-24 23:54:14,675 - dcaCmsPages.NPI_Page -INFO - Pressing ENTER and Getting Data
+2017-01-24 23:54:17,681 - dcaCmsBase.Utility -INFO - Capturing Screenshot
+2017-01-24 23:54:23,979 - dcaCmsBase.Utility -INFO - Screenshot Captured
+2017-01-24 23:54:23,982 - dcaCmsBase.Base -INFO - ****This Test is completed****Moving to next Test****
+2017-01-24 23:54:35,767 - dcaCmsTests.NPI_SearchByCountryPhotoSend -INFO - **This Test is verifying NPI_SearchByCountryPhotoSend functionality**
+2017-01-24 23:54:35,785 - dcaCmsPages.LoginPage -INFO - Opening Login Page
+2017-01-24 23:54:35,920 - dcaCmsPages.LoginPage -INFO - Entering UserName
+2017-01-24 23:54:38,039 - dcaCmsPages.LoginPage -INFO - Entering PassWord
+2017-01-24 23:54:41,977 - dcaCmsPages.LoginPage -INFO - Clicking Enter Button
+2017-01-24 23:54:50,148 - dcaCmsPages.NPI_Page -INFO - Moving to New Product Image Tab
+2017-01-24 23:54:53,209 - dcaCmsPages.NPI_Page -INFO - Reading CountryPhotoSend from EXCEL File
+2017-01-24 23:54:53,507 - dcaCmsPages.NPI_Page -INFO - Entering CountryPhotoSend into CountryPhotoSend_FILTERBOX...
+2017-01-24 23:54:57,592 - dcaCmsPages.NPI_Page -INFO - Pressing ENTER and Getting Data
+2017-01-24 23:55:00,596 - dcaCmsBase.Utility -INFO - Capturing Screenshot
+2017-01-24 23:55:04,138 - dcaCmsBase.Utility -INFO - Screenshot Captured
+2017-01-24 23:55:04,140 - dcaCmsBase.Base -INFO - ****This Test is completed****Moving to next Test****
+2017-01-24 23:55:16,998 - dcaCmsTests.NPI_SearchByComment -INFO - **This Test is verifying NPI_SearchByComment functionality**
+2017-01-24 23:55:17,016 - dcaCmsPages.LoginPage -INFO - Opening Login Page
+2017-01-24 23:55:17,173 - dcaCmsPages.LoginPage -INFO - Entering UserName
+2017-01-24 23:55:19,256 - dcaCmsPages.LoginPage -INFO - Entering PassWord
+2017-01-24 23:55:23,201 - dcaCmsPages.LoginPage -INFO - Clicking Enter Button
+2017-01-24 23:55:26,350 - dcaCmsPages.NPI_Page -INFO - Moving to New Product Image Tab
+2017-01-24 23:55:29,428 - dcaCmsPages.NPI_Page -INFO - Reading Comment from EXCEL File
+2017-01-24 23:55:31,996 - dcaCmsPages.NPI_Page -INFO - Entering Comment into Comment_FILTERBOX...
+2017-01-24 23:55:36,071 - dcaCmsPages.NPI_Page -INFO - Pressing ENTER and Getting Data
+2017-01-24 23:55:39,075 - dcaCmsBase.Utility -INFO - Capturing Screenshot
+2017-01-24 23:55:42,259 - dcaCmsBase.Utility -INFO - Screenshot Captured
+2017-01-24 23:55:42,261 - dcaCmsBase.Base -INFO - ****This Test is completed****Moving to next Test****
+2017-01-24 23:55:53,187 - dcaCmsTests.NPI_SearchByIsSynchronized -INFO - **This Test is verifying NPI_SearchByIsSynchronized functionality**
+2017-01-24 23:55:53,207 - dcaCmsPages.LoginPage -INFO - Opening Login Page
+2017-01-24 23:55:53,342 - dcaCmsPages.LoginPage -INFO - Entering UserName
+2017-01-24 23:55:55,457 - dcaCmsPages.LoginPage -INFO - Entering PassWord
+2017-01-24 23:55:59,373 - dcaCmsPages.LoginPage -INFO - Clicking Enter Button
+2017-01-24 23:56:14,257 - dcaCmsPages.NPI_Page -INFO - Moving to New Product Image Tab
+2017-01-24 23:56:17,296 - dcaCmsPages.NPI_Page -INFO - Reading IsSynchronized from EXCEL File
+2017-01-24 23:56:17,557 - dcaCmsPages.NPI_Page -INFO - Entering IsSynchronized into IsSynchronized_FILTERBOX...
+2017-01-24 23:56:21,650 - dcaCmsPages.NPI_Page -INFO - Pressing ENTER and Getting Data
+2017-01-24 23:56:24,653 - dcaCmsBase.Utility -INFO - Capturing Screenshot
+2017-01-24 23:56:28,199 - dcaCmsBase.Utility -INFO - Screenshot Captured
+2017-01-24 23:56:28,201 - dcaCmsBase.Base -INFO - ****This Test is completed****Moving to next Test****
+2017-01-24 23:56:38,858 - dcaCmsTests.NPI_SearchBySyncDate -INFO - **This Test is verifying NPI_SearchBySyncDate functionality**
+2017-01-24 23:56:38,880 - dcaCmsPages.LoginPage -INFO - Opening Login Page
+2017-01-24 23:56:39,013 - dcaCmsPages.LoginPage -INFO - Entering UserName
+2017-01-24 23:56:41,123 - dcaCmsPages.LoginPage -INFO - Entering PassWord
+2017-01-24 23:56:45,046 - dcaCmsPages.LoginPage -INFO - Clicking Enter Button
+2017-01-24 23:56:53,547 - dcaCmsPages.NPI_Page -INFO - Moving to New Product Image Tab
+2017-01-24 23:56:57,631 - dcaCmsPages.NPI_Page -INFO - Selecting Date for Received Date Filter
+2017-01-24 23:57:01,690 - dcaCmsPages.NPI_Page -INFO - Pressing ENTER and Getting Data
+2017-01-24 23:57:04,693 - dcaCmsBase.Utility -INFO - Capturing Screenshot
+2017-01-24 23:57:08,238 - dcaCmsBase.Utility -INFO - Screenshot Captured
+2017-01-24 23:57:08,240 - dcaCmsBase.Base -INFO - ****This Test is completed****Moving to next Test****
+2017-01-24 23:57:18,784 - dcaCmsTests.NPI_DataExportFunctionality -INFO - **This Test is verifying NPI_DataExportFunctionality functionality**
+2017-01-24 23:57:18,803 - dcaCmsPages.LoginPage -INFO - Opening Login Page
+2017-01-24 23:57:18,936 - dcaCmsPages.LoginPage -INFO - Entering UserName
+2017-01-24 23:57:21,045 - dcaCmsPages.LoginPage -INFO - Entering PassWord
+2017-01-24 23:57:24,931 - dcaCmsPages.LoginPage -INFO - Clicking Enter Button
+2017-01-24 23:57:33,096 - dcaCmsPages.NPI_Page -INFO - Moving to New Product Image Tab
+2017-01-24 23:57:39,598 - dcaCmsPages.NPI_Page -INFO - Clicking On DataExport Icon
+2017-01-24 23:58:11,744 - dcaCmsPages.NPI_Page -INFO - Exception in Data Export
+2017-01-24 23:58:11,746 - dcaCmsBase.Utility -INFO - Capturing Screenshot
+2017-01-24 23:58:15,152 - dcaCmsBase.Base -INFO - ****This Test is completed****Moving to next Test****
+2017-01-24 23:58:27,359 - dcaCmsTests.ExitFunctionality -INFO - **This Test is verifying EXIT functionality**
+2017-01-24 23:58:27,377 - dcaCmsPages.LoginPage -INFO - Opening Login Page
+2017-01-24 23:58:27,526 - dcaCmsPages.LoginPage -INFO - Entering UserName
+2017-01-24 23:58:29,618 - dcaCmsPages.LoginPage -INFO - Entering PassWord
+2017-01-24 23:58:33,573 - dcaCmsPages.LoginPage -INFO - Clicking Enter Button
+2017-01-24 23:58:38,013 - dcaCmsTests.ExitFunctionality -INFO - Clicking Exit link and exiting
+2017-01-24 23:58:41,015 - dcaCmsBase.Utility -INFO - Capturing Screenshot
+2017-01-24 23:58:44,204 - dcaCmsBase.Utility -INFO - Screenshot Captured
+2017-01-24 23:58:44,206 - dcaCmsBase.Base -INFO - ****This Test is completed****Moving to next Test****
